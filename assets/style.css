@@ -1,0 +1,351 @@
+/* 🔹 Estilos Generales */
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 🔹 Contenedor de Títulos en el Home */
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+/* 🔹 Estilo de los Títulos */
+.title-left {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 5px rgba(240, 240, 240, 0.6);
+    flex: 1;
+    text-align: center;
+}
+
+.title-right {
+    font-size: 36px;
+    font-weight: bold;
+    color: #00ccff;
+    text-shadow: 2px 2px 5px rgba(0, 204, 255, 0.6);
+    flex: 1;
+    text-align: center;
+}
+
+/* 🔹 Contenedor de Ligas en el Home */
+.leagues-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+/* 🔹 Cuadros de Ligas */
+.league-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 🔹 Estilo de Logos de Ligas */
+.league-logo {
+    width: 130px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.5)) invert(0%) brightness(1.2) contrast(1.1);
+    background: transparent;
+}
+
+/* 🔹 Contenedor de Banderas (Solo en Home) */
+.flags-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    margin-top: 20px;
+}
+
+/* 🔹 Estilo de Banderas */
+.country-flag {
+    width: 55px;
+    height: auto;
+}
+
+/* 🔹 Espaciado Extra */
+.spacer {
+    height: 60px;
+}
+
+/* 🔹 Botones en Home */
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-button {
+    font-size: 18px;
+    padding: 14px 35px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    transform: scale(1.15);
+}
+
+/* ================================================= */
+/* 🔹 ESTILOS SOLO PARA LOS DASHBOARDS */
+/* ================================================= */
+
+/* 🔹 Layout del Dashboard */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.dashboard-content {
+    flex-grow: 1;
+    margin-left: 250px;
+    padding: 20px 30px;
+}
+
+/* 🔹 Estilo de la Barra Lateral (Solo en Dashboards) */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1a1a2e;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* 🔹 Título del Menú */
+.sidebar-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* 🔹 Links del Menú */
+.nav-link {
+    font-size: 18px;
+    color: white !important;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    text-align: left;
+}
+
+.nav-link:hover {
+    background: #0f3460;
+}
+
+/* 🔹 Link para Volver al Home */
+.nav-link-home {
+    font-size: 18px;
+    color: #00ccff !important;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+    text-align: left;
+}
+
+.nav-link-home:hover {
+    background: #14274e;
+}
+
+/* 🔹 Contenedor del Contenido Principal en los Dashboards */
+.dashboard-content {
+    flex-grow: 1;
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* 🔹 Contenedor de Filtros */
+.filtros-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    background-color: #1a1a2e;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* 🔹 Caja de cada filtro */
+.filter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 🔹 Etiquetas */
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dcdcdc;
+    margin-bottom: 12px;           /* Aumentado el margin-bottom */
+    text-align: left;              /* Cambiado a left alignment */
+    width: 100%;                   /* Asegurar que ocupe todo el ancho */
+}
+
+/* 🔹 Contenedor Principal */
+.main-content-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    height: calc(100vh - 250px);
+}
+
+.graph-container {
+    background-color: #1a1a2e;
+    padding: 50px;  /* Aumentado de 40px a 50px */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;  /* Asegurar que tome más espacio */
+    height: auto;  /* Permite expansión */
+}
+.graph-content {
+    flex-grow: 3;  /* Aumentado para que el gráfico tenga más prioridad */
+    min-height: 400px;  /* Asegurar que el gráfico tenga espacio */
+}
+
+/* 🔹 Contenedor de Información del Equipo */
+.team-info-container {
+    background-color: #1a1a2e;
+    padding: 25px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+/* 🔹 Estilos para las Estadísticas del Equipo */
+.team-stats-box {
+    padding: 20px;
+}
+
+.team-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #00ccff;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.stat-item {
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    margin: 0;
+}
+
+/* 🔹 Títulos de Sección */
+.section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #00ccff;
+}
+
+/* 🔹 Estilos para los Dropdowns */
+.dropdown {
+    width: 100%;
+    background-color: #222539 !important;
+    border: 1px solid #2a2a4e !important;
+    border-radius: 5px;
+}
+
+.Select-value-label {
+    color: white !important;
+}
+
+.Select-value {
+    background-color: #222539 !important;  /* Fondo consistente */
+    border-color: #2a2a4e !important;
+}
+
+.Select-control {
+    background-color: #222539 !important;
+    border-color: #2a2a4e !important;
+}
+
+.Select-menu-outer {
+    background-color: #222539 !important;
+    border-color: #2a2a4e !important;
+}
+
+.Select-option {
+    background-color: #222539 !important;
+    color: white !important;
+}
+
+.Select-option:hover {
+    background-color: #007acc !important;
+}
+
+/* 🔹 Textos Informativos */
+.info-text {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ================================================= */
+/* 🔹 ESTILOS PARA SOLAPAS (TABS) */
+/* ================================================= */
+
+/* Contenedor principal de las tabs */
+#tabs-performance {
+    border: none !important;
+    margin-bottom: 20px !important;
+}
+
+/* Estilo base para todas las tabs */
+#tabs-performance .dash-tab {
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    background-color: #1e1e38 !important;
+    color: #ffffff !important;
+    border: 1px solid #2a2a4e !important;
+    border-radius: 8px 8px 0 0 !important;
+    margin-right: 4px !important;
+    font-weight: 500 !important;
+}
+
+/* Tab seleccionada */
+#tabs-performance .dash-tab--selected {
+    background-color: #007acc !important;
+    color: white !important;
+    border-color: #007acc !important;
+    font-weight: bold !important;
+}
+
+/* Tab no seleccionada al pasar el mouse */
+#tabs-performance .dash-tab:hover {
+    background-color: #3a3a6e !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+/* Contenido dentro de las tabs */
+.dash-tab-content {
+    padding: 20px 0;
+    background: transparent;
+}
