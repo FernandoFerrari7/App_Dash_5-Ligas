@@ -349,3 +349,413 @@ body {
     padding: 20px 0;
     background: transparent;
 }
+
+/* 🔹 Estilos para la tabla de ranking */
+.ranking-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.ranking-table th, 
+.ranking-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ranking-table th {
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #00ccff;
+    font-weight: bold;
+}
+
+.ranking-table .rank-cell {
+    font-weight: bold;
+    color: #00ccff;
+    width: 40px;
+}
+
+.ranking-table .team-cell {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Títulos para las secciones del ranking */
+.stats-title {
+    color: #00ccff;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(0, 204, 255, 0.3);
+    padding-bottom: 8px;
+}
+
+/* Ajuste para el contenedor de información */
+.team-info-container {
+    background-color: #1a1a2e;
+    padding: 25px;
+    border-radius: 10px;
+    height: 100%;
+    overflow-y: auto;  /* Para permitir scroll si el contenido es muy largo */
+}
+
+/* Estilo para la tabla de estadísticas del equipo */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table th {
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #00ccff;
+    font-weight: bold;
+}
+
+/* Destacar filas al pasar el mouse */
+.table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Estos estilos deben añadirse al final de tu style.css */
+
+/* 🔹 Contenedor Principal ajustado para dar más espacio al gráfico */
+.main-content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;  /* Cambiado para dar más espacio al gráfico */
+    gap: 25px;
+    height: calc(100vh - 220px);  /* Ajustada la altura para ocupar más espacio */
+}
+
+/* 🔹 Contenedor del gráfico modificado para que sea más grande */
+.graph-container {
+    background-color: #1a1a2e;
+    padding: 30px;  /* Reducido para que el gráfico tenga más espacio */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.graph-content {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+
+/* 🔹 Estilos para la tabla de ranking */
+.ranking-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.ranking-table th, 
+.ranking-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ranking-table th {
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #00ccff;
+    font-weight: bold;
+}
+
+.ranking-table .rank-cell {
+    font-weight: bold;
+    color: #00ccff;
+    width: 40px;
+}
+
+.ranking-table .team-cell {
+    max-width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Títulos para las secciones del ranking */
+.stats-title {
+    color: #00ccff;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(0, 204, 255, 0.3);
+    padding-bottom: 8px;
+}
+
+/* Estilo para todas las tablas */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table th {
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #00ccff;
+    font-weight: bold;
+}
+
+/* Destacar filas al pasar el mouse */
+.table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* 🔹 Optimizaciones para maximizar y centralizar el gráfico - Agregar al final de tu style.css */
+
+/* 🔹 Contenedor Principal con más espacio para el gráfico */
+.main-content-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;  /* Cambiado de 3fr a 4fr para dar más espacio al gráfico */
+    gap: 15px;  /* Reducido el gap */
+    height: calc(100vh - 200px);  /* Aumentada la altura */
+    width: 100%;  /* Asegurar que ocupa todo el ancho disponible */
+}
+
+/* 🔹 Contenedor del gráfico maximizado */
+.graph-container {
+    background-color: #1a1a2e;
+    padding: 10px;  /* Reducido el padding al mínimo */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;  /* Centrar horizontalmente */
+    align-items: center;  /* Centrar verticalmente */
+    flex-grow: 1;
+    height: 100%;
+    overflow: hidden;  /* Evitar desbordamientos */
+}
+
+.graph-content {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Maximizar el espacio que ocupan los gráficos de Plotly */
+.js-plotly-plot, .plot-container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Mejoras para el ranking */
+.team-info-container {
+    padding: 15px;  /* Reducido el padding */
+    height: 100%;
+    overflow-y: auto;  /* Scroll si es necesario */
+}
+
+.team-stats-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Ajustar tamaño y estilo de la tabla para caber mejor */
+.ranking-table th, 
+.ranking-table td {
+    padding: 6px 8px;  /* Reducido el padding */
+    font-size: 0.95em;  /* Texto ligeramente más pequeño */
+}
+
+/* Hacer más compacta la tabla de estadísticas */
+.table th, .table td {
+    padding: 6px 8px;
+    font-size: 0.95em;
+}
+
+/* Títulos más compactos */
+.stats-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+
+/* 🔹 Rebalanceo del espacio - Reemplazar la sección relevante en tu style.css */
+
+/* 🔹 Contenedor Principal REBALANCEADO - Este style debe reemplazar al anterior */
+.main-content-container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;  /* Cambiado para dar más espacio al panel de estadísticas */
+    gap: 20px;  
+    height: calc(100vh - 220px);  
+    width: 100%;  
+}
+
+/* 🔹 Contenedor del gráfico ajustado */
+.graph-container {
+    background-color: #1a1a2e;
+    padding: 15px;  /* Padding reducido */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    flex-grow: 1;
+    height: 100%;
+}
+
+.graph-content {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🔹 Contenedor de información del equipo mejorado */
+.team-info-container {
+    background-color: #1a1a2e;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%;
+    overflow-y: auto;  /* Scroll si es necesario */
+}
+
+.team-stats-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* 🔹 Estilos para la tabla de ranking mejorados */
+.ranking-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 16px;  /* Texto más grande */
+}
+
+.ranking-table th, 
+.ranking-table td {
+    padding: 10px 12px;  /* Más padding para tablas más grandes */
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ranking-table th {
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #00ccff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ranking-table .rank-cell {
+    font-weight: bold;
+    color: #00ccff;
+    width: 40px;
+    font-size: 16px;
+}
+
+.ranking-table .team-cell {
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
+/* Títulos mejorados */
+.stats-title {
+    color: #00ccff;
+    margin-bottom: 15px;
+    font-size: 22px;  /* Título más grande */
+    border-bottom: 1px solid rgba(0, 204, 255, 0.3);
+    padding-bottom: 8px;
+    text-align: center;  /* Centrar el título */
+}
+
+/* Mejoras para la tabla de estadísticas */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;  /* Texto más grande */
+}
+
+.table th, .table td {
+    padding: 10px 12px;  /* Más padding */
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.table th {
+    background-color: rgba(0, 204, 255, 0.1);
+    color: #00ccff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Destacar filas al pasar el mouse */
+.table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+}
+
+/* 🔹 Maximizar el espacio que ocupan los gráficos de Plotly */
+.js-plotly-plot, .plot-container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Agregar estos estilos al final de tu archivo style.css */
+
+/* Mejorar contenedor del gráfico para centrarlo */
+.graph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a2e;
+    padding: 0;  /* Eliminar padding */
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Mejorar contenido del gráfico */
+.graph-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Asegurar que el gráfico ocupe todo el espacio disponible */
+.js-plotly-plot {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Mejorar contenedor principal del gráfico */
+.plot-container {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mejorar el área donde se muestra el gráfico */
+.main-svg {
+    width: 100% !important;
+    height: 100% !important;
+}

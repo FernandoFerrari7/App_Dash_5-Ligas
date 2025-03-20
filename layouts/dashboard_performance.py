@@ -14,7 +14,7 @@ metricas_ofensivas = {
 # 🔹 Opciones de ligas
 ligas = [{"label": liga, "value": liga} for liga in sorted(df["league"].unique())]
 
-# 🔹 Layout del Dashboard Performance (SIN CAMBIAR EL TAMAÑO DEL GRÁFICO)
+# 🔹 Layout del Dashboard Performance
 layout = html.Div([
     sidebar,  # Barra lateral
 
@@ -54,18 +54,21 @@ layout = html.Div([
             ], className="filter-box")
         ], className="filtros-container"),
 
-        # 🔹 Contenedor principal con el tamaño original del gráfico
+        # 🔹 Contenedor principal con gráfico y ranking - Rebalanceado
         html.Div([
+            # Contenedor del gráfico - ahora con menos espacio
             html.Div([
-                html.Div(id="output-graph", className="graph-content", style={"height": "100%"})
-            ], className="graph-container", style={"height": "auto"}),  # Permitir que crezca dinámicamente
+                html.Div(id="output-graph", className="graph-content")
+            ], className="graph-container"),
             
+            # Contenedor de info del equipo - ahora con más espacio
             html.Div([
-                html.Div(id="output-team-stats", className="team-stats-content")  # 🔹 Información del equipo
+                html.Div(id="output-team-stats", className="team-stats-content")
             ], className="team-info-container")
-        ], className="main-content-container", style={"height": "auto"})
+        ], className="main-content-container")
     ], className="dashboard-content")
 ], className="dashboard-container")
+
 
 
 

@@ -1,31 +1,45 @@
 import dash
-from dash import dcc, html
-import dash_bootstrap_components as dbc
+from dash import html, dcc
 from dash.dependencies import Input, Output
-from layouts import home, dashboard_performance, dashboard_valores
-import callbacks.performance_callbacks  # Importamos callbacks
+import dash_bootstrap_components as dbc
 
-# Inicializar la app
-app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
-app.title = "Football Dashboard"
+# Importar layouts
+from layouts.home import layout as home_layout
+from layouts.dashboard_performance import layout as dashboard_performance_layout
+from layouts.dashboard_valores import layout as dashboard_valores_layout
 
-# Layout de la app
+# Configurar la aplicación Dash
+app = dash.Dash(
+    __name__,
+    external_stylesheets=[dbc.themes.DARKLY],
+    suppress_callback_exceptions=True
+)
+
+# Configurar el layout principal con rutas
 app.layout = html.Div([
-    dcc.Location(id="url", refresh=False),
-    html.Div(id="page-content")
+    dcc.Location(id='url', refresh=False),
+    html.Div(id='page-content')
 ])
 
-# Callback para manejar la navegación
-@app.callback(Output("page-content", "children"), Input("url", "pathname"))
+# Callbacks para la navegación
+@app.callback(
+    Output('page-content', 'children'),
+    Input('url', 'pathname')
+)
 def display_page(pathname):
-    if pathname == "/dashboard-performance":
-        return dashboard_performance.layout
-    elif pathname == "/dashboard-valores":
-        return dashboard_valores.layout
+    if pathname == '/dashboard-performance':
+        return dashboard_performance_layout
+    elif pathname == '/dashboard-valores':
+        return dashboard_valores_layout
     else:
-        return home.layout  # Home sin sidebar
+        # Por defecto, mostrar la página de home
+        return home_layout
 
-if __name__ == "__main__":
+# Importar callbacks después de definir la aplicación
+from callbacks.performance_callbacks import *
+
+# Ejecutar la aplicación
+if __name__ == '__main__':
     app.run_server(debug=True)
 
 
