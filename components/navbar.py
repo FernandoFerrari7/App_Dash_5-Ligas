@@ -11,7 +11,7 @@ sidebar = html.Div(
             [
                 dbc.NavLink("🏠 Home", href="/", active="exact", className="nav-link-home"),
                 dbc.NavLink("📊 Dashboard Performance", href="/dashboard-performance", active="exact", className="nav-link"),
-                dbc.NavLink("💰 Dashboard Valores de Mercado", href="/dashboard-valores", active="exact", className="nav-link"),
+                dbc.NavLink("🏥 Dashboard Medicina Deportiva", href="/dashboard-medicina", active="exact", className="nav-link"),
             ],
             vertical=True,
             pills=True,

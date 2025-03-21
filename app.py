@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 # Importar layouts
 from layouts.home import layout as home_layout
 from layouts.dashboard_performance import layout as dashboard_performance_layout
-from layouts.dashboard_valores import layout as dashboard_valores_layout
+from layouts.dashboard_medicina import layout as dashboard_medicina_layout
 
 # Configurar la aplicación Dash
 app = dash.Dash(
@@ -29,14 +29,15 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/dashboard-performance':
         return dashboard_performance_layout
-    elif pathname == '/dashboard-valores':
-        return dashboard_valores_layout
+    elif pathname == '/dashboard-medicina':
+        return dashboard_medicina_layout
     else:
         # Por defecto, mostrar la página de home
         return home_layout
 
 # Importar callbacks después de definir la aplicación
 from callbacks.performance_callbacks import *
+from callbacks.medicina_callbacks import *
 
 # Ejecutar la aplicación
 if __name__ == '__main__':

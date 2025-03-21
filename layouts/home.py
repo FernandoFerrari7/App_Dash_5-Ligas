@@ -47,7 +47,7 @@ layout = html.Div([
     # Botones de Navegación
     html.Div([
         dbc.Button("DASHBOARD PERFORMANCE", href="/dashboard-performance", color="primary", className="nav-button"),
-        dbc.Button("DASHBOARD VALORES DE MERCADO", href="/dashboard-valores", color="secondary", className="nav-button")
+        dbc.Button("DASHBOARD MEDICINA DEPORTIVA", href="/dashboard-medicina", color="info", className="nav-button")
     ], className="button-container"),
 ])
 

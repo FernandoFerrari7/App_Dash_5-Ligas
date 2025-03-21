@@ -22,3 +22,19 @@ def load_data(filepath="data/team_season_stats.csv"):
 
 # Cargamos el DataFrame al importar el módulo
 df = load_data()
+
+def load_injuries_data(filepath="data/injuries_dataset.csv"):
+    """
+    Cargar datos de lesiones desde el CSV.
+    """
+    try:
+        df = pd.read_csv(filepath)
+        print("📂 CSV de lesiones cargado con éxito.")
+        return df
+    except Exception as e:
+        print(f"❌ Error al cargar CSV de lesiones: {e}")
+        # Crear un DataFrame vacío con las columnas esperadas
+        columns = ['id', 'equipo', 'liga', 'jugador', 'posicion', 'tipo_lesion', 
+                  'area_cuerpo', 'gravedad_dias', 'fecha_lesion', 'fecha_retorno', 
+                  'contexto', 'recurrencia', 'tratamiento', 'medico', 'estado']
+        return pd.DataFrame(columns=columns)
