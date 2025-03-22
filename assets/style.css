@@ -1057,3 +1057,149 @@ body {
         grid-column: auto;
     }
 }
+
+/* ================================================= */
+/* 🔹 ESTILOS PARA EXPORTACIÓN PDF */
+/* ================================================= */
+
+/* Contenedor de cabecera con título y botón */
+.header-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del botón de exportación */
+.export-button-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo del botón de exportación */
+.export-button {
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.export-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Adaptar a responsive */
+@media (max-width: 768px) {
+    .header-with-button {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .export-button-container {
+        margin-top: 15px;
+        align-self: flex-end;
+    }
+}
+
+/* ================================================= */
+/* 🔹 ESTILOS PARA IMPRESIÓN */
+/* ================================================= */
+
+/* Contenedor de cabecera con título y botón */
+.header-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedor del botón de impresión */
+.print-button-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo del botón de impresión */
+.print-button {
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.print-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos específicos para la impresión */
+@media print {
+    /* Ocultar elementos que no queremos en la impresión */
+    .sidebar, 
+    .print-button-container,
+    .navbar {
+        display: none !important;
+    }
+    
+    /* Ajustar el contenido para que ocupe toda la página */
+    .dashboard-content {
+        margin-left: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+    
+    /* Asegurar que el fondo se imprima */
+    body {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e) !important;
+    }
+    
+    /* Ajustar layout del dashboard para impresión */
+    .main-content-container {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 10px !important;
+        height: auto !important;
+    }
+    
+    /* Asegurar que los gráficos se impriman correctamente */
+    .graph-container, .team-info-container {
+        width: 100% !important;
+        height: auto !important;
+        page-break-inside: avoid !important;
+        display: block !important;
+    }
+    
+    /* Mejorar visibilidad del texto */
+    .table th, .table td {
+        color: black !important;
+        background-color: white !important;
+    }
+    
+    /* Añadir pie de página */
+    @page {
+        margin-bottom: 2cm;
+        @bottom-center {
+            content: "Dashboard de Performance - STATS Season 2024-2025";
+            font-family: 'Poppins', sans-serif;
+            font-size: 10pt;
+        }
+    }
+}
+
+/* Adaptar a responsive */
+@media (max-width: 768px) {
+    .header-with-button {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .print-button-container {
+        margin-top: 15px;
+        align-self: flex-end;
+    }
+}

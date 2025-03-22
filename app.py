@@ -8,10 +8,12 @@ from layouts.home import layout as home_layout
 from layouts.dashboard_performance import layout as dashboard_performance_layout
 from layouts.dashboard_medicina import layout as dashboard_medicina_layout
 
-# Configurar la aplicación Dash
+# Configurar la aplicación Dash con Bootstrap
 app = dash.Dash(
     __name__,
-    external_stylesheets=[dbc.themes.DARKLY],
+    external_stylesheets=[
+        dbc.themes.DARKLY,
+    ],
     suppress_callback_exceptions=True
 )
 
@@ -38,10 +40,11 @@ def display_page(pathname):
 # Importar callbacks después de definir la aplicación
 from callbacks.performance_callbacks import *
 from callbacks.medicina_callbacks import *
+from callbacks.pdf_export import *
 
 # Ejecutar la aplicación
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
 
 
 

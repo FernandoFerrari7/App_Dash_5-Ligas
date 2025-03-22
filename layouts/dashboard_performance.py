@@ -19,7 +19,19 @@ layout = html.Div([
     sidebar,  # Barra lateral
 
     html.Div([
-        html.H1("Dashboard de Performance", className="dashboard-title"),
+        # Título y botón de exportación en la misma fila
+        html.Div([
+            html.H1("Dashboard de Performance", className="dashboard-title"),
+            html.Div([
+                dbc.Button(
+                    [html.I(className="fas fa-file-pdf mr-2"), " Exportar a PDF"],
+                    id="btn-export-pdf",
+                    color="danger",
+                    className="export-button",
+                ),
+                dcc.Download(id="download-pdf")
+            ], className="export-button-container")
+        ], className="header-with-button"),
 
         # 🔹 Contenedor de filtros
         html.Div([
@@ -54,14 +66,14 @@ layout = html.Div([
             ], className="filter-box")
         ], className="filtros-container"),
 
-        # 🔹 Contenedor principal con gráfico y ranking - Rebalanceado
+        # 🔹 Contenedor principal con gráfico y ranking
         html.Div([
-            # Contenedor del gráfico - ahora con menos espacio
+            # Contenedor del gráfico
             html.Div([
                 html.Div(id="output-graph", className="graph-content")
             ], className="graph-container"),
             
-            # Contenedor de info del equipo - ahora con más espacio
+            # Contenedor de info del equipo
             html.Div([
                 html.Div(id="output-team-stats", className="team-stats-content")
             ], className="team-info-container")
