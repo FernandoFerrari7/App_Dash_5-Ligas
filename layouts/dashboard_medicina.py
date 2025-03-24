@@ -36,7 +36,7 @@ if df_injuries.empty:
                     )
                 ], className="error-container")
             ], className="main-content-container-med")
-        ], className="dashboard-content")
+        ], className="dashboard-content", style={"overflow-y": "auto"})
     ], className="dashboard-container")
     
 else:
@@ -212,7 +212,7 @@ else:
                     )
                 ], className="table-container"),
             ], className="main-content-container-med"),
-        ], className="dashboard-content")
+        ], className="dashboard-content", style={"overflow-y": "auto"})
     ], className="dashboard-container")
 
 

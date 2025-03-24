@@ -1203,3 +1203,567 @@ body {
         align-self: flex-end;
     }
 }
+
+/* Estilos para componentes de autenticación */
+
+/* Botón de Login en home */
+.login-button-container {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#open-login-button {
+    background-color: #2f96cb;
+    border-color: #2f96cb;
+    font-weight: bold;
+}
+
+#open-login-button:hover {
+    background-color: #1c6b94;
+    border-color: #1c6b94;
+}
+
+/* Estilos para el modal de login */
+.modal-content {
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 10px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #3e5771;
+}
+
+/* Personalizar inputs de login */
+#username, #password {
+    background-color: #1a2533;
+    color: white;
+    border: 1px solid #3e5771;
+}
+
+#username:focus, #password:focus {
+    box-shadow: 0 0 0 0.2rem rgba(47, 150, 203, 0.25);
+    border-color: #2f96cb;
+}
+
+/* Botón de login */
+#login-button {
+    width: 100%;
+    background-color: #2f96cb;
+    border-color: #2f96cb;
+    font-weight: bold;
+}
+
+#login-button:hover {
+    background-color: #1c6b94;
+    border-color: #1c6b94;
+}
+
+/* Mensaje de error de login */
+#login-output {
+    font-weight: bold;
+    color: #ff5252 !important;
+}
+
+/* Estilos mejorados para la página de inicio */
+
+/* Estilos para el contenedor principal */
+body {
+    background: linear-gradient(135deg, #1e1e3f 0%, #2a265f 100%);
+    overflow: hidden;
+}
+
+/* Estilos para los títulos principales */
+.main-title {
+    color: white;
+    text-shadow: 0 0 15px rgba(0, 200, 255, 0.7);
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.main-title:hover {
+    transform: scale(1.05);
+}
+
+.header-container {
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+}
+
+/* Estilos para el botón de login */
+.mega-login-button {
+    transition: all 0.4s ease;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.mega-login-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+}
+
+.mega-login-button:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #3498db, #1c6ea4);
+}
+
+.mega-login-button:hover::before {
+    left: 100%;
+}
+
+/* Estilos para logos de ligas */
+.leagues-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.league-box-large {
+    transition: all 0.3s ease;
+}
+
+.league-box-large:hover {
+    transform: scale(1.15);
+}
+
+.league-logo-large {
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4));
+    animation: pulse 5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+    }
+    100% {
+        filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+    }
+}
+
+/* Estilos para banderas */
+.flags-container-large {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.country-flag-large {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.country-flag-large:hover {
+    transform: scale(1.15);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilos para botones de navegación */
+.mega-button-container {
+    margin-top: 50px;
+}
+
+.mega-nav-button {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.mega-nav-button:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.mega-nav-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    transition: all 0.3s ease;
+}
+
+.mega-nav-button:hover::after {
+    opacity: 0.2;
+}
+
+/* Estilos para el modal de login */
+.modal-content {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 30px;
+}
+
+.modal-header h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-body input {
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#login-button {
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Estilos responsive */
+@media (max-width: 1400px) {
+    .mega-nav-button {
+        font-size: 1.8rem !important;
+        min-width: 450px !important;
+    }
+    
+    .main-title {
+        font-size: 4.5rem !important;
+    }
+    
+    .league-logo-large {
+        width: 180px !important;
+    }
+    
+    .country-flag-large {
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mega-nav-button {
+        font-size: 1.5rem !important;
+        min-width: 400px !important;
+    }
+    
+    .main-title {
+        font-size: 4rem !important;
+    }
+    
+    .league-logo-large {
+        width: 150px !important;
+    }
+    
+    .country-flag-large {
+        width: 90px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .mega-nav-button {
+        font-size: 1.2rem !important;
+        min-width: 300px !important;
+        padding: 20px 30px !important;
+    }
+    
+    .main-title {
+        font-size: 3rem !important;
+    }
+    
+    .league-logo-large {
+        width: 120px !important;
+    }
+    
+    .country-flag-large {
+        width: 80px !important;
+    }
+    
+    .flags-container-large {
+        gap: 40px;
+    }
+    
+    .mega-login-button {
+        font-size: 1.5rem !important;
+        padding: 15px 40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .mega-button-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .mega-nav-button {
+        margin: 10px 0 !important;
+    }
+    
+    .main-title {
+        font-size: 2.5rem !important;
+    }
+    
+    .leagues-container {
+        gap: 30px;
+    }
+    
+    .league-logo-large {
+        width: 100px !important;
+    }
+    
+    .country-flag-large {
+        width: 60px !important;
+    }
+    
+    .flags-container-large {
+        gap: 20px;
+    }
+    
+    .mega-login-button {
+        font-size: 1.2rem !important;
+        padding: 10px 30px !important;
+    }
+}
+
+/* Ajustes específicos para el dashboard */
+
+/* Ajustar el título para centrarlo */
+.dashboard-title {
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del header */
+.header-with-button {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+/* === POSICIONAMIENTO CORRECTO === */
+
+/* Botón de Cerrar Sesión - en la esquina superior derecha */
+.logout-btn {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1100;
+    font-weight: bold;
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+    text-decoration: none;
+}
+
+/* Botón de Exportar a PDF - ubicado a la derecha pero dejando espacio */
+#btn-export-pdf {
+    position: fixed;
+    top: 50px;
+    right: 280px;
+    z-index: 1000;
+    font-weight: bold;
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#btn-export-pdf:hover {
+    background-color: #c0392b;
+}
+
+/* ==== SOLUCIÓN: HABILITAR SCROLL VERTICAL EN DASHBOARDS ==== */
+
+/* Contenedor principal que permite scroll */
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+    overflow-y: auto !important; /* Forzar scroll vertical cuando sea necesario */
+}
+
+/* Configuración del dashboard-container */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    overflow: visible !important; /* Permitir overflow */
+    position: relative;
+}
+
+/* Ajuste del dashboard-content para permitir scroll */
+.dashboard-content {
+    flex-grow: 1;
+    margin-left: 250px;
+    padding: 20px 30px;
+    overflow-y: auto !important; /* Forzar scroll vertical */
+    height: auto !important; /* Permite que crezca naturalmente */
+    min-height: calc(100vh - 40px); /* Altura mínima */
+}
+
+/* Eliminar restricciones de altura fija */
+.main-content-container,
+.main-content-container-med {
+    height: auto !important; /* Permitir que crezca según el contenido */
+    min-height: auto !important;
+    max-height: none !important;
+}
+
+/* Ajuste de contenedores de gráficos */
+.graph-container,
+.graph-container-med,
+.graph-container-med-wide {
+    height: auto !important;
+    min-height: 400px; /* Altura mínima para gráficos */
+}
+
+/* Asegurar que la barra lateral no impida el scroll */
+.sidebar {
+    position: fixed;
+    overflow-y: auto;
+    height: 100vh;
+    z-index: 1000;
+}
+
+/* Ajustes para tablas y contenedores de información */
+.team-info-container {
+    height: auto !important;
+    min-height: 400px;
+    overflow-y: auto;
+}
+
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .dashboard-content {
+        margin-left: 0;
+        padding: 15px;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+}
+
+/* Mejoras adicionales para responsividad */
+
+/* Ajustes para tablets */
+@media (max-width: 992px) {
+    /* Ajuste del contenedor principal */
+    .main-content-container {
+        grid-template-columns: 1fr !important; /* Cambiar a diseño de una columna */
+    }
+    
+    /* Reposicionar botón de exportar PDF en tablets */
+    #btn-export-pdf {
+        position: static;
+        margin-bottom: 10px;
+    }
+    
+    /* Ajustar filtros para tablets */
+    .filtros-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Ajustes adicionales para móviles */
+@media (max-width: 768px) {
+    /* Corregir el sidebar en móviles */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 10px;
+    }
+    
+    /* Ajustar el contenido principal en móviles */
+    .dashboard-content {
+        margin-left: 0 !important;
+        padding: 10px !important;
+    }
+    
+    /* Ajustar grid de contenedores en móviles */
+    .cards-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    /* Asegurar que los botones flotantes no causen problemas */
+    .logout-btn, #btn-export-pdf {
+        position: static;
+        margin: 5px;
+        display: inline-block;
+    }
+    
+    /* Botones más grandes para móviles (touch-friendly) */
+    .nav-button, .export-button, .logout-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Prevenir que el scroll horizontal aparezca en cualquier dispositivo */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Mejorar la accesibilidad táctil en dispositivos móviles */
+@media (hover: none) and (pointer: coarse) {
+    /* Aumentar el área táctil de elementos interactivos */
+    .nav-button, .dropdown, button, .nav-link {
+        min-height: 44px; /* Recomendación mínima para área táctil */
+    }
+    
+    /* Añadir más espacio al clicar */
+    .filter-box, .dropdown {
+        margin-bottom: 15px;
+    }
+}
