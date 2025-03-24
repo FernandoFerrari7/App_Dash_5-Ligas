@@ -1,0 +1,855 @@
+id,equipo,liga,jugador,posicion,tipo_lesion,area_cuerpo,gravedad_dias,fecha_lesion,fecha_retorno,contexto,recurrencia,tratamiento,medico,estado
+1,Barcelona,ESP-La Liga,Alessandro Jones,Portero,Tendinitis,Tobillo,16,2023-12-08,,Gimnasio,No,Fortalecimiento muscular,Dra. Martínez López,Activa
+2,Barcelona,ESP-La Liga,Miguel Russo,Portero,Sobrecarga muscular,Isquiotibiales,16,2024-04-28,2024-05-14,Partido de Copa,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+3,Barcelona,ESP-La Liga,Franz Bernard,Mediocentro Ofensivo,Distensión muscular,Cabeza,10,2023-12-25,2024-01-04,Gimnasio,No,Cirugía,Dra. Martínez López,Recuperado
+4,Barcelona,ESP-La Liga,Alessandro Jones,Lateral Izquierdo,Rotura fibrilar,Tobillo,45,2024-03-03,2024-04-17,Partido de Copa,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+5,Barcelona,ESP-La Liga,Leon García,Lateral Izquierdo,Luxación,Aductor,16,2024-02-21,2024-03-08,Partido de Liga,Sí,Cirugía,Dr. Hernández Moya,Recuperado
+6,Barcelona,ESP-La Liga,Alessandro Jones,Lateral Izquierdo,Tendinitis,Muñeca,32,2023-12-22,2024-01-23,Calentamiento pre-partido,No,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+7,Barcelona,ESP-La Liga,Marco García,Lateral Derecho,Distensión muscular,Codo,15,2024-03-12,2024-03-27,Partido Internacional,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+8,Barcelona,ESP-La Liga,Lorenzo Bernard,Extremo Izquierdo,Fractura,Cadera,51,2023-12-05,2024-01-25,Partido de Liga,No,Fisioterapia,Dr. García Pérez,Recuperado
+9,Barcelona,ESP-La Liga,Miguel Russo,Lateral Izquierdo,Distensión muscular,Muslo,4,2024-05-02,2024-05-06,Entrenamiento,No,Crioterapia,Dra. Fernández Ruiz,Recuperado
+10,Barcelona,ESP-La Liga,Franz Bernard,Extremo Izquierdo,Tendinitis,Cuádriceps,15,2024-03-27,2024-04-11,Partido de Copa,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+11,Barcelona,ESP-La Liga,Juan Pérez,Defensa Central,Fractura,Muñeca,53,2024-01-19,2024-03-12,Partido de Liga,Sí,Cirugía,Dra. Martínez López,Recuperado
+12,Barcelona,ESP-La Liga,Omar Fischer,Extremo Derecho,Lesión de ligamentos,Isquiotibiales,58,2024-01-05,2024-03-03,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dra. López Navarro,Recuperado
+13,Barcelona,ESP-La Liga,Hans García,Mediocentro Ofensivo,Fractura,Codo,56,2024-05-18,2024-07-13,Partido de Copa,Sí,Rehabilitación funcional,Dra. Martínez López,Recuperado
+14,Barcelona,ESP-La Liga,Matteo Bernard,Defensa Central,Fascitis,Cuádriceps,15,2023-11-12,2023-11-27,Partido de Liga,Sí,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+15,Barcelona,ESP-La Liga,Lorenzo Meyer,Mediocentro,Lesión de ligamentos,Gemelo,40,2024-03-10,2024-04-19,Gimnasio,Sí,Cirugía,Dra. Martínez López,Recuperado
+16,Barcelona,ESP-La Liga,David Durand,Lateral Izquierdo,Rotura fibrilar,Isquiotibiales,75,2024-03-03,2024-05-17,Calentamiento pre-partido,Sí,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+17,Barcelona,ESP-La Liga,Alessandro Ferrari,Lateral Derecho,Luxación,Muñeca,18,2024-02-09,2024-02-27,Partido de Copa,No,Fortalecimiento muscular,Dra. Sánchez Ortiz,Recuperado
+18,Barcelona,ESP-La Liga,Juan Pérez,Lateral Derecho,Rotura fibrilar,Rodilla,67,2023-11-10,2024-01-16,Calentamiento pre-partido,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+19,Barcelona,ESP-La Liga,Pierre Esposito,Mediocentro Defensivo,Fascitis,Gemelo,16,2023-11-26,,Gimnasio,No,Crioterapia,Dr. Hernández Moya,Activa
+20,Barcelona,ESP-La Liga,Miguel Russo,Lateral Izquierdo,Tendinitis,Espalda,22,2023-12-25,,Gimnasio,No,Crioterapia,Dra. Sánchez Ortiz,Activa
+21,Barcelona,ESP-La Liga,Hans García,Extremo Derecho,Fractura,Muñeca,58,2023-12-31,2024-02-27,Partido de Copa,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+22,Barcelona,ESP-La Liga,Lorenzo Jones,Mediocentro Ofensivo,Luxación,Gemelo,15,2024-04-05,2024-04-20,Partido Internacional,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+23,Real Madrid,ESP-La Liga,Richard Robert,Lateral Izquierdo,Distensión muscular,Hombro,18,2024-04-10,2024-04-28,Partido Internacional,No,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+24,Real Madrid,ESP-La Liga,Karim Dubois,Extremo Derecho,Pubalgia,Tobillo,26,2024-01-23,2024-02-18,Partido de Copa,No,PRP,Dr. Torres Ramos,Recuperado
+25,Real Madrid,ESP-La Liga,Ibrahim Bernard,Extremo Derecho,Luxación,Hombro,7,2024-02-18,2024-02-25,Partido de Liga,Sí,PRP,Dra. Fernández Ruiz,Recuperado
+26,Real Madrid,ESP-La Liga,Julian Khan,Extremo Derecho,Distensión muscular,Codo,15,2023-11-08,,Calentamiento pre-partido,No,Rehabilitación funcional,Dra. López Navarro,Activa
+27,Real Madrid,ESP-La Liga,Luca Jones,Mediocentro Ofensivo,Esguince,Tendón de Aquiles,36,2024-05-18,,Partido de Copa,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Activa
+28,Real Madrid,ESP-La Liga,John Weber,Extremo Izquierdo,Lesión de ligamentos,Tendón de Aquiles,80,2024-05-19,2024-08-07,Gimnasio,No,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+29,Real Madrid,ESP-La Liga,Marco Khan,Mediocentro,Pubalgia,Codo,30,2023-08-09,2023-09-08,Calentamiento pre-partido,No,PRP,Dra. Fernández Ruiz,Recuperado
+30,Real Madrid,ESP-La Liga,John López,Defensa Central,Rotura fibrilar,Cuádriceps,73,2023-08-22,2023-11-03,Partido de Copa,No,PRP,Dr. González Díaz,Recuperado
+31,Real Madrid,ESP-La Liga,Marco Khan,Portero,Lesión de ligamentos,Muñeca,102,2023-11-05,2024-02-15,Partido de Liga,Sí,Reposo,Dr. González Díaz,Recuperado
+32,Real Madrid,ESP-La Liga,Ahmed Russo,Mediocentro,Sobrecarga muscular,Isquiotibiales,5,2023-08-14,2023-08-19,Gimnasio,No,Reposo,Dr. García Pérez,Recuperado
+33,Real Madrid,ESP-La Liga,Marco Khan,Mediocentro,Esguince,Isquiotibiales,33,2023-09-14,,Gimnasio,No,Reposo,Dr. Hernández Moya,Activa
+34,Real Madrid,ESP-La Liga,Ahmed Russo,Mediocentro,Sobrecarga muscular,Hombro,12,2024-02-07,2024-02-19,Gimnasio,Sí,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+35,Real Madrid,ESP-La Liga,Youssef Rodríguez,Mediocentro Ofensivo,Pubalgia,Cuádriceps,19,2024-05-04,2024-05-23,Gimnasio,Sí,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+36,Real Madrid,ESP-La Liga,Michael Rodríguez,Lateral Izquierdo,Contusión,Cabeza,21,2024-01-25,2024-02-15,Calentamiento pre-partido,No,Reposo,Dr. García Pérez,Recuperado
+37,Real Madrid,ESP-La Liga,John López,Mediocentro Ofensivo,Contusión,Isquiotibiales,19,2024-03-22,2024-04-10,Partido de Copa,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Recuperado
+38,Real Madrid,ESP-La Liga,Max Meyer,Portero,Pubalgia,Muslo,29,2024-02-22,2024-03-22,Gimnasio,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+39,Atletico Madrid,ESP-La Liga,Mohammed Ferrari,Lateral Derecho,Contusión,Muslo,16,2024-04-28,2024-05-14,Gimnasio,Sí,Fisioterapia,Dr. García Pérez,Recuperado
+40,Atletico Madrid,ESP-La Liga,Mohammed Schneider,Mediocentro Ofensivo,Esguince,Rodilla,20,2023-11-17,2023-12-07,Entrenamiento,No,PRP,Dr. García Pérez,Recuperado
+41,Atletico Madrid,ESP-La Liga,David Russo,Lateral Derecho,Fractura,Muñeca,115,2023-10-11,2024-02-03,Partido de Liga,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+42,Atletico Madrid,ESP-La Liga,Francesco Miller,Lateral Derecho,Fractura,Cuádriceps,37,2024-04-21,2024-05-28,Partido de Copa,No,Hidroterapia,Dr. García Pérez,Recuperado
+43,Atletico Madrid,ESP-La Liga,Leon Ferrari,Defensa Central,Pubalgia,Isquiotibiales,22,2024-05-14,2024-06-05,Partido Internacional,No,Reposo,Dr. González Díaz,Recuperado
+44,Atletico Madrid,ESP-La Liga,Ibrahim Smith,Defensa Central,Distensión muscular,Tobillo,7,2024-05-09,2024-05-16,Partido de Liga,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+45,Atletico Madrid,ESP-La Liga,Franz Sánchez,Portero,Distensión muscular,Aductor,12,2024-02-06,2024-02-18,Entrenamiento,Sí,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+46,Atletico Madrid,ESP-La Liga,Franz Thomas,Extremo Derecho,Luxación,Aductor,15,2023-08-12,2023-08-27,Partido de Liga,No,Medicación antiinflamatoria,Dra. López Navarro,Recuperado
+47,Atletico Madrid,ESP-La Liga,Carlos García,Mediocentro Ofensivo,Tendinitis,Gemelo,24,2023-11-15,2023-12-09,Calentamiento pre-partido,Sí,Fisioterapia,Dra. Martínez López,Recuperado
+48,Atletico Madrid,ESP-La Liga,Franz Thomas,Lateral Derecho,Contusión,Hombro,16,2023-08-15,2023-08-31,Partido Internacional,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+49,Sevilla,ESP-La Liga,Omar Brown,Extremo Derecho,Luxación,Hombro,5,2024-04-11,2024-04-16,Partido de Liga,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+50,Sevilla,ESP-La Liga,Juan Colombo,Extremo Derecho,Sobrecarga muscular,Tobillo,20,2023-10-23,,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Activa
+51,Sevilla,ESP-La Liga,Youssef Petit,Lateral Derecho,Luxación,Espalda,16,2023-11-14,2023-11-30,Calentamiento pre-partido,Sí,Cirugía,Dr. García Pérez,Recuperado
+52,Sevilla,ESP-La Liga,José Jones,Extremo Derecho,Luxación,Tobillo,13,2024-04-25,2024-05-08,Partido de Copa,No,Cirugía,Dra. Martínez López,Recuperado
+53,Sevilla,ESP-La Liga,Karim Ferrari,Mediocentro,Fascitis,Gemelo,17,2023-09-30,2023-10-17,Partido de Liga,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+54,Sevilla,ESP-La Liga,David Durand,Mediocentro Ofensivo,Rotura fibrilar,Hombro,94,2024-04-10,2024-07-13,Entrenamiento,No,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+55,Sevilla,ESP-La Liga,Marco Jones,Extremo Derecho,Fractura,Rodilla,49,2024-02-03,2024-03-23,Entrenamiento,Sí,Cirugía,Dra. Sánchez Ortiz,Recuperado
+56,Sevilla,ESP-La Liga,Julian Becker,Delantero Centro,Esguince,Tobillo,18,2024-03-09,2024-03-27,Partido Internacional,No,Reposo,Dr. Torres Ramos,Recuperado
+57,Sevilla,ESP-La Liga,Youssef Petit,Mediocentro,Esguince,Aductor,21,2023-12-29,2024-01-19,Entrenamiento,No,Reposo,Dr. González Díaz,Recuperado
+58,Sevilla,ESP-La Liga,William Wilson,Delantero Centro,Sobrecarga muscular,Tobillo,14,2023-09-02,2023-09-16,Gimnasio,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+59,Sevilla,ESP-La Liga,Marco Jones,Extremo Izquierdo,Distensión muscular,Isquiotibiales,11,2024-04-07,2024-04-18,Partido de Copa,Sí,Crioterapia,Dr. González Díaz,Recuperado
+60,Sevilla,ESP-La Liga,Karim Ferrari,Extremo Izquierdo,Esguince,Muslo,18,2024-02-19,2024-03-08,Partido de Liga,No,Hidroterapia,Dra. López Navarro,Recuperado
+61,Sevilla,ESP-La Liga,David Durand,Mediocentro Ofensivo,Luxación,Cuádriceps,20,2024-03-18,2024-04-07,Partido de Liga,Sí,Crioterapia,Dr. Torres Ramos,Recuperado
+62,Valencia,ESP-La Liga,Theo Gómez,Delantero Centro,Fascitis,Isquiotibiales,7,2023-11-21,2023-11-28,Partido de Copa,No,Hidroterapia,Dr. González Díaz,Recuperado
+63,Valencia,ESP-La Liga,Richard Martin,Extremo Derecho,Lesión de ligamentos,Aductor,90,2023-11-14,2024-02-12,Gimnasio,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+64,Valencia,ESP-La Liga,Leon Yousef,Mediocentro Defensivo,Lesión de ligamentos,Cuádriceps,52,2023-11-22,2024-01-13,Partido de Liga,Sí,PRP,Dra. Sánchez Ortiz,Recuperado
+65,Valencia,ESP-La Liga,Juan Martin,Mediocentro Defensivo,Lesión de ligamentos,Aductor,93,2023-12-04,2024-03-06,Partido de Liga,No,Cirugía,Dra. Fernández Ruiz,Recuperado
+66,Valencia,ESP-La Liga,Juan Martin,Defensa Central,Pubalgia,Isquiotibiales,31,2024-05-20,,Entrenamiento,No,Cirugía,Dra. López Navarro,Activa
+67,Valencia,ESP-La Liga,William Davis,Mediocentro Defensivo,Luxación,Aductor,21,2023-10-06,2023-10-27,Calentamiento pre-partido,No,Fisioterapia,Dr. González Díaz,Recuperado
+68,Valencia,ESP-La Liga,Richard Martin,Lateral Izquierdo,Fractura,Cabeza,51,2024-04-29,2024-06-19,Partido de Liga,No,Reposo,Dr. Torres Ramos,Recuperado
+69,Valencia,ESP-La Liga,François Petit,Mediocentro Defensivo,Fractura,Rodilla,37,2023-12-07,2024-01-13,Calentamiento pre-partido,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+70,Valencia,ESP-La Liga,Matteo Dubois,Lateral Derecho,Sobrecarga muscular,Hombro,18,2023-08-08,2023-08-26,Calentamiento pre-partido,Sí,PRP,Dra. Sánchez Ortiz,Recuperado
+71,Valencia,ESP-La Liga,Miguel Jones,Mediocentro,Distensión muscular,Hombro,4,2024-02-01,2024-02-05,Calentamiento pre-partido,No,Fisioterapia,Dr. Hernández Moya,Recuperado
+72,Valencia,ESP-La Liga,William Davis,Defensa Central,Fractura,Espalda,89,2024-05-21,2024-08-18,Gimnasio,No,Cirugía,Dra. Martínez López,Recuperado
+73,Valencia,ESP-La Liga,Pedro Hassan,Portero,Sobrecarga muscular,Gemelo,16,2023-12-20,2024-01-05,Gimnasio,No,Crioterapia,Dr. González Díaz,Recuperado
+74,Valencia,ESP-La Liga,Matteo Dubois,Extremo Izquierdo,Tendinitis,Cuádriceps,35,2024-05-18,2024-06-22,Partido Internacional,No,Cirugía,Dra. López Navarro,Recuperado
+75,Valencia,ESP-La Liga,Pierre Meyer,Extremo Derecho,Fascitis,Tendón de Aquiles,17,2024-05-06,2024-05-23,Partido Internacional,No,Cirugía,Dr. Hernández Moya,Recuperado
+76,Real Betis,ESP-La Liga,Antonio Schneider,Delantero Centro,Tendinitis,Codo,32,2023-11-08,2023-12-10,Partido de Copa,No,Cirugía,Dra. Fernández Ruiz,Recuperado
+77,Real Betis,ESP-La Liga,Luca López,Extremo Izquierdo,Tendinitis,Gemelo,20,2023-10-04,,Entrenamiento,No,Cirugía,Dra. Martínez López,Activa
+78,Real Betis,ESP-La Liga,Julian Al-Saeed,Lateral Izquierdo,Sobrecarga muscular,Tendón de Aquiles,17,2024-03-22,2024-04-08,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+79,Real Betis,ESP-La Liga,Mohammed Yousef,Delantero Centro,Pubalgia,Muñeca,32,2023-11-27,2023-12-29,Partido de Copa,Sí,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+80,Real Betis,ESP-La Liga,Lukas Wilson,Mediocentro Defensivo,Lesión de ligamentos,Gemelo,97,2023-08-22,2023-11-27,Partido de Liga,No,Rehabilitación funcional,Dra. López Navarro,Recuperado
+81,Real Betis,ESP-La Liga,James Becker,Lateral Izquierdo,Lesión de ligamentos,Cabeza,75,2024-02-06,2024-04-21,Calentamiento pre-partido,Sí,Cirugía,Dra. Martínez López,Recuperado
+82,Real Betis,ESP-La Liga,Luis Martin,Mediocentro Defensivo,Rotura fibrilar,Cuádriceps,42,2023-11-11,,Gimnasio,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Activa
+83,Real Betis,ESP-La Liga,Julian Al-Saeed,Mediocentro,Esguince,Espalda,19,2024-04-04,,Partido de Liga,No,PRP,Dra. López Navarro,Activa
+84,Real Betis,ESP-La Liga,James Becker,Delantero Centro,Lesión de ligamentos,Cuádriceps,46,2023-12-10,2024-01-25,Partido de Copa,Sí,Cirugía,Dra. Fernández Ruiz,Recuperado
+85,Real Betis,ESP-La Liga,Pierre Pérez,Mediocentro,Tendinitis,Cuádriceps,35,2024-05-25,2024-06-29,Partido de Copa,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+86,Real Betis,ESP-La Liga,Ahmed García,Mediocentro Defensivo,Esguince,Isquiotibiales,26,2024-05-25,2024-06-20,Partido de Copa,No,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+87,Real Betis,ESP-La Liga,Luis Martin,Extremo Derecho,Tendinitis,Espalda,31,2023-12-04,2024-01-04,Partido de Liga,No,Cirugía,Dr. Torres Ramos,Recuperado
+88,Real Betis,ESP-La Liga,Karim Wilson,Mediocentro Defensivo,Contusión,Muñeca,19,2024-04-11,,Partido de Liga,No,PRP,Dr. González Díaz,Activa
+89,Real Betis,ESP-La Liga,Nicolas Schmidt,Mediocentro,Luxación,Cadera,5,2024-05-21,2024-05-26,Gimnasio,No,Fisioterapia,Dr. Torres Ramos,Recuperado
+90,Real Betis,ESP-La Liga,Lorenzo Rossi,Portero,Tendinitis,Cadera,18,2024-03-03,2024-03-21,Gimnasio,Sí,Cirugía,Dra. Sánchez Ortiz,Recuperado
+91,Real Betis,ESP-La Liga,Hamza Ferrari,Mediocentro Ofensivo,Esguince,Aductor,37,2023-10-08,,Partido de Copa,No,Reposo,Dr. Torres Ramos,Activa
+92,Real Betis,ESP-La Liga,Karim Wilson,Defensa Central,Fascitis,Aductor,3,2024-04-16,2024-04-19,Partido de Copa,Sí,PRP,Dra. Fernández Ruiz,Recuperado
+93,Villarreal,ESP-La Liga,Felix Russo,Portero,Pubalgia,Codo,21,2023-11-29,2023-12-20,Partido de Copa,Sí,Medicación antiinflamatoria,Dr. Rodríguez Sánchez,Recuperado
+94,Villarreal,ESP-La Liga,Felix Russo,Extremo Derecho,Esguince,Rodilla,39,2023-09-06,2023-10-15,Partido de Copa,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+95,Villarreal,ESP-La Liga,Giuseppe Thomas,Mediocentro Ofensivo,Lesión de ligamentos,Muñeca,35,2023-10-30,2023-12-04,Partido Internacional,Sí,Terapia de ondas de choque,Dr. Hernández Moya,Recuperado
+96,Villarreal,ESP-La Liga,Felix Russo,Extremo Izquierdo,Fractura,Rodilla,106,2024-04-17,2024-08-01,Partido Internacional,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+97,Villarreal,ESP-La Liga,Andrea Robert,Portero,Rotura fibrilar,Cadera,58,2024-01-28,2024-03-26,Partido de Copa,Sí,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+98,Villarreal,ESP-La Liga,Matteo Ibrahim,Lateral Izquierdo,Fractura,Tendón de Aquiles,41,2023-09-25,2023-11-05,Calentamiento pre-partido,No,PRP,Dr. González Díaz,Recuperado
+99,Villarreal,ESP-La Liga,Marco Martin,Delantero Centro,Rotura fibrilar,Cadera,119,2024-01-05,2024-05-03,Gimnasio,No,Fortalecimiento muscular,Dra. Martínez López,Recuperado
+100,Villarreal,ESP-La Liga,Hugo Schneider,Extremo Derecho,Esguince,Rodilla,40,2024-02-07,2024-03-18,Gimnasio,Sí,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+101,Villarreal,ESP-La Liga,Giuseppe Thomas,Lateral Izquierdo,Fractura,Hombro,35,2023-12-08,2024-01-12,Partido Internacional,No,Cirugía,Dra. Fernández Ruiz,Recuperado
+102,Villarreal,ESP-La Liga,Luca Johnson,Mediocentro,Distensión muscular,Gemelo,6,2024-01-04,2024-01-10,Gimnasio,No,PRP,Dra. Fernández Ruiz,Recuperado
+103,Villarreal,ESP-La Liga,Franz Robert,Lateral Izquierdo,Sobrecarga muscular,Aductor,10,2023-11-12,2023-11-22,Partido Internacional,No,Crioterapia,Dra. Fernández Ruiz,Recuperado
+104,Villarreal,ESP-La Liga,Andrea Al-Ahmed,Delantero Centro,Luxación,Aductor,9,2023-12-21,2023-12-30,Partido de Copa,No,Hidroterapia,Dr. González Díaz,Recuperado
+105,Villarreal,ESP-La Liga,Andrea Al-Ahmed,Portero,Rotura fibrilar,Cuádriceps,94,2024-03-22,,Partido Internacional,No,Terapia de ondas de choque,Dra. Martínez López,Activa
+106,Villarreal,ESP-La Liga,Antonio Smith,Lateral Izquierdo,Esguince,Cadera,23,2024-01-23,2024-02-15,Partido Internacional,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+107,Villarreal,ESP-La Liga,Marco Martin,Lateral Izquierdo,Distensión muscular,Gemelo,12,2024-02-07,,Entrenamiento,No,Rehabilitación funcional,Dr. Hernández Moya,Activa
+108,Villarreal,ESP-La Liga,Andrea Al-Ahmed,Mediocentro Ofensivo,Sobrecarga muscular,Isquiotibiales,17,2024-04-10,2024-04-27,Partido de Copa,No,Crioterapia,Dra. Martínez López,Recuperado
+109,Villarreal,ESP-La Liga,John Smith,Extremo Izquierdo,Distensión muscular,Muslo,20,2024-02-28,2024-03-19,Calentamiento pre-partido,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+110,Athletic Bilbao,ESP-La Liga,Pedro Russo,Lateral Derecho,Pubalgia,Tendón de Aquiles,36,2024-05-26,2024-07-01,Partido de Liga,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+111,Athletic Bilbao,ESP-La Liga,Matteo Bianchi,Defensa Central,Esguince,Cuádriceps,40,2024-02-12,,Entrenamiento,Sí,Medicación antiinflamatoria,Dr. González Díaz,Activa
+112,Athletic Bilbao,ESP-La Liga,Antonio Rossi,Extremo Izquierdo,Pubalgia,Tobillo,29,2024-05-30,2024-06-28,Entrenamiento,No,Crioterapia,Dra. Martínez López,Recuperado
+113,Athletic Bilbao,ESP-La Liga,Hamza Ibrahim,Delantero Centro,Fascitis,Muslo,9,2023-10-24,2023-11-02,Partido de Copa,Sí,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+114,Athletic Bilbao,ESP-La Liga,Jean Fischer,Mediocentro Ofensivo,Tendinitis,Muñeca,30,2024-01-04,2024-02-03,Partido de Liga,Sí,Cirugía,Dra. Martínez López,Recuperado
+115,Athletic Bilbao,ESP-La Liga,John Martin,Portero,Fascitis,Cadera,9,2024-04-23,2024-05-02,Entrenamiento,Sí,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+116,Athletic Bilbao,ESP-La Liga,Matteo Bianchi,Delantero Centro,Contusión,Muslo,11,2023-09-02,2023-09-13,Partido de Liga,No,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+117,Athletic Bilbao,ESP-La Liga,Juan Dubois,Portero,Pubalgia,Tendón de Aquiles,25,2024-01-12,2024-02-06,Gimnasio,Sí,Reposo,Dra. Sánchez Ortiz,Recuperado
+118,Athletic Bilbao,ESP-La Liga,Omar Rodríguez,Extremo Derecho,Lesión de ligamentos,Gemelo,67,2023-10-18,2023-12-24,Partido de Liga,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+119,Athletic Bilbao,ESP-La Liga,Leon Thomas,Lateral Izquierdo,Contusión,Gemelo,14,2024-02-09,2024-02-23,Calentamiento pre-partido,No,Fisioterapia,Dr. Torres Ramos,Recuperado
+120,Athletic Bilbao,ESP-La Liga,François Jones,Extremo Izquierdo,Esguince,Isquiotibiales,28,2024-04-20,2024-05-18,Partido Internacional,Sí,Fisioterapia,Dra. López Navarro,Recuperado
+121,Real Sociedad,ESP-La Liga,Julian Ricci,Extremo Izquierdo,Distensión muscular,Espalda,5,2024-05-19,2024-05-24,Partido Internacional,Sí,Fisioterapia,Dra. López Navarro,Recuperado
+122,Real Sociedad,ESP-La Liga,Franz Al-Ahmed,Lateral Izquierdo,Tendinitis,Gemelo,40,2024-01-25,2024-03-05,Calentamiento pre-partido,No,PRP,Dra. Fernández Ruiz,Recuperado
+123,Real Sociedad,ESP-La Liga,Lucas Mahmoud,Delantero Centro,Sobrecarga muscular,Hombro,9,2024-05-05,,Partido Internacional,Sí,Reposo,Dra. Fernández Ruiz,Activa
+124,Real Sociedad,ESP-La Liga,Marco Miller,Delantero Centro,Tendinitis,Tendón de Aquiles,37,2023-09-13,2023-10-20,Calentamiento pre-partido,No,Crioterapia,Dra. Fernández Ruiz,Recuperado
+125,Real Sociedad,ESP-La Liga,Pierre Mahmoud,Lateral Izquierdo,Fractura,Cadera,94,2023-09-10,2023-12-13,Gimnasio,No,Reposo,Dra. López Navarro,Recuperado
+126,Real Sociedad,ESP-La Liga,Hans Meyer,Lateral Derecho,Lesión de ligamentos,Codo,51,2023-08-20,,Partido de Liga,Sí,Cirugía,Dr. Torres Ramos,Activa
+127,Real Sociedad,ESP-La Liga,Miguel Thomas,Lateral Izquierdo,Esguince,Espalda,28,2023-08-23,,Partido de Liga,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Activa
+128,Real Sociedad,ESP-La Liga,Ahmed Johnson,Mediocentro Ofensivo,Fractura,Cuádriceps,32,2023-10-02,,Partido Internacional,No,Cirugía,Dr. Rodríguez Sánchez,Activa
+129,Real Sociedad,ESP-La Liga,Theo Durand,Delantero Centro,Contusión,Espalda,14,2023-08-07,2023-08-21,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+130,Real Sociedad,ESP-La Liga,Pierre Mahmoud,Extremo Izquierdo,Fascitis,Aductor,18,2024-05-15,2024-06-02,Partido de Liga,Sí,Reposo,Dr. García Pérez,Recuperado
+131,Real Sociedad,ESP-La Liga,Andrea Meyer,Extremo Izquierdo,Fractura,Espalda,110,2023-09-12,2023-12-31,Partido Internacional,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+132,Real Sociedad,ESP-La Liga,François Smith,Mediocentro,Fascitis,Codo,13,2024-04-10,2024-04-23,Calentamiento pre-partido,No,PRP,Dra. Fernández Ruiz,Recuperado
+133,Real Sociedad,ESP-La Liga,Marco Miller,Lateral Derecho,Tendinitis,Cuádriceps,25,2024-01-19,2024-02-13,Partido Internacional,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+134,Real Sociedad,ESP-La Liga,Miguel Thomas,Portero,Tendinitis,Codo,31,2023-11-08,2023-12-09,Calentamiento pre-partido,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+135,Real Sociedad,ESP-La Liga,Marco Miller,Mediocentro Defensivo,Fractura,Tendón de Aquiles,48,2024-03-01,2024-04-18,Partido Internacional,Sí,Hidroterapia,Dr. Hernández Moya,Recuperado
+136,Real Sociedad,ESP-La Liga,Pierre Mahmoud,Mediocentro,Luxación,Tobillo,15,2023-08-15,2023-08-30,Calentamiento pre-partido,Sí,Crioterapia,Dra. Fernández Ruiz,Recuperado
+137,Real Sociedad,ESP-La Liga,Andrea Meyer,Delantero Centro,Sobrecarga muscular,Rodilla,7,2024-03-01,2024-03-08,Partido de Liga,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+138,Celta Vigo,ESP-La Liga,Miguel Smith,Extremo Izquierdo,Pubalgia,Espalda,38,2023-12-06,2024-01-13,Partido de Copa,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+139,Celta Vigo,ESP-La Liga,Leon Martin,Mediocentro Ofensivo,Luxación,Aductor,18,2023-08-10,2023-08-28,Partido de Liga,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Recuperado
+140,Celta Vigo,ESP-La Liga,Miguel Smith,Defensa Central,Distensión muscular,Cabeza,16,2023-11-20,2023-12-06,Partido Internacional,No,Hidroterapia,Dr. García Pérez,Recuperado
+141,Celta Vigo,ESP-La Liga,Pierre Durand,Extremo Derecho,Distensión muscular,Aductor,11,2023-09-05,2023-09-16,Calentamiento pre-partido,No,Reposo,Dra. López Navarro,Recuperado
+142,Celta Vigo,ESP-La Liga,Hugo Ferrari,Mediocentro Ofensivo,Rotura fibrilar,Muslo,93,2023-08-06,,Partido de Liga,Sí,Crioterapia,Dra. Martínez López,Activa
+143,Celta Vigo,ESP-La Liga,Juan Ali,Mediocentro Defensivo,Esguince,Aductor,17,2023-09-25,2023-10-12,Gimnasio,Sí,Reposo,Dra. López Navarro,Recuperado
+144,Celta Vigo,ESP-La Liga,Hugo Ferrari,Mediocentro Ofensivo,Pubalgia,Muñeca,17,2023-09-20,2023-10-07,Entrenamiento,Sí,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+145,Celta Vigo,ESP-La Liga,Pierre Hassan,Extremo Izquierdo,Distensión muscular,Hombro,8,2024-01-23,2024-01-31,Partido Internacional,No,Reposo,Dr. Rodríguez Sánchez,Recuperado
+146,Celta Vigo,ESP-La Liga,James Davis,Mediocentro Defensivo,Rotura fibrilar,Isquiotibiales,57,2024-05-05,2024-07-01,Partido Internacional,Sí,Reposo,Dr. Hernández Moya,Recuperado
+147,Celta Vigo,ESP-La Liga,Franz Hassan,Mediocentro Ofensivo,Fractura,Cabeza,95,2024-05-30,2024-09-02,Partido Internacional,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+148,Celta Vigo,ESP-La Liga,Theo Robert,Mediocentro Defensivo,Tendinitis,Isquiotibiales,34,2024-04-27,2024-05-31,Gimnasio,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+149,Celta Vigo,ESP-La Liga,Theo Robert,Defensa Central,Distensión muscular,Muñeca,6,2023-10-23,2023-10-29,Partido Internacional,No,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+150,Celta Vigo,ESP-La Liga,Julian Rodríguez,Lateral Izquierdo,Pubalgia,Cuádriceps,37,2023-12-23,2024-01-29,Partido Internacional,No,Crioterapia,Dra. Martínez López,Recuperado
+151,Celta Vigo,ESP-La Liga,Pierre Durand,Lateral Derecho,Distensión muscular,Gemelo,12,2023-11-17,2023-11-29,Partido Internacional,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+152,Celta Vigo,ESP-La Liga,Hugo Ferrari,Extremo Derecho,Sobrecarga muscular,Gemelo,9,2023-09-13,2023-09-22,Partido Internacional,Sí,PRP,Dra. Martínez López,Recuperado
+153,Celta Vigo,ESP-La Liga,Pierre Durand,Mediocentro,Sobrecarga muscular,Muñeca,17,2023-11-11,2023-11-28,Gimnasio,Sí,Medicación antiinflamatoria,Dr. Hernández Moya,Recuperado
+154,Celta Vigo,ESP-La Liga,Miguel Smith,Portero,Rotura fibrilar,Cuádriceps,99,2023-12-28,2024-04-05,Partido de Copa,No,PRP,Dr. González Díaz,Recuperado
+155,Celta Vigo,ESP-La Liga,John Brown,Defensa Central,Luxación,Isquiotibiales,6,2024-01-06,2024-01-12,Entrenamiento,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+156,Celta Vigo,ESP-La Liga,Felix Fischer,Lateral Izquierdo,Pubalgia,Muñeca,22,2024-02-11,2024-03-04,Entrenamiento,No,PRP,Dra. López Navarro,Recuperado
+157,Celta Vigo,ESP-La Liga,John Miller,Mediocentro Ofensivo,Distensión muscular,Muslo,9,2023-09-23,2023-10-02,Gimnasio,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+158,Manchester City,ENG-Premier League,Alessandro Meyer,Extremo Izquierdo,Lesión de ligamentos,Rodilla,116,2023-11-21,2024-03-16,Gimnasio,Sí,Cirugía,Dra. Sánchez Ortiz,Recuperado
+159,Manchester City,ENG-Premier League,Pedro López,Lateral Derecho,Fascitis,Isquiotibiales,14,2023-11-29,,Entrenamiento,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Activa
+160,Manchester City,ENG-Premier League,Paul Weber,Mediocentro Ofensivo,Contusión,Cuádriceps,7,2023-12-24,2023-12-31,Partido de Liga,No,Rehabilitación funcional,Dra. López Navarro,Recuperado
+161,Manchester City,ENG-Premier League,Francesco Thomas,Lateral Derecho,Rotura fibrilar,Cadera,89,2024-03-19,,Calentamiento pre-partido,No,Rehabilitación funcional,Dra. Fernández Ruiz,Activa
+162,Manchester City,ENG-Premier League,Max Rossi,Portero,Tendinitis,Tendón de Aquiles,34,2024-01-03,2024-02-06,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+163,Manchester City,ENG-Premier League,Juan Ferrari,Mediocentro Defensivo,Sobrecarga muscular,Muslo,9,2023-10-14,2023-10-23,Partido de Liga,No,Reposo,Dr. González Díaz,Recuperado
+164,Manchester City,ENG-Premier League,Richard Esposito,Defensa Central,Esguince,Espalda,22,2023-11-01,2023-11-23,Entrenamiento,Sí,Reposo,Dra. Fernández Ruiz,Recuperado
+165,Manchester City,ENG-Premier League,Alessandro Meyer,Extremo Derecho,Luxación,Cabeza,17,2024-02-11,2024-02-28,Entrenamiento,No,Reposo,Dr. Rodríguez Sánchez,Recuperado
+166,Manchester City,ENG-Premier League,Luca Esposito,Extremo Izquierdo,Luxación,Aductor,3,2024-01-04,2024-01-07,Partido Internacional,No,Reposo,Dra. Fernández Ruiz,Recuperado
+167,Manchester City,ENG-Premier League,Michael Schneider,Portero,Fractura,Cadera,117,2023-09-18,2024-01-13,Partido Internacional,Sí,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+168,Manchester City,ENG-Premier League,Juan Ferrari,Extremo Izquierdo,Pubalgia,Cabeza,37,2023-08-23,2023-09-29,Partido de Liga,No,Crioterapia,Dra. López Navarro,Recuperado
+169,Manchester City,ENG-Premier League,Hans Martínez,Lateral Derecho,Fractura,Tobillo,66,2024-02-23,2024-04-29,Partido de Liga,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+170,Manchester City,ENG-Premier League,Youssef Müller,Lateral Izquierdo,Fascitis,Cabeza,20,2024-04-11,2024-05-01,Partido de Liga,No,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+171,Liverpool,ENG-Premier League,Nicolas Bianchi,Defensa Central,Fascitis,Gemelo,5,2024-01-24,,Partido de Liga,No,Cirugía,Dra. López Navarro,Activa
+172,Liverpool,ENG-Premier League,William Fischer,Lateral Izquierdo,Tendinitis,Espalda,35,2024-02-08,2024-03-14,Gimnasio,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+173,Liverpool,ENG-Premier League,Paul Hassan,Lateral Derecho,Esguince,Isquiotibiales,27,2024-05-17,2024-06-13,Gimnasio,No,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+174,Liverpool,ENG-Premier League,Miguel Esposito,Extremo Derecho,Sobrecarga muscular,Isquiotibiales,14,2024-03-02,2024-03-16,Calentamiento pre-partido,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Recuperado
+175,Liverpool,ENG-Premier League,Hamza García,Portero,Contusión,Muñeca,12,2023-08-28,2023-09-09,Entrenamiento,Sí,Reposo,Dra. Martínez López,Recuperado
+176,Liverpool,ENG-Premier League,Thomas Ricci,Mediocentro Defensivo,Luxación,Rodilla,17,2024-03-30,2024-04-16,Partido Internacional,Sí,Rehabilitación funcional,Dra. Martínez López,Recuperado
+177,Liverpool,ENG-Premier League,Miguel Esposito,Extremo Derecho,Sobrecarga muscular,Codo,9,2024-04-21,,Gimnasio,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Activa
+178,Liverpool,ENG-Premier League,David Davis,Mediocentro Defensivo,Contusión,Tobillo,19,2023-08-05,2023-08-24,Partido Internacional,No,PRP,Dra. Sánchez Ortiz,Recuperado
+179,Liverpool,ENG-Premier League,Ahmed Romano,Mediocentro Ofensivo,Sobrecarga muscular,Cadera,20,2023-11-17,2023-12-07,Calentamiento pre-partido,No,Cirugía,Dr. Torres Ramos,Recuperado
+180,Liverpool,ENG-Premier League,Ahmed Romano,Mediocentro,Fascitis,Aductor,7,2024-01-11,2024-01-18,Partido de Liga,No,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+181,Liverpool,ENG-Premier League,Juan Wilson,Portero,Lesión de ligamentos,Muslo,84,2023-10-30,,Partido de Copa,Sí,Terapia de ondas de choque,Dra. Martínez López,Activa
+182,Liverpool,ENG-Premier League,Matteo Ali,Extremo Izquierdo,Tendinitis,Isquiotibiales,29,2024-04-05,2024-05-04,Calentamiento pre-partido,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+183,Liverpool,ENG-Premier League,Ahmed Romano,Defensa Central,Contusión,Muslo,20,2023-09-19,,Partido de Liga,Sí,PRP,Dr. Rodríguez Sánchez,Activa
+184,Liverpool,ENG-Premier League,Paul Brown,Mediocentro,Contusión,Isquiotibiales,20,2024-02-27,,Gimnasio,Sí,Fisioterapia,Dr. González Díaz,Activa
+185,Liverpool,ENG-Premier League,Thomas Ricci,Extremo Izquierdo,Fascitis,Tendón de Aquiles,21,2024-01-10,2024-01-31,Entrenamiento,No,Crioterapia,Dra. Sánchez Ortiz,Recuperado
+186,Liverpool,ENG-Premier League,Jean Rodríguez,Mediocentro Defensivo,Luxación,Espalda,14,2024-02-07,2024-02-21,Partido Internacional,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Recuperado
+187,Liverpool,ENG-Premier League,Marco Colombo,Lateral Derecho,Rotura fibrilar,Muñeca,74,2024-03-21,2024-06-03,Gimnasio,No,Fisioterapia,Dra. López Navarro,Recuperado
+188,Liverpool,ENG-Premier League,Franz Jones,Delantero Centro,Fascitis,Espalda,16,2023-08-25,2023-09-10,Gimnasio,No,PRP,Dra. Fernández Ruiz,Recuperado
+189,Liverpool,ENG-Premier League,Felix Becker,Mediocentro Ofensivo,Esguince,Espalda,30,2024-01-02,2024-02-01,Partido de Liga,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Recuperado
+190,Chelsea,ENG-Premier League,David Rossi,Lateral Izquierdo,Rotura fibrilar,Muslo,116,2024-04-05,2024-07-30,Calentamiento pre-partido,Sí,Cirugía,Dr. González Díaz,Recuperado
+191,Chelsea,ENG-Premier League,José Gómez,Portero,Lesión de ligamentos,Gemelo,112,2023-08-18,2023-12-08,Gimnasio,No,PRP,Dr. González Díaz,Recuperado
+192,Chelsea,ENG-Premier League,David Richard,Extremo Izquierdo,Pubalgia,Espalda,36,2023-08-14,2023-09-19,Gimnasio,Sí,Crioterapia,Dr. Hernández Moya,Recuperado
+193,Chelsea,ENG-Premier League,David Richard,Delantero Centro,Esguince,Codo,17,2024-04-18,2024-05-05,Partido de Liga,No,Cirugía,Dra. Fernández Ruiz,Recuperado
+194,Chelsea,ENG-Premier League,Felix Russo,Lateral Derecho,Lesión de ligamentos,Gemelo,73,2024-02-20,2024-05-03,Calentamiento pre-partido,Sí,Fisioterapia,Dra. Martínez López,Recuperado
+195,Chelsea,ENG-Premier League,Matteo Durand,Portero,Pubalgia,Muslo,15,2024-01-01,,Partido de Copa,Sí,PRP,Dra. Fernández Ruiz,Activa
+196,Chelsea,ENG-Premier League,José Fischer,Extremo Derecho,Pubalgia,Cabeza,36,2023-10-19,2023-11-24,Partido de Liga,Sí,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+197,Chelsea,ENG-Premier League,Juan Bernard,Mediocentro Defensivo,Rotura fibrilar,Tendón de Aquiles,105,2023-11-01,,Partido Internacional,No,Fortalecimiento muscular,Dr. García Pérez,Activa
+198,Chelsea,ENG-Premier League,Antoine Ibrahim,Mediocentro Defensivo,Sobrecarga muscular,Tendón de Aquiles,12,2024-03-18,2024-03-30,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+199,Chelsea,ENG-Premier League,Mohammed Rodríguez,Mediocentro Ofensivo,Luxación,Rodilla,7,2023-09-16,2023-09-23,Calentamiento pre-partido,Sí,Reposo,Dr. Hernández Moya,Recuperado
+200,Chelsea,ENG-Premier League,Alessandro Al-Ahmed,Lateral Derecho,Esguince,Tendón de Aquiles,24,2023-12-24,2024-01-17,Calentamiento pre-partido,No,Crioterapia,Dr. Torres Ramos,Recuperado
+201,Chelsea,ENG-Premier League,Juan Bernard,Lateral Derecho,Fractura,Cabeza,50,2024-01-09,2024-02-28,Partido de Liga,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+202,Chelsea,ENG-Premier League,Felix Gómez,Lateral Izquierdo,Contusión,Tobillo,3,2024-03-11,2024-03-14,Entrenamiento,Sí,Hidroterapia,Dra. López Navarro,Recuperado
+203,Arsenal,ENG-Premier League,Thomas López,Extremo Derecho,Lesión de ligamentos,Hombro,50,2024-04-02,2024-05-22,Gimnasio,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+204,Arsenal,ENG-Premier League,Leon Smith,Portero,Fractura,Tobillo,74,2023-11-03,2024-01-16,Partido Internacional,No,Rehabilitación funcional,Dra. López Navarro,Recuperado
+205,Arsenal,ENG-Premier League,Pedro Ferrari,Extremo Izquierdo,Esguince,Aductor,14,2023-10-16,2023-10-30,Partido de Liga,No,Crioterapia,Dr. García Pérez,Recuperado
+206,Arsenal,ENG-Premier League,Thomas López,Extremo Izquierdo,Sobrecarga muscular,Muñeca,19,2024-01-05,,Calentamiento pre-partido,No,PRP,Dra. López Navarro,Activa
+207,Arsenal,ENG-Premier League,Juan Yousef,Portero,Fractura,Aductor,68,2023-11-06,2024-01-13,Gimnasio,No,Reposo,Dr. García Pérez,Recuperado
+208,Arsenal,ENG-Premier League,Nicolas Martin,Mediocentro Defensivo,Pubalgia,Espalda,21,2023-08-28,2023-09-18,Calentamiento pre-partido,No,Crioterapia,Dr. García Pérez,Recuperado
+209,Arsenal,ENG-Premier League,Nicolas Becker,Defensa Central,Tendinitis,Hombro,40,2023-08-10,2023-09-19,Partido Internacional,No,Cirugía,Dr. González Díaz,Recuperado
+210,Arsenal,ENG-Premier League,Francesco Ali,Delantero Centro,Esguince,Tendón de Aquiles,29,2024-01-09,2024-02-07,Partido Internacional,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+211,Arsenal,ENG-Premier League,Alessandro Russo,Lateral Izquierdo,Tendinitis,Hombro,20,2023-10-13,,Gimnasio,No,Crioterapia,Dra. Sánchez Ortiz,Activa
+212,Arsenal,ENG-Premier League,Francesco Ali,Mediocentro,Lesión de ligamentos,Muñeca,30,2023-08-07,2023-09-06,Partido de Liga,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+213,Arsenal,ENG-Premier League,Javier Brown,Mediocentro Defensivo,Tendinitis,Cabeza,30,2023-09-25,2023-10-25,Partido de Copa,No,Fisioterapia,Dr. Rodríguez Sánchez,Recuperado
+214,Arsenal,ENG-Premier League,Alessandro Wagner,Delantero Centro,Rotura fibrilar,Tendón de Aquiles,78,2023-11-20,2024-02-06,Entrenamiento,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+215,Arsenal,ENG-Premier League,Robert Becker,Mediocentro,Sobrecarga muscular,Cuádriceps,20,2024-04-22,2024-05-12,Entrenamiento,No,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+216,Arsenal,ENG-Premier League,Ahmed Robert,Lateral Izquierdo,Tendinitis,Gemelo,15,2024-02-04,2024-02-19,Entrenamiento,No,Fisioterapia,Dra. López Navarro,Recuperado
+217,Arsenal,ENG-Premier League,Lukas Brown,Defensa Central,Fractura,Muslo,71,2024-01-13,2024-03-24,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+218,Tottenham,ENG-Premier League,Hans Durand,Delantero Centro,Lesión de ligamentos,Hombro,36,2024-05-26,2024-07-01,Entrenamiento,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+219,Tottenham,ENG-Premier League,Matteo Johnson,Delantero Centro,Distensión muscular,Tendón de Aquiles,7,2024-02-26,2024-03-04,Entrenamiento,No,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+220,Tottenham,ENG-Premier League,Marco Müller,Mediocentro Defensivo,Fractura,Aductor,115,2023-10-29,,Gimnasio,No,Fisioterapia,Dra. López Navarro,Activa
+221,Tottenham,ENG-Premier League,Ahmed Miller,Portero,Distensión muscular,Hombro,14,2023-08-01,2023-08-15,Calentamiento pre-partido,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+222,Tottenham,ENG-Premier League,Hans Petit,Portero,Esguince,Cadera,27,2024-04-06,2024-05-03,Gimnasio,No,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+223,Tottenham,ENG-Premier League,Theo Richard,Mediocentro Defensivo,Contusión,Espalda,15,2023-10-23,2023-11-07,Entrenamiento,No,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+224,Tottenham,ENG-Premier League,Hugo García,Extremo Izquierdo,Lesión de ligamentos,Espalda,67,2024-04-21,2024-06-27,Entrenamiento,No,Cirugía,Dra. López Navarro,Recuperado
+225,Tottenham,ENG-Premier League,Theo Richard,Delantero Centro,Esguince,Muñeca,29,2024-03-11,2024-04-09,Gimnasio,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+226,Tottenham,ENG-Premier League,Marco Müller,Lateral Derecho,Tendinitis,Espalda,19,2024-01-16,2024-02-04,Gimnasio,No,Cirugía,Dra. Martínez López,Recuperado
+227,Tottenham,ENG-Premier League,Marco Bernard,Mediocentro Ofensivo,Distensión muscular,Muñeca,17,2024-04-18,2024-05-05,Partido de Copa,Sí,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+228,Tottenham,ENG-Premier League,Antoine Khan,Extremo Izquierdo,Tendinitis,Isquiotibiales,38,2024-01-29,,Partido Internacional,No,Terapia de ondas de choque,Dr. González Díaz,Activa
+229,Tottenham,ENG-Premier League,Lukas Johnson,Extremo Izquierdo,Fascitis,Tendón de Aquiles,11,2023-10-02,2023-10-13,Gimnasio,Sí,Fisioterapia,Dr. González Díaz,Recuperado
+230,Tottenham,ENG-Premier League,Felix Weber,Delantero Centro,Fractura,Cuádriceps,108,2024-02-11,2024-05-29,Partido de Copa,No,Hidroterapia,Dra. Martínez López,Recuperado
+231,Tottenham,ENG-Premier League,Lucas Brown,Portero,Luxación,Cabeza,8,2023-08-10,2023-08-18,Entrenamiento,Sí,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+232,Tottenham,ENG-Premier League,Felix Weber,Lateral Izquierdo,Esguince,Cadera,23,2023-10-21,2023-11-13,Entrenamiento,No,PRP,Dr. Hernández Moya,Recuperado
+233,Tottenham,ENG-Premier League,Ahmed Miller,Lateral Derecho,Sobrecarga muscular,Aductor,16,2023-11-23,2023-12-09,Partido de Copa,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+234,Tottenham,ENG-Premier League,Lucas Brown,Mediocentro Ofensivo,Luxación,Hombro,18,2023-12-13,2023-12-31,Partido de Copa,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+235,Tottenham,ENG-Premier League,Luca Rodríguez,Extremo Izquierdo,Sobrecarga muscular,Aductor,7,2024-05-10,2024-05-17,Entrenamiento,No,Cirugía,Dr. García Pérez,Recuperado
+236,Tottenham,ENG-Premier League,Carlos Hassan,Mediocentro,Pubalgia,Espalda,32,2024-03-28,2024-04-29,Gimnasio,No,Reposo,Dr. González Díaz,Recuperado
+237,Tottenham,ENG-Premier League,Richard Colombo,Mediocentro Defensivo,Tendinitis,Cadera,20,2024-01-15,2024-02-04,Partido Internacional,Sí,Rehabilitación funcional,Dr. García Pérez,Recuperado
+238,Manchester United,ENG-Premier League,Hans Becker,Extremo Derecho,Rotura fibrilar,Tobillo,30,2023-10-26,2023-11-25,Calentamiento pre-partido,Sí,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+239,Manchester United,ENG-Premier League,Lukas Fernández,Extremo Derecho,Fascitis,Tobillo,11,2023-09-18,,Entrenamiento,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Activa
+240,Manchester United,ENG-Premier League,Luca Smith,Portero,Luxación,Cadera,4,2023-10-29,2023-11-02,Partido Internacional,Sí,Crioterapia,Dr. Torres Ramos,Recuperado
+241,Manchester United,ENG-Premier League,Juan Romano,Extremo Derecho,Pubalgia,Hombro,34,2023-12-22,2024-01-25,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. Torres Ramos,Recuperado
+242,Manchester United,ENG-Premier League,Mohammed Miller,Delantero Centro,Lesión de ligamentos,Cadera,106,2023-12-04,2024-03-19,Partido Internacional,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+243,Manchester United,ENG-Premier League,Luca Smith,Portero,Tendinitis,Cabeza,28,2023-12-08,2024-01-05,Partido de Liga,No,PRP,Dr. Torres Ramos,Recuperado
+244,Manchester United,ENG-Premier League,Lukas Fernández,Mediocentro Ofensivo,Distensión muscular,Cadera,16,2024-05-16,2024-06-01,Entrenamiento,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+245,Manchester United,ENG-Premier League,Franz Colombo,Delantero Centro,Tendinitis,Cuádriceps,26,2024-02-04,2024-03-01,Gimnasio,Sí,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+246,Manchester United,ENG-Premier League,Luca Smith,Defensa Central,Luxación,Tendón de Aquiles,20,2024-04-12,,Entrenamiento,No,Crioterapia,Dr. Hernández Moya,Activa
+247,Manchester United,ENG-Premier League,Franz Colombo,Extremo Izquierdo,Rotura fibrilar,Gemelo,111,2024-02-24,2024-06-14,Calentamiento pre-partido,No,Fortalecimiento muscular,Dra. Sánchez Ortiz,Recuperado
+248,Manchester United,ENG-Premier League,Franz Colombo,Portero,Fascitis,Isquiotibiales,11,2023-12-08,,Partido de Copa,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Activa
+249,Manchester United,ENG-Premier League,Luca Smith,Mediocentro Ofensivo,Fractura,Muslo,32,2024-04-08,2024-05-10,Entrenamiento,Sí,Crioterapia,Dr. García Pérez,Recuperado
+250,Manchester United,ENG-Premier League,Mohammed Smith,Mediocentro Defensivo,Distensión muscular,Muslo,9,2023-11-13,2023-11-22,Calentamiento pre-partido,Sí,Medicación antiinflamatoria,Dr. Rodríguez Sánchez,Recuperado
+251,Manchester United,ENG-Premier League,Lukas Fernández,Mediocentro Defensivo,Tendinitis,Codo,35,2023-10-26,2023-11-30,Partido Internacional,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+252,Manchester United,ENG-Premier League,Luca Smith,Mediocentro Defensivo,Sobrecarga muscular,Cuádriceps,21,2023-12-19,2024-01-09,Partido de Copa,No,Reposo,Dr. González Díaz,Recuperado
+253,West Ham,ENG-Premier League,James Russo,Mediocentro Defensivo,Fascitis,Aductor,8,2023-10-22,2023-10-30,Partido Internacional,Sí,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+254,West Ham,ENG-Premier League,Matteo Richard,Portero,Lesión de ligamentos,Aductor,50,2023-11-16,2024-01-05,Partido de Liga,No,Reposo,Dr. Hernández Moya,Recuperado
+255,West Ham,ENG-Premier League,Karim Petit,Mediocentro Defensivo,Fractura,Rodilla,89,2024-05-11,2024-08-08,Entrenamiento,No,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+256,West Ham,ENG-Premier League,Hans García,Mediocentro Ofensivo,Lesión de ligamentos,Isquiotibiales,117,2024-03-12,2024-07-07,Partido de Liga,No,Reposo,Dr. Rodríguez Sánchez,Recuperado
+257,West Ham,ENG-Premier League,Ibrahim Ali,Mediocentro Defensivo,Rotura fibrilar,Tobillo,112,2024-05-13,2024-09-02,Gimnasio,No,Fisioterapia,Dra. Martínez López,Recuperado
+258,West Ham,ENG-Premier League,Karim Petit,Extremo Izquierdo,Tendinitis,Gemelo,30,2024-05-06,,Gimnasio,Sí,Rehabilitación funcional,Dra. Fernández Ruiz,Activa
+259,West Ham,ENG-Premier League,Hans García,Portero,Luxación,Tendón de Aquiles,7,2023-12-09,2023-12-16,Partido de Copa,No,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+260,West Ham,ENG-Premier League,Lukas Khan,Extremo Izquierdo,Pubalgia,Rodilla,26,2024-03-07,2024-04-02,Partido de Copa,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+261,West Ham,ENG-Premier League,Ibrahim Ali,Lateral Derecho,Fractura,Espalda,86,2024-01-21,2024-04-16,Partido de Liga,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+262,West Ham,ENG-Premier League,Hans Russo,Lateral Izquierdo,Tendinitis,Gemelo,33,2023-09-22,2023-10-25,Calentamiento pre-partido,Sí,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+263,West Ham,ENG-Premier League,Lorenzo Smith,Defensa Central,Luxación,Muslo,13,2023-10-05,,Gimnasio,No,PRP,Dra. Sánchez Ortiz,Activa
+264,West Ham,ENG-Premier League,Theo García,Mediocentro Defensivo,Fractura,Gemelo,67,2023-11-20,2024-01-26,Entrenamiento,Sí,Cirugía,Dra. Sánchez Ortiz,Recuperado
+265,West Ham,ENG-Premier League,Ibrahim Ali,Portero,Fractura,Tendón de Aquiles,63,2023-08-03,2023-10-05,Partido Internacional,No,Crioterapia,Dr. Hernández Moya,Recuperado
+266,West Ham,ENG-Premier League,Hans Russo,Mediocentro Ofensivo,Fascitis,Tobillo,15,2024-01-14,2024-01-29,Partido de Liga,No,Hidroterapia,Dra. López Navarro,Recuperado
+267,West Ham,ENG-Premier League,Theo García,Mediocentro Ofensivo,Luxación,Rodilla,6,2023-11-08,2023-11-14,Calentamiento pre-partido,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+268,West Ham,ENG-Premier League,Antoine Rodríguez,Mediocentro,Luxación,Isquiotibiales,8,2023-09-04,2023-09-12,Partido de Liga,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+269,West Ham,ENG-Premier League,James Russo,Lateral Izquierdo,Fascitis,Cabeza,10,2024-04-21,,Partido de Copa,No,Rehabilitación funcional,Dr. Hernández Moya,Activa
+270,West Ham,ENG-Premier League,Franz Mahmoud,Mediocentro Defensivo,Lesión de ligamentos,Cuádriceps,84,2024-01-23,2024-04-16,Partido Internacional,No,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+271,West Ham,ENG-Premier League,Theo Al-Saeed,Mediocentro Defensivo,Esguince,Tobillo,20,2024-04-22,2024-05-12,Partido Internacional,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+272,West Ham,ENG-Premier League,Franz Mahmoud,Mediocentro Ofensivo,Tendinitis,Aductor,25,2023-12-18,,Partido de Liga,No,Fortalecimiento muscular,Dra. Martínez López,Activa
+273,West Ham,ENG-Premier League,François Al-Ahmed,Extremo Derecho,Fractura,Cabeza,44,2024-01-09,,Calentamiento pre-partido,No,PRP,Dr. García Pérez,Activa
+274,West Ham,ENG-Premier League,Hamza Fernández,Mediocentro Ofensivo,Fascitis,Cadera,6,2023-12-04,2023-12-10,Partido de Liga,Sí,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+275,West Ham,ENG-Premier League,Hans Russo,Extremo Derecho,Fascitis,Espalda,18,2024-02-22,,Entrenamiento,No,PRP,Dra. Sánchez Ortiz,Activa
+276,West Ham,ENG-Premier League,Hans Russo,Lateral Derecho,Fractura,Cabeza,114,2024-03-20,2024-07-12,Partido de Copa,No,Reposo,Dra. López Navarro,Recuperado
+277,Leicester City,ENG-Premier League,José Yousef,Delantero Centro,Lesión de ligamentos,Gemelo,96,2024-03-01,2024-06-05,Partido de Copa,Sí,Reposo,Dra. Sánchez Ortiz,Recuperado
+278,Leicester City,ENG-Premier League,Robert Russo,Portero,Esguince,Muñeca,37,2024-02-09,2024-03-17,Partido Internacional,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+279,Leicester City,ENG-Premier League,Ahmed Mahmoud,Mediocentro Defensivo,Distensión muscular,Rodilla,14,2023-11-26,,Calentamiento pre-partido,No,Hidroterapia,Dr. Torres Ramos,Activa
+280,Leicester City,ENG-Premier League,Juan Colombo,Lateral Derecho,Lesión de ligamentos,Tendón de Aquiles,67,2024-01-29,2024-04-05,Calentamiento pre-partido,No,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+281,Leicester City,ENG-Premier League,Luca Pérez,Extremo Izquierdo,Luxación,Muslo,10,2024-03-04,,Partido de Copa,Sí,Cirugía,Dra. Sánchez Ortiz,Activa
+282,Leicester City,ENG-Premier League,Robert Pérez,Mediocentro Defensivo,Fractura,Muñeca,110,2023-10-13,2024-01-31,Partido de Copa,No,Crioterapia,Dr. González Díaz,Recuperado
+283,Leicester City,ENG-Premier League,Robert Pérez,Defensa Central,Sobrecarga muscular,Espalda,3,2023-08-21,,Entrenamiento,Sí,Fisioterapia,Dr. Hernández Moya,Activa
+284,Leicester City,ENG-Premier League,Lucas Johnson,Portero,Distensión muscular,Cabeza,9,2024-03-25,2024-04-03,Partido de Copa,No,Crioterapia,Dra. López Navarro,Recuperado
+285,Leicester City,ENG-Premier League,José Yousef,Lateral Derecho,Luxación,Muñeca,8,2023-08-10,2023-08-18,Partido Internacional,Sí,Hidroterapia,Dr. Hernández Moya,Recuperado
+286,Leicester City,ENG-Premier League,Ahmed Mahmoud,Portero,Esguince,Muslo,31,2024-04-25,2024-05-26,Gimnasio,Sí,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+287,Leicester City,ENG-Premier League,Lukas Davis,Defensa Central,Fractura,Espalda,43,2024-04-19,2024-06-01,Entrenamiento,No,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+288,Leicester City,ENG-Premier League,Ahmed Mahmoud,Delantero Centro,Fractura,Isquiotibiales,82,2023-09-01,2023-11-22,Gimnasio,No,Crioterapia,Dr. Hernández Moya,Recuperado
+289,Leicester City,ENG-Premier League,Lucas Yousef,Defensa Central,Esguince,Cadera,35,2023-10-24,,Calentamiento pre-partido,No,PRP,Dr. García Pérez,Activa
+290,Leicester City,ENG-Premier League,James Gómez,Portero,Fascitis,Cuádriceps,15,2023-12-10,,Calentamiento pre-partido,No,Crioterapia,Dra. Fernández Ruiz,Activa
+291,Leicester City,ENG-Premier League,Lukas Davis,Extremo Izquierdo,Sobrecarga muscular,Muñeca,13,2023-11-03,2023-11-16,Partido de Liga,No,Terapia de ondas de choque,Dr. Hernández Moya,Recuperado
+292,Leicester City,ENG-Premier League,Lucas Yousef,Mediocentro Defensivo,Esguince,Isquiotibiales,30,2023-10-19,2023-11-18,Partido Internacional,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+293,Leicester City,ENG-Premier League,David Russo,Delantero Centro,Pubalgia,Cadera,16,2023-08-03,2023-08-19,Calentamiento pre-partido,No,Hidroterapia,Dr. García Pérez,Recuperado
+294,Leicester City,ENG-Premier League,Franz Rossi,Mediocentro Defensivo,Fractura,Tobillo,89,2024-05-12,2024-08-09,Entrenamiento,Sí,Crioterapia,Dr. Hernández Moya,Recuperado
+295,Leicester City,ENG-Premier League,Juan Colombo,Extremo Derecho,Luxación,Tobillo,7,2023-12-24,2023-12-31,Partido de Copa,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+296,Leicester City,ENG-Premier League,Lucas Yousef,Mediocentro Ofensivo,Lesión de ligamentos,Codo,46,2023-10-27,2023-12-12,Partido de Copa,Sí,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+297,Leicester City,ENG-Premier League,Juan Colombo,Lateral Derecho,Tendinitis,Cuádriceps,26,2023-12-29,2024-01-24,Partido Internacional,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+298,Leicester City,ENG-Premier League,Juan Colombo,Lateral Derecho,Pubalgia,Tendón de Aquiles,27,2023-09-26,2023-10-23,Calentamiento pre-partido,Sí,Rehabilitación funcional,Dr. González Díaz,Recuperado
+299,Leicester City,ENG-Premier League,Matteo Brown,Mediocentro Ofensivo,Esguince,Hombro,35,2023-11-06,2023-12-11,Partido de Copa,No,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+300,Everton,ENG-Premier League,Francesco López,Extremo Derecho,Fascitis,Muslo,5,2024-02-05,2024-02-10,Partido de Copa,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+301,Everton,ENG-Premier League,David Ricci,Mediocentro,Tendinitis,Cabeza,16,2024-02-12,2024-02-28,Partido de Liga,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+302,Everton,ENG-Premier League,Giuseppe Romano,Lateral Izquierdo,Luxación,Muñeca,3,2024-02-20,2024-02-23,Partido de Liga,No,Fortalecimiento muscular,Dra. Martínez López,Recuperado
+303,Everton,ENG-Premier League,Leon Jones,Mediocentro Ofensivo,Tendinitis,Muslo,38,2024-02-02,2024-03-11,Gimnasio,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+304,Everton,ENG-Premier League,Hugo Hassan,Lateral Derecho,Fascitis,Cuádriceps,21,2024-02-27,,Partido de Copa,No,PRP,Dra. Fernández Ruiz,Activa
+305,Everton,ENG-Premier League,Felix Petit,Extremo Izquierdo,Pubalgia,Muñeca,25,2024-02-23,2024-03-19,Partido Internacional,No,Crioterapia,Dr. Torres Ramos,Recuperado
+306,Everton,ENG-Premier League,John Esposito,Extremo Derecho,Fascitis,Hombro,18,2024-01-24,2024-02-11,Partido Internacional,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+307,Everton,ENG-Premier League,José López,Mediocentro Ofensivo,Fascitis,Tendón de Aquiles,10,2024-04-03,2024-04-13,Entrenamiento,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+308,Everton,ENG-Premier League,Max Martin,Mediocentro Defensivo,Distensión muscular,Rodilla,15,2024-02-23,2024-03-09,Gimnasio,No,Fisioterapia,Dr. González Díaz,Recuperado
+309,Everton,ENG-Premier League,Luis Sánchez,Delantero Centro,Luxación,Codo,6,2024-05-15,2024-05-21,Gimnasio,No,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+310,Newcastle,ENG-Premier League,Theo Bernard,Mediocentro,Esguince,Muñeca,17,2024-03-23,2024-04-09,Gimnasio,No,Reposo,Dr. García Pérez,Recuperado
+311,Newcastle,ENG-Premier League,Ahmed Thomas,Lateral Derecho,Sobrecarga muscular,Aductor,4,2023-09-07,,Calentamiento pre-partido,No,Crioterapia,Dr. Hernández Moya,Activa
+312,Newcastle,ENG-Premier League,Theo Bernard,Lateral Derecho,Fractura,Tendón de Aquiles,76,2023-08-06,2023-10-21,Gimnasio,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+313,Newcastle,ENG-Premier League,Ahmed Thomas,Mediocentro Ofensivo,Esguince,Rodilla,23,2023-10-29,2023-11-21,Entrenamiento,No,Hidroterapia,Dra. Martínez López,Recuperado
+314,Newcastle,ENG-Premier League,Antonio Colombo,Defensa Central,Esguince,Cabeza,32,2024-03-21,2024-04-22,Partido de Liga,No,Reposo,Dr. González Díaz,Recuperado
+315,Newcastle,ENG-Premier League,José Martin,Defensa Central,Esguince,Codo,24,2023-12-21,2024-01-14,Gimnasio,Sí,Rehabilitación funcional,Dr. García Pérez,Recuperado
+316,Newcastle,ENG-Premier League,Javier Williams,Lateral Izquierdo,Esguince,Espalda,37,2023-11-02,2023-12-09,Gimnasio,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+317,Newcastle,ENG-Premier League,Richard Yousef,Defensa Central,Rotura fibrilar,Muslo,68,2024-01-25,2024-04-02,Calentamiento pre-partido,Sí,Reposo,Dr. Rodríguez Sánchez,Recuperado
+318,Newcastle,ENG-Premier League,Hans García,Portero,Pubalgia,Cabeza,40,2023-10-10,2023-11-19,Partido de Copa,Sí,Fisioterapia,Dr. Rodríguez Sánchez,Recuperado
+319,Newcastle,ENG-Premier League,Miguel Petit,Extremo Izquierdo,Lesión de ligamentos,Aductor,89,2023-09-13,2023-12-11,Partido de Copa,No,Reposo,Dr. González Díaz,Recuperado
+320,Newcastle,ENG-Premier League,José Martin,Lateral Izquierdo,Sobrecarga muscular,Cabeza,11,2024-04-30,2024-05-11,Calentamiento pre-partido,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+321,Newcastle,ENG-Premier League,Javier Williams,Lateral Derecho,Fractura,Isquiotibiales,69,2024-03-21,2024-05-29,Partido Internacional,No,Cirugía,Dr. Torres Ramos,Recuperado
+322,Newcastle,ENG-Premier League,Miguel Petit,Mediocentro Defensivo,Esguince,Cuádriceps,38,2023-10-09,2023-11-16,Partido de Copa,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+323,Newcastle,ENG-Premier League,Antonio Colombo,Extremo Izquierdo,Distensión muscular,Isquiotibiales,20,2023-12-30,2024-01-19,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dra. López Navarro,Recuperado
+324,Newcastle,ENG-Premier League,Hamza Yousef,Defensa Central,Fascitis,Codo,17,2023-08-18,2023-09-04,Partido de Copa,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+325,Bayern Munich,GER-Bundesliga,Matteo Meyer,Delantero Centro,Tendinitis,Codo,19,2024-01-01,2024-01-20,Entrenamiento,Sí,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+326,Bayern Munich,GER-Bundesliga,José Petit,Extremo Izquierdo,Distensión muscular,Tobillo,12,2024-01-11,,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. Torres Ramos,Activa
+327,Bayern Munich,GER-Bundesliga,Leon Sánchez,Portero,Luxación,Codo,3,2024-01-18,2024-01-21,Entrenamiento,Sí,Cirugía,Dra. Fernández Ruiz,Recuperado
+328,Bayern Munich,GER-Bundesliga,Leon Sánchez,Portero,Sobrecarga muscular,Cabeza,8,2024-01-28,2024-02-05,Partido de Liga,No,Reposo,Dr. Hernández Moya,Recuperado
+329,Bayern Munich,GER-Bundesliga,Robert Ricci,Mediocentro Defensivo,Contusión,Codo,17,2023-10-08,2023-10-25,Partido Internacional,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+330,Bayern Munich,GER-Bundesliga,Pedro Wagner,Mediocentro Ofensivo,Fascitis,Muñeca,11,2024-02-26,2024-03-08,Entrenamiento,No,Fisioterapia,Dr. González Díaz,Recuperado
+331,Bayern Munich,GER-Bundesliga,Matteo Ferrari,Mediocentro Defensivo,Esguince,Espalda,33,2023-08-25,2023-09-27,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+332,Bayern Munich,GER-Bundesliga,Pierre Bernard,Lateral Derecho,Esguince,Cabeza,33,2024-02-19,2024-03-23,Entrenamiento,Sí,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+333,Bayern Munich,GER-Bundesliga,Antoine Brown,Lateral Derecho,Sobrecarga muscular,Cuádriceps,18,2023-11-24,2023-12-12,Gimnasio,No,PRP,Dra. Martínez López,Recuperado
+334,Bayern Munich,GER-Bundesliga,Ibrahim Bianchi,Lateral Derecho,Tendinitis,Cuádriceps,33,2023-10-31,2023-12-03,Gimnasio,No,Terapia de ondas de choque,Dra. López Navarro,Recuperado
+335,Bayern Munich,GER-Bundesliga,José Petit,Mediocentro Defensivo,Distensión muscular,Cabeza,9,2023-10-18,2023-10-27,Partido de Liga,No,Crioterapia,Dra. Martínez López,Recuperado
+336,Bayern Munich,GER-Bundesliga,Andrea Brown,Lateral Derecho,Fascitis,Codo,8,2023-12-17,2023-12-25,Calentamiento pre-partido,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+337,Bayern Munich,GER-Bundesliga,Antoine Brown,Mediocentro,Rotura fibrilar,Muslo,55,2023-10-10,2023-12-04,Partido Internacional,No,Cirugía,Dr. González Díaz,Recuperado
+338,Bayern Munich,GER-Bundesliga,Leon Sánchez,Extremo Izquierdo,Pubalgia,Gemelo,21,2024-04-29,2024-05-20,Partido de Liga,Sí,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+339,Bayern Munich,GER-Bundesliga,Giuseppe Petit,Portero,Pubalgia,Isquiotibiales,15,2023-11-10,2023-11-25,Entrenamiento,No,Fisioterapia,Dra. López Navarro,Recuperado
+340,Bayern Munich,GER-Bundesliga,Leon Sánchez,Extremo Derecho,Lesión de ligamentos,Codo,46,2024-05-10,2024-06-25,Calentamiento pre-partido,No,PRP,Dr. Hernández Moya,Recuperado
+341,Bayern Munich,GER-Bundesliga,Youssef Williams,Delantero Centro,Fractura,Isquiotibiales,118,2024-02-04,2024-06-01,Partido de Liga,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+342,Borussia Dortmund,GER-Bundesliga,Luis Russo,Lateral Izquierdo,Sobrecarga muscular,Cabeza,6,2023-12-04,2023-12-10,Partido de Copa,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+343,Borussia Dortmund,GER-Bundesliga,Ahmed Rossi,Mediocentro Ofensivo,Contusión,Cuádriceps,13,2023-08-23,2023-09-05,Entrenamiento,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+344,Borussia Dortmund,GER-Bundesliga,Richard Ferrari,Defensa Central,Fractura,Muslo,90,2023-08-20,2023-11-18,Partido de Copa,No,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+345,Borussia Dortmund,GER-Bundesliga,Nicolas Jones,Lateral Izquierdo,Pubalgia,Rodilla,34,2023-11-25,2023-12-29,Partido de Liga,No,Fisioterapia,Dra. López Navarro,Recuperado
+346,Borussia Dortmund,GER-Bundesliga,Lukas Ali,Delantero Centro,Pubalgia,Rodilla,24,2024-04-20,,Calentamiento pre-partido,No,Hidroterapia,Dr. García Pérez,Activa
+347,Borussia Dortmund,GER-Bundesliga,Karim Smith,Extremo Derecho,Rotura fibrilar,Gemelo,31,2024-01-25,2024-02-25,Entrenamiento,No,Rehabilitación funcional,Dra. Martínez López,Recuperado
+348,Borussia Dortmund,GER-Bundesliga,Hans Rodríguez,Delantero Centro,Distensión muscular,Cabeza,17,2023-11-01,2023-11-18,Gimnasio,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+349,Borussia Dortmund,GER-Bundesliga,Matteo Ricci,Delantero Centro,Fractura,Tendón de Aquiles,58,2024-02-06,2024-04-04,Calentamiento pre-partido,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+350,Borussia Dortmund,GER-Bundesliga,Javier Williams,Mediocentro Defensivo,Rotura fibrilar,Cadera,113,2023-08-15,2023-12-06,Partido de Copa,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+351,Borussia Dortmund,GER-Bundesliga,Matteo Esposito,Extremo Izquierdo,Contusión,Cabeza,21,2024-05-14,2024-06-04,Partido Internacional,No,Fisioterapia,Dr. Hernández Moya,Recuperado
+352,Borussia Dortmund,GER-Bundesliga,Ibrahim Ibrahim,Lateral Izquierdo,Esguince,Aductor,24,2024-03-01,2024-03-25,Partido Internacional,No,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+353,Borussia Dortmund,GER-Bundesliga,Miguel Al-Saeed,Defensa Central,Rotura fibrilar,Muslo,68,2024-03-22,2024-05-29,Entrenamiento,No,Fisioterapia,Dr. González Díaz,Recuperado
+354,Borussia Dortmund,GER-Bundesliga,Javier Rossi,Extremo Derecho,Contusión,Espalda,5,2023-11-30,2023-12-05,Entrenamiento,Sí,PRP,Dr. García Pérez,Recuperado
+355,Borussia Dortmund,GER-Bundesliga,Matteo Esposito,Lateral Derecho,Distensión muscular,Rodilla,17,2024-03-14,2024-03-31,Partido Internacional,Sí,Fisioterapia,Dr. González Díaz,Recuperado
+356,Borussia Dortmund,GER-Bundesliga,Ahmed Rossi,Mediocentro Defensivo,Esguince,Muñeca,26,2024-03-08,2024-04-03,Entrenamiento,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+357,Borussia Dortmund,GER-Bundesliga,Matteo Esposito,Mediocentro Ofensivo,Luxación,Muslo,3,2024-03-06,2024-03-09,Gimnasio,Sí,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+358,Borussia Dortmund,GER-Bundesliga,Javier Williams,Extremo Izquierdo,Rotura fibrilar,Cadera,113,2024-05-21,2024-09-11,Partido de Copa,No,PRP,Dr. González Díaz,Recuperado
+359,Borussia Dortmund,GER-Bundesliga,Javier Williams,Delantero Centro,Esguince,Isquiotibiales,18,2023-11-14,2023-12-02,Entrenamiento,No,Reposo,Dra. Fernández Ruiz,Recuperado
+360,Borussia Dortmund,GER-Bundesliga,Javier Williams,Mediocentro Defensivo,Rotura fibrilar,Espalda,95,2024-01-18,2024-04-22,Gimnasio,Sí,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+361,Borussia Dortmund,GER-Bundesliga,Matteo Ricci,Extremo Izquierdo,Rotura fibrilar,Cuádriceps,58,2024-02-06,2024-04-04,Gimnasio,Sí,Reposo,Dr. González Díaz,Recuperado
+362,Borussia Dortmund,GER-Bundesliga,Matteo Ricci,Mediocentro Ofensivo,Esguince,Rodilla,39,2023-11-15,,Entrenamiento,Sí,Terapia de ondas de choque,Dra. Fernández Ruiz,Activa
+363,RB Leipzig,GER-Bundesliga,Nicolas López,Extremo Derecho,Rotura fibrilar,Cadera,107,2024-05-02,2024-08-17,Partido Internacional,No,Fisioterapia,Dr. González Díaz,Recuperado
+364,RB Leipzig,GER-Bundesliga,Luis Ferrari,Extremo Derecho,Luxación,Muslo,7,2023-09-23,2023-09-30,Calentamiento pre-partido,No,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+365,RB Leipzig,GER-Bundesliga,Luis Ferrari,Lateral Izquierdo,Pubalgia,Aductor,23,2023-08-15,,Partido Internacional,Sí,Crioterapia,Dra. López Navarro,Activa
+366,RB Leipzig,GER-Bundesliga,Felix Williams,Mediocentro Defensivo,Rotura fibrilar,Tendón de Aquiles,98,2023-11-17,2024-02-23,Partido Internacional,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+367,RB Leipzig,GER-Bundesliga,Nicolas López,Delantero Centro,Rotura fibrilar,Tendón de Aquiles,91,2024-05-30,2024-08-29,Partido Internacional,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+368,RB Leipzig,GER-Bundesliga,Marco Fernández,Extremo Derecho,Pubalgia,Muñeca,15,2023-12-04,2023-12-19,Entrenamiento,Sí,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+369,RB Leipzig,GER-Bundesliga,Lorenzo Martínez,Extremo Izquierdo,Rotura fibrilar,Rodilla,116,2023-11-04,2024-02-28,Entrenamiento,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+370,RB Leipzig,GER-Bundesliga,Francesco Romano,Extremo Izquierdo,Contusión,Tobillo,7,2024-01-02,2024-01-09,Entrenamiento,Sí,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+371,RB Leipzig,GER-Bundesliga,Francesco Robert,Extremo Derecho,Esguince,Aductor,35,2024-04-23,2024-05-28,Partido Internacional,Sí,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+372,RB Leipzig,GER-Bundesliga,William Petit,Mediocentro,Contusión,Tobillo,4,2023-12-07,2023-12-11,Calentamiento pre-partido,No,Fisioterapia,Dra. Martínez López,Recuperado
+373,RB Leipzig,GER-Bundesliga,Pedro Brown,Mediocentro,Tendinitis,Aductor,33,2024-02-14,2024-03-18,Entrenamiento,No,Reposo,Dr. Torres Ramos,Recuperado
+374,RB Leipzig,GER-Bundesliga,John Dubois,Mediocentro Defensivo,Tendinitis,Muñeca,21,2024-01-18,2024-02-08,Calentamiento pre-partido,Sí,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+375,RB Leipzig,GER-Bundesliga,Marco García,Mediocentro,Pubalgia,Cadera,38,2023-08-27,2023-10-04,Gimnasio,No,PRP,Dra. Sánchez Ortiz,Recuperado
+376,RB Leipzig,GER-Bundesliga,Marco Fernández,Defensa Central,Contusión,Tobillo,19,2024-04-09,2024-04-28,Partido Internacional,No,Fisioterapia,Dr. Rodríguez Sánchez,Recuperado
+377,RB Leipzig,GER-Bundesliga,Marco Fischer,Delantero Centro,Fractura,Muslo,31,2023-12-07,2024-01-07,Partido de Copa,No,PRP,Dr. García Pérez,Recuperado
+378,RB Leipzig,GER-Bundesliga,Pierre Smith,Mediocentro Ofensivo,Esguince,Hombro,14,2024-01-04,,Partido de Liga,No,Terapia de ondas de choque,Dr. Rodríguez Sánchez,Activa
+379,RB Leipzig,GER-Bundesliga,Alessandro Wilson,Portero,Esguince,Muñeca,15,2024-02-17,2024-03-03,Entrenamiento,No,Rehabilitación funcional,Dra. López Navarro,Recuperado
+380,RB Leipzig,GER-Bundesliga,Richard Mahmoud,Extremo Derecho,Sobrecarga muscular,Espalda,12,2024-03-03,2024-03-15,Entrenamiento,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+381,RB Leipzig,GER-Bundesliga,Marco García,Mediocentro,Tendinitis,Cuádriceps,30,2023-09-30,,Entrenamiento,No,Crioterapia,Dr. Rodríguez Sánchez,Activa
+382,RB Leipzig,GER-Bundesliga,Robert Gómez,Delantero Centro,Distensión muscular,Rodilla,15,2023-11-02,2023-11-17,Entrenamiento,Sí,Reposo,Dra. López Navarro,Recuperado
+383,Bayer Leverkusen,GER-Bundesliga,Marco Petit,Extremo Izquierdo,Rotura fibrilar,Aductor,68,2023-08-03,2023-10-10,Partido de Copa,Sí,Fisioterapia,Dr. Rodríguez Sánchez,Recuperado
+384,Bayer Leverkusen,GER-Bundesliga,Youssef Richard,Portero,Contusión,Muñeca,6,2023-11-18,2023-11-24,Partido de Copa,Sí,Fisioterapia,Dr. Hernández Moya,Recuperado
+385,Bayer Leverkusen,GER-Bundesliga,Juan Ricci,Lateral Derecho,Sobrecarga muscular,Aductor,17,2023-08-23,2023-09-09,Partido Internacional,Sí,Hidroterapia,Dr. García Pérez,Recuperado
+386,Bayer Leverkusen,GER-Bundesliga,Giuseppe Russo,Lateral Izquierdo,Tendinitis,Cadera,21,2024-02-17,2024-03-09,Calentamiento pre-partido,No,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+387,Bayer Leverkusen,GER-Bundesliga,Robert Richard,Mediocentro Defensivo,Fascitis,Muñeca,20,2024-01-19,,Entrenamiento,No,Rehabilitación funcional,Dra. López Navarro,Activa
+388,Bayer Leverkusen,GER-Bundesliga,Miguel Meyer,Lateral Derecho,Fascitis,Muñeca,17,2023-12-16,2024-01-02,Partido Internacional,No,Hidroterapia,Dr. Torres Ramos,Recuperado
+389,Bayer Leverkusen,GER-Bundesliga,Juan Ricci,Portero,Lesión de ligamentos,Aductor,54,2023-11-02,2023-12-26,Gimnasio,No,PRP,Dra. Sánchez Ortiz,Recuperado
+390,Bayer Leverkusen,GER-Bundesliga,Jean Ricci,Mediocentro,Lesión de ligamentos,Aductor,46,2024-02-06,2024-03-23,Entrenamiento,No,Fisioterapia,Dr. Hernández Moya,Recuperado
+391,Bayer Leverkusen,GER-Bundesliga,Michael Bianchi,Lateral Izquierdo,Distensión muscular,Codo,19,2023-10-04,2023-10-23,Entrenamiento,No,Hidroterapia,Dra. López Navarro,Recuperado
+392,Bayer Leverkusen,GER-Bundesliga,Richard Davis,Portero,Lesión de ligamentos,Rodilla,86,2023-09-20,2023-12-15,Gimnasio,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+393,Bayer Leverkusen,GER-Bundesliga,Thomas Petit,Delantero Centro,Sobrecarga muscular,Isquiotibiales,3,2023-08-26,2023-08-29,Gimnasio,Sí,Rehabilitación funcional,Dra. López Navarro,Recuperado
+394,Bayer Leverkusen,GER-Bundesliga,Javier Müller,Delantero Centro,Rotura fibrilar,Gemelo,101,2024-03-19,2024-06-28,Entrenamiento,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+395,Bayer Leverkusen,GER-Bundesliga,Mohammed Thomas,Mediocentro Ofensivo,Fascitis,Gemelo,11,2024-04-12,2024-04-23,Calentamiento pre-partido,No,Reposo,Dra. Fernández Ruiz,Recuperado
+396,Bayer Leverkusen,GER-Bundesliga,Thomas Petit,Lateral Izquierdo,Fascitis,Cabeza,13,2024-05-04,2024-05-17,Partido de Copa,Sí,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+397,Bayer Leverkusen,GER-Bundesliga,Robert Richard,Mediocentro,Lesión de ligamentos,Espalda,88,2024-05-04,2024-07-31,Partido de Liga,No,Fisioterapia,Dra. Martínez López,Recuperado
+398,Bayer Leverkusen,GER-Bundesliga,Miguel Rodríguez,Portero,Distensión muscular,Cadera,3,2024-05-08,,Partido de Liga,Sí,PRP,Dra. Fernández Ruiz,Activa
+399,Bayer Leverkusen,GER-Bundesliga,Juan Ricci,Portero,Contusión,Aductor,16,2024-02-23,2024-03-10,Partido Internacional,No,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+400,Bayer Leverkusen,GER-Bundesliga,Lorenzo Rodríguez,Mediocentro,Pubalgia,Gemelo,26,2023-08-25,2023-09-20,Partido Internacional,No,Reposo,Dra. López Navarro,Recuperado
+401,Bayer Leverkusen,GER-Bundesliga,Miguel Meyer,Portero,Esguince,Cadera,22,2023-08-27,2023-09-18,Gimnasio,No,Reposo,Dr. García Pérez,Recuperado
+402,Bayer Leverkusen,GER-Bundesliga,Youssef Richard,Lateral Izquierdo,Tendinitis,Muñeca,40,2023-12-16,,Partido de Copa,No,Terapia de ondas de choque,Dr. Hernández Moya,Activa
+403,Bayer Leverkusen,GER-Bundesliga,Miguel Meyer,Delantero Centro,Esguince,Isquiotibiales,40,2023-10-14,2023-11-23,Gimnasio,No,Fisioterapia,Dra. López Navarro,Recuperado
+404,Eintracht Frankfurt,GER-Bundesliga,Antoine Wagner,Defensa Central,Rotura fibrilar,Cadera,59,2023-12-25,2024-02-22,Partido de Liga,No,PRP,Dra. Fernández Ruiz,Recuperado
+405,Eintracht Frankfurt,GER-Bundesliga,Javier Brown,Extremo Derecho,Pubalgia,Muñeca,33,2024-01-25,2024-02-27,Calentamiento pre-partido,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+406,Eintracht Frankfurt,GER-Bundesliga,Felix Al-Saeed,Extremo Izquierdo,Fascitis,Cuádriceps,8,2024-05-14,,Partido Internacional,No,Fisioterapia,Dr. González Díaz,Activa
+407,Eintracht Frankfurt,GER-Bundesliga,Omar Martin,Extremo Izquierdo,Fractura,Codo,70,2023-09-20,2023-11-29,Calentamiento pre-partido,Sí,Cirugía,Dr. Hernández Moya,Recuperado
+408,Eintracht Frankfurt,GER-Bundesliga,Felix Al-Saeed,Lateral Derecho,Pubalgia,Muñeca,22,2023-12-30,2024-01-21,Partido de Liga,No,PRP,Dra. Sánchez Ortiz,Recuperado
+409,Eintracht Frankfurt,GER-Bundesliga,Javier Brown,Mediocentro Defensivo,Esguince,Codo,29,2024-05-02,2024-05-31,Partido de Copa,No,Fisioterapia,Dr. Torres Ramos,Recuperado
+410,Eintracht Frankfurt,GER-Bundesliga,Carlos Davis,Mediocentro Defensivo,Luxación,Rodilla,7,2023-09-06,2023-09-13,Partido de Liga,Sí,Fisioterapia,Dr. Hernández Moya,Recuperado
+411,Eintracht Frankfurt,GER-Bundesliga,Javier Brown,Extremo Derecho,Fascitis,Tendón de Aquiles,17,2024-03-30,,Partido de Liga,Sí,Crioterapia,Dr. Torres Ramos,Activa
+412,Eintracht Frankfurt,GER-Bundesliga,Leon Brown,Extremo Izquierdo,Sobrecarga muscular,Gemelo,20,2023-12-17,2024-01-06,Gimnasio,Sí,Fisioterapia,Dr. García Pérez,Recuperado
+413,Eintracht Frankfurt,GER-Bundesliga,Giuseppe Müller,Lateral Izquierdo,Distensión muscular,Cabeza,18,2024-04-30,2024-05-18,Partido de Copa,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+414,Eintracht Frankfurt,GER-Bundesliga,Juan Ferrari,Extremo Derecho,Esguince,Muslo,18,2023-08-18,2023-09-05,Entrenamiento,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Recuperado
+415,Eintracht Frankfurt,GER-Bundesliga,Hans Russo,Defensa Central,Distensión muscular,Aductor,5,2024-03-14,,Entrenamiento,Sí,PRP,Dr. González Díaz,Activa
+416,Eintracht Frankfurt,GER-Bundesliga,Pedro Ferrari,Extremo Izquierdo,Pubalgia,Espalda,37,2024-01-25,2024-03-02,Entrenamiento,No,Fisioterapia,Dra. Martínez López,Recuperado
+417,Eintracht Frankfurt,GER-Bundesliga,Paul López,Defensa Central,Rotura fibrilar,Rodilla,91,2023-08-02,2023-11-01,Partido de Copa,No,Reposo,Dr. García Pérez,Recuperado
+418,Eintracht Frankfurt,GER-Bundesliga,Omar Martin,Extremo Izquierdo,Contusión,Cadera,20,2024-02-01,2024-02-21,Gimnasio,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+419,Eintracht Frankfurt,GER-Bundesliga,Antonio Petit,Portero,Fractura,Rodilla,106,2024-05-10,2024-08-24,Partido de Liga,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+420,Eintracht Frankfurt,GER-Bundesliga,Antoine Wagner,Extremo Derecho,Rotura fibrilar,Isquiotibiales,49,2024-05-16,,Partido de Copa,No,Fisioterapia,Dr. Torres Ramos,Activa
+421,Eintracht Frankfurt,GER-Bundesliga,Julian Fernández,Extremo Derecho,Distensión muscular,Cadera,5,2024-02-19,2024-02-24,Calentamiento pre-partido,No,Hidroterapia,Dr. García Pérez,Recuperado
+422,Eintracht Frankfurt,GER-Bundesliga,Felix Al-Saeed,Defensa Central,Rotura fibrilar,Muslo,79,2024-04-09,2024-06-27,Entrenamiento,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+423,Eintracht Frankfurt,GER-Bundesliga,Hans Russo,Portero,Lesión de ligamentos,Tendón de Aquiles,90,2023-12-03,2024-03-02,Partido de Copa,No,Reposo,Dr. Hernández Moya,Recuperado
+424,Borussia Monchengladbach,GER-Bundesliga,Ahmed Dubois,Lateral Izquierdo,Contusión,Tendón de Aquiles,6,2024-05-04,2024-05-10,Calentamiento pre-partido,No,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+425,Borussia Monchengladbach,GER-Bundesliga,Thomas Colombo,Mediocentro,Luxación,Hombro,10,2024-02-12,2024-02-22,Partido de Copa,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+426,Borussia Monchengladbach,GER-Bundesliga,Matteo Williams,Mediocentro,Contusión,Tendón de Aquiles,15,2024-02-21,2024-03-07,Calentamiento pre-partido,No,Hidroterapia,Dr. Torres Ramos,Recuperado
+427,Borussia Monchengladbach,GER-Bundesliga,Theo Johnson,Mediocentro Ofensivo,Rotura fibrilar,Tobillo,92,2023-10-16,2024-01-16,Entrenamiento,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+428,Borussia Monchengladbach,GER-Bundesliga,José Davis,Lateral Derecho,Fractura,Hombro,36,2023-11-02,2023-12-08,Partido Internacional,Sí,Reposo,Dr. González Díaz,Recuperado
+429,Borussia Monchengladbach,GER-Bundesliga,Francesco Durand,Lateral Izquierdo,Contusión,Tobillo,12,2023-10-23,2023-11-04,Calentamiento pre-partido,No,Crioterapia,Dr. Hernández Moya,Recuperado
+430,Borussia Monchengladbach,GER-Bundesliga,Matteo Williams,Mediocentro Ofensivo,Fascitis,Cabeza,3,2023-11-17,2023-11-20,Partido de Copa,No,Reposo,Dr. García Pérez,Recuperado
+431,Borussia Monchengladbach,GER-Bundesliga,Hugo Bianchi,Extremo Derecho,Rotura fibrilar,Isquiotibiales,78,2023-12-28,2024-03-15,Calentamiento pre-partido,Sí,Reposo,Dr. Rodríguez Sánchez,Recuperado
+432,Borussia Monchengladbach,GER-Bundesliga,Thomas Romano,Lateral Derecho,Contusión,Espalda,7,2023-10-28,2023-11-04,Partido de Liga,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+433,Borussia Monchengladbach,GER-Bundesliga,Thomas Colombo,Extremo Derecho,Esguince,Hombro,38,2024-01-04,2024-02-11,Partido de Copa,Sí,Hidroterapia,Dr. Hernández Moya,Recuperado
+434,Borussia Monchengladbach,GER-Bundesliga,Pierre Ali,Extremo Derecho,Lesión de ligamentos,Codo,113,2024-02-27,,Partido de Liga,No,Fortalecimiento muscular,Dr. Hernández Moya,Activa
+435,Borussia Monchengladbach,GER-Bundesliga,Pedro Rodríguez,Mediocentro Ofensivo,Tendinitis,Hombro,37,2023-12-19,2024-01-25,Partido de Copa,No,Reposo,Dr. González Díaz,Recuperado
+436,Borussia Monchengladbach,GER-Bundesliga,Karim Esposito,Mediocentro Ofensivo,Fractura,Cuádriceps,116,2024-04-30,2024-08-24,Entrenamiento,No,Cirugía,Dr. Hernández Moya,Recuperado
+437,Borussia Monchengladbach,GER-Bundesliga,Pedro Romano,Portero,Luxación,Tendón de Aquiles,7,2023-08-29,2023-09-05,Partido Internacional,Sí,Crioterapia,Dr. García Pérez,Recuperado
+438,Borussia Monchengladbach,GER-Bundesliga,Matteo Williams,Delantero Centro,Tendinitis,Cadera,37,2024-04-15,2024-05-22,Gimnasio,Sí,Terapia de ondas de choque,Dr. Hernández Moya,Recuperado
+439,Borussia Monchengladbach,GER-Bundesliga,Ahmed Dubois,Defensa Central,Distensión muscular,Gemelo,14,2024-01-21,2024-02-04,Partido de Copa,No,PRP,Dr. García Pérez,Recuperado
+440,Borussia Monchengladbach,GER-Bundesliga,Francesco Martínez,Portero,Sobrecarga muscular,Cuádriceps,8,2023-11-05,2023-11-13,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+441,Borussia Monchengladbach,GER-Bundesliga,Francesco Durand,Defensa Central,Fractura,Hombro,104,2023-08-05,2023-11-17,Partido Internacional,No,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+442,Borussia Monchengladbach,GER-Bundesliga,Ahmed Dubois,Defensa Central,Fascitis,Cabeza,17,2023-11-07,2023-11-24,Entrenamiento,No,PRP,Dr. González Díaz,Recuperado
+443,Borussia Monchengladbach,GER-Bundesliga,José Davis,Lateral Izquierdo,Fractura,Muñeca,85,2023-11-28,2024-02-21,Calentamiento pre-partido,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+444,Borussia Monchengladbach,GER-Bundesliga,Pedro Rodríguez,Lateral Derecho,Sobrecarga muscular,Hombro,19,2024-01-01,2024-01-20,Partido Internacional,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+445,Wolfsburg,GER-Bundesliga,Miguel Hassan,Portero,Esguince,Cabeza,39,2023-10-06,2023-11-14,Partido de Liga,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+446,Wolfsburg,GER-Bundesliga,Hamza Bernard,Extremo Izquierdo,Lesión de ligamentos,Isquiotibiales,94,2023-09-11,2023-12-14,Partido Internacional,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+447,Wolfsburg,GER-Bundesliga,Ali Yousef,Extremo Derecho,Sobrecarga muscular,Hombro,17,2024-03-30,2024-04-16,Partido de Liga,No,Fisioterapia,Dr. Torres Ramos,Recuperado
+448,Wolfsburg,GER-Bundesliga,Lorenzo Ferrari,Portero,Lesión de ligamentos,Muñeca,80,2023-09-11,,Gimnasio,Sí,Hidroterapia,Dr. Hernández Moya,Activa
+449,Wolfsburg,GER-Bundesliga,Miguel Hassan,Mediocentro Ofensivo,Pubalgia,Muslo,39,2024-03-08,2024-04-16,Calentamiento pre-partido,Sí,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+450,Wolfsburg,GER-Bundesliga,William Bernard,Defensa Central,Fascitis,Tobillo,8,2023-10-28,,Partido de Liga,No,Reposo,Dr. Rodríguez Sánchez,Activa
+451,Wolfsburg,GER-Bundesliga,Theo Ibrahim,Extremo Izquierdo,Tendinitis,Espalda,22,2023-10-17,,Calentamiento pre-partido,Sí,Crioterapia,Dr. García Pérez,Activa
+452,Wolfsburg,GER-Bundesliga,Hamza Martin,Mediocentro Ofensivo,Contusión,Muslo,4,2023-11-08,2023-11-12,Gimnasio,No,PRP,Dra. Sánchez Ortiz,Recuperado
+453,Wolfsburg,GER-Bundesliga,John López,Defensa Central,Esguince,Muslo,16,2023-09-20,,Gimnasio,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Activa
+454,Wolfsburg,GER-Bundesliga,Marco Wilson,Mediocentro,Esguince,Muslo,28,2024-02-08,2024-03-07,Gimnasio,No,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+455,Hoffenheim,GER-Bundesliga,Hamza Al-Saeed,Mediocentro Ofensivo,Distensión muscular,Codo,12,2023-08-13,2023-08-25,Calentamiento pre-partido,No,PRP,Dr. Hernández Moya,Recuperado
+456,Hoffenheim,GER-Bundesliga,Juan Khan,Mediocentro Defensivo,Sobrecarga muscular,Espalda,14,2023-12-28,2024-01-11,Entrenamiento,Sí,Rehabilitación funcional,Dr. García Pérez,Recuperado
+457,Hoffenheim,GER-Bundesliga,Hamza Becker,Delantero Centro,Fractura,Cuádriceps,33,2023-10-31,2023-12-03,Gimnasio,Sí,PRP,Dra. López Navarro,Recuperado
+458,Hoffenheim,GER-Bundesliga,Felix Ricci,Mediocentro,Fascitis,Muslo,16,2024-03-05,2024-03-21,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+459,Hoffenheim,GER-Bundesliga,Antoine Becker,Mediocentro Defensivo,Fractura,Tendón de Aquiles,111,2024-04-26,2024-08-15,Partido de Copa,No,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+460,Hoffenheim,GER-Bundesliga,Javier Khan,Extremo Izquierdo,Luxación,Espalda,13,2024-04-19,2024-05-02,Calentamiento pre-partido,Sí,Cirugía,Dra. Sánchez Ortiz,Recuperado
+461,Hoffenheim,GER-Bundesliga,Antoine Williams,Defensa Central,Fascitis,Cabeza,8,2024-01-26,2024-02-03,Partido Internacional,No,Crioterapia,Dr. Hernández Moya,Recuperado
+462,Hoffenheim,GER-Bundesliga,Javier Khan,Lateral Izquierdo,Pubalgia,Gemelo,25,2023-10-25,2023-11-19,Gimnasio,No,Fisioterapia,Dra. Martínez López,Recuperado
+463,Hoffenheim,GER-Bundesliga,Franz Ali,Mediocentro Defensivo,Fascitis,Muslo,3,2023-08-14,2023-08-17,Calentamiento pre-partido,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Recuperado
+464,Hoffenheim,GER-Bundesliga,Youssef Meyer,Extremo Derecho,Esguince,Espalda,28,2024-03-11,2024-04-08,Partido de Liga,Sí,Terapia de ondas de choque,Dra. Sánchez Ortiz,Recuperado
+465,Hoffenheim,GER-Bundesliga,Andrea Johnson,Mediocentro Ofensivo,Pubalgia,Cadera,29,2023-10-20,2023-11-18,Entrenamiento,No,Hidroterapia,Dr. González Díaz,Recuperado
+466,Hoffenheim,GER-Bundesliga,Mohammed Martínez,Mediocentro Defensivo,Fascitis,Muslo,21,2024-02-20,2024-03-12,Partido de Copa,No,Crioterapia,Dr. González Díaz,Recuperado
+467,Hoffenheim,GER-Bundesliga,James Esposito,Portero,Luxación,Rodilla,17,2024-05-04,2024-05-21,Partido de Copa,No,Rehabilitación funcional,Dra. Sánchez Ortiz,Recuperado
+468,Hoffenheim,GER-Bundesliga,Antoine Becker,Mediocentro,Lesión de ligamentos,Cabeza,108,2023-11-29,2024-03-16,Partido de Copa,No,Reposo,Dr. Rodríguez Sánchez,Recuperado
+469,Hoffenheim,GER-Bundesliga,Felix Ricci,Mediocentro,Tendinitis,Hombro,20,2024-04-12,2024-05-02,Partido de Liga,Sí,PRP,Dra. Martínez López,Recuperado
+470,Hoffenheim,GER-Bundesliga,Mohammed Martínez,Defensa Central,Sobrecarga muscular,Tendón de Aquiles,3,2024-05-05,,Calentamiento pre-partido,Sí,Cirugía,Dr. González Díaz,Activa
+471,Hoffenheim,GER-Bundesliga,James Esposito,Extremo Derecho,Contusión,Gemelo,14,2024-03-30,2024-04-13,Entrenamiento,Sí,Reposo,Dr. Rodríguez Sánchez,Recuperado
+472,Stuttgart,GER-Bundesliga,Ibrahim Ibrahim,Mediocentro Defensivo,Esguince,Aductor,16,2024-05-27,2024-06-12,Entrenamiento,No,PRP,Dra. Sánchez Ortiz,Recuperado
+473,Stuttgart,GER-Bundesliga,James Wilson,Mediocentro Defensivo,Fascitis,Muñeca,17,2023-10-21,2023-11-07,Gimnasio,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+474,Stuttgart,GER-Bundesliga,Miguel Colombo,Defensa Central,Tendinitis,Tobillo,40,2024-02-19,2024-03-30,Partido de Liga,No,Medicación antiinflamatoria,Dra. López Navarro,Recuperado
+475,Stuttgart,GER-Bundesliga,Paul Johnson,Delantero Centro,Contusión,Isquiotibiales,20,2024-04-16,2024-05-06,Calentamiento pre-partido,No,PRP,Dr. García Pérez,Recuperado
+476,Stuttgart,GER-Bundesliga,Ibrahim Bianchi,Lateral Izquierdo,Fractura,Cuádriceps,42,2024-03-22,2024-05-03,Partido Internacional,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+477,Stuttgart,GER-Bundesliga,Julian Ricci,Lateral Izquierdo,Lesión de ligamentos,Codo,96,2023-12-26,,Partido Internacional,No,Reposo,Dr. García Pérez,Activa
+478,Stuttgart,GER-Bundesliga,Miguel Smith,Mediocentro Ofensivo,Rotura fibrilar,Isquiotibiales,114,2024-05-28,2024-09-19,Partido de Liga,No,Cirugía,Dra. Martínez López,Recuperado
+479,Stuttgart,GER-Bundesliga,David Jones,Mediocentro Defensivo,Luxación,Espalda,11,2024-04-16,2024-04-27,Partido de Copa,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+480,Stuttgart,GER-Bundesliga,Jean Müller,Portero,Lesión de ligamentos,Cuádriceps,106,2024-03-07,2024-06-21,Entrenamiento,No,PRP,Dr. Hernández Moya,Recuperado
+481,Stuttgart,GER-Bundesliga,Ali Mahmoud,Lateral Izquierdo,Contusión,Cuádriceps,5,2023-10-25,2023-10-30,Entrenamiento,Sí,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+482,Stuttgart,GER-Bundesliga,Hugo Khan,Lateral Derecho,Tendinitis,Cadera,39,2023-08-22,,Gimnasio,Sí,Fortalecimiento muscular,Dra. Fernández Ruiz,Activa
+483,Stuttgart,GER-Bundesliga,Jean Müller,Mediocentro Ofensivo,Luxación,Tendón de Aquiles,4,2024-01-15,,Partido de Copa,Sí,Hidroterapia,Dra. Martínez López,Activa
+484,Stuttgart,GER-Bundesliga,Luis Robert,Mediocentro Ofensivo,Pubalgia,Tobillo,29,2023-10-22,,Partido de Liga,No,Terapia de ondas de choque,Dra. Martínez López,Activa
+485,Stuttgart,GER-Bundesliga,David Jones,Mediocentro Ofensivo,Pubalgia,Tobillo,35,2023-11-17,,Partido de Copa,No,Crioterapia,Dr. Hernández Moya,Activa
+486,Stuttgart,GER-Bundesliga,Paul Johnson,Mediocentro Ofensivo,Fascitis,Gemelo,19,2023-11-21,2023-12-10,Partido de Liga,No,Medicación antiinflamatoria,Dr. Hernández Moya,Recuperado
+487,Stuttgart,GER-Bundesliga,Hans Wilson,Mediocentro Ofensivo,Contusión,Gemelo,5,2024-04-25,2024-04-30,Partido de Liga,Sí,Cirugía,Dr. González Díaz,Recuperado
+488,Stuttgart,GER-Bundesliga,Franz Khan,Extremo Izquierdo,Distensión muscular,Codo,20,2023-10-12,2023-11-01,Gimnasio,No,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+489,Stuttgart,GER-Bundesliga,Lukas Fernández,Lateral Derecho,Distensión muscular,Muñeca,5,2023-12-12,2023-12-17,Entrenamiento,Sí,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+490,Stuttgart,GER-Bundesliga,Julian Bianchi,Extremo Izquierdo,Distensión muscular,Tobillo,5,2023-11-10,2023-11-15,Gimnasio,No,Crioterapia,Dra. Martínez López,Recuperado
+491,Freiburg,GER-Bundesliga,Hamza Weber,Mediocentro Defensivo,Esguince,Muslo,39,2023-08-13,2023-09-21,Calentamiento pre-partido,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+492,Freiburg,GER-Bundesliga,Paul Becker,Mediocentro Ofensivo,Lesión de ligamentos,Gemelo,106,2024-02-29,2024-06-14,Partido de Copa,No,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+493,Freiburg,GER-Bundesliga,Javier Jones,Extremo Derecho,Tendinitis,Muslo,32,2024-03-08,,Partido de Copa,No,Fortalecimiento muscular,Dra. Martínez López,Activa
+494,Freiburg,GER-Bundesliga,Max Martínez,Mediocentro,Fascitis,Espalda,10,2023-11-07,,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Activa
+495,Freiburg,GER-Bundesliga,Pedro Martin,Extremo Izquierdo,Luxación,Rodilla,5,2023-08-28,,Calentamiento pre-partido,No,Reposo,Dra. Fernández Ruiz,Activa
+496,Freiburg,GER-Bundesliga,Javier Jones,Extremo Derecho,Pubalgia,Gemelo,25,2024-05-08,,Partido Internacional,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Activa
+497,Freiburg,GER-Bundesliga,Marco Bianchi,Mediocentro Defensivo,Fractura,Rodilla,109,2023-12-04,2024-03-22,Gimnasio,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+498,Freiburg,GER-Bundesliga,Ibrahim Thomas,Portero,Tendinitis,Codo,40,2023-12-18,2024-01-27,Entrenamiento,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+499,Freiburg,GER-Bundesliga,Javier Miller,Mediocentro Defensivo,Lesión de ligamentos,Codo,87,2023-08-04,2023-10-30,Gimnasio,No,PRP,Dra. Martínez López,Recuperado
+500,Freiburg,GER-Bundesliga,Paul Becker,Mediocentro Ofensivo,Lesión de ligamentos,Tobillo,100,2023-12-04,2024-03-13,Partido de Liga,No,Cirugía,Dra. Martínez López,Recuperado
+501,Freiburg,GER-Bundesliga,Max Martínez,Lateral Izquierdo,Contusión,Cabeza,8,2024-05-03,2024-05-11,Calentamiento pre-partido,Sí,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+502,Freiburg,GER-Bundesliga,Pedro Martin,Mediocentro Defensivo,Pubalgia,Codo,29,2024-04-17,2024-05-16,Calentamiento pre-partido,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+503,Freiburg,GER-Bundesliga,Michael Brown,Extremo Izquierdo,Lesión de ligamentos,Rodilla,73,2024-04-11,2024-06-23,Partido de Copa,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+504,Freiburg,GER-Bundesliga,Marco Hassan,Lateral Derecho,Fascitis,Rodilla,20,2024-05-28,2024-06-17,Partido de Copa,Sí,Rehabilitación funcional,Dra. López Navarro,Recuperado
+505,Paris S-G,FRA-Ligue 1,Youssef Becker,Mediocentro Defensivo,Distensión muscular,Espalda,18,2024-04-05,2024-04-23,Partido de Liga,No,Crioterapia,Dr. Hernández Moya,Recuperado
+506,Paris S-G,FRA-Ligue 1,Max Schmidt,Extremo Izquierdo,Rotura fibrilar,Espalda,79,2023-10-09,2023-12-27,Partido de Liga,No,Fortalecimiento muscular,Dra. Martínez López,Recuperado
+507,Paris S-G,FRA-Ligue 1,Mohammed Dubois,Extremo Derecho,Rotura fibrilar,Isquiotibiales,57,2024-05-13,2024-07-09,Gimnasio,Sí,Cirugía,Dra. Sánchez Ortiz,Recuperado
+508,Paris S-G,FRA-Ligue 1,Paul Schneider,Delantero Centro,Distensión muscular,Aductor,12,2023-09-05,2023-09-17,Partido de Liga,No,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+509,Paris S-G,FRA-Ligue 1,Theo Schneider,Mediocentro Ofensivo,Esguince,Cadera,14,2024-05-09,2024-05-23,Partido de Liga,Sí,PRP,Dr. González Díaz,Recuperado
+510,Paris S-G,FRA-Ligue 1,Theo Schneider,Mediocentro Ofensivo,Fractura,Aductor,84,2024-01-31,2024-04-24,Partido de Copa,No,Reposo,Dr. Hernández Moya,Recuperado
+511,Paris S-G,FRA-Ligue 1,Paul Schneider,Mediocentro Defensivo,Distensión muscular,Cuádriceps,5,2023-12-05,2023-12-10,Partido de Copa,No,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+512,Paris S-G,FRA-Ligue 1,Giuseppe Rodríguez,Mediocentro Defensivo,Fractura,Gemelo,101,2024-01-12,2024-04-22,Partido de Liga,No,Crioterapia,Dra. Fernández Ruiz,Recuperado
+513,Paris S-G,FRA-Ligue 1,Richard Richard,Mediocentro Ofensivo,Luxación,Espalda,5,2024-03-14,2024-03-19,Gimnasio,No,Medicación antiinflamatoria,Dr. Torres Ramos,Recuperado
+514,Paris S-G,FRA-Ligue 1,Max Schmidt,Mediocentro Ofensivo,Contusión,Tendón de Aquiles,12,2024-03-11,2024-03-23,Partido de Liga,No,Cirugía,Dr. Hernández Moya,Recuperado
+515,Paris S-G,FRA-Ligue 1,Javier Rodríguez,Mediocentro Defensivo,Sobrecarga muscular,Cadera,17,2024-04-02,,Partido Internacional,Sí,Fisioterapia,Dr. Torres Ramos,Activa
+516,Paris S-G,FRA-Ligue 1,Carlos Ali,Portero,Distensión muscular,Aductor,4,2023-11-10,2023-11-14,Gimnasio,No,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+517,Paris S-G,FRA-Ligue 1,Theo Schneider,Portero,Luxación,Tendón de Aquiles,11,2023-09-17,2023-09-28,Entrenamiento,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+518,Paris S-G,FRA-Ligue 1,Giuseppe Rodríguez,Delantero Centro,Tendinitis,Cuádriceps,34,2023-12-20,,Gimnasio,No,Fisioterapia,Dra. López Navarro,Activa
+519,Paris S-G,FRA-Ligue 1,Javier Rodríguez,Extremo Derecho,Fascitis,Codo,11,2024-03-25,2024-04-05,Calentamiento pre-partido,Sí,Reposo,Dr. Rodríguez Sánchez,Recuperado
+520,Lille,FRA-Ligue 1,Julian Hassan,Defensa Central,Tendinitis,Rodilla,36,2024-04-06,2024-05-12,Partido de Liga,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+521,Lille,FRA-Ligue 1,Luca Johnson,Mediocentro Ofensivo,Distensión muscular,Rodilla,13,2023-12-10,2023-12-23,Partido de Liga,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+522,Lille,FRA-Ligue 1,Leon Richard,Mediocentro Defensivo,Sobrecarga muscular,Cadera,17,2024-03-11,2024-03-28,Partido de Liga,No,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+523,Lille,FRA-Ligue 1,Mohammed Becker,Lateral Izquierdo,Rotura fibrilar,Rodilla,88,2024-02-20,2024-05-18,Partido de Liga,No,Cirugía,Dr. Hernández Moya,Recuperado
+524,Lille,FRA-Ligue 1,Francesco Schmidt,Mediocentro Defensivo,Sobrecarga muscular,Cadera,16,2023-12-25,2024-01-10,Gimnasio,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+525,Lille,FRA-Ligue 1,Max Thomas,Mediocentro,Luxación,Muñeca,4,2024-05-29,2024-06-02,Gimnasio,No,Hidroterapia,Dr. González Díaz,Recuperado
+526,Lille,FRA-Ligue 1,John Weber,Mediocentro,Pubalgia,Rodilla,35,2024-03-21,2024-04-25,Gimnasio,Sí,Hidroterapia,Dra. López Navarro,Recuperado
+527,Lille,FRA-Ligue 1,Lucas Fischer,Extremo Izquierdo,Pubalgia,Cuádriceps,15,2024-03-19,2024-04-03,Gimnasio,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+528,Lille,FRA-Ligue 1,Julian Hassan,Defensa Central,Tendinitis,Cuádriceps,36,2023-08-13,2023-09-18,Gimnasio,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+529,Lille,FRA-Ligue 1,Antoine Miller,Delantero Centro,Distensión muscular,Espalda,15,2023-12-29,,Gimnasio,No,Crioterapia,Dr. Torres Ramos,Activa
+530,Lille,FRA-Ligue 1,Marco Romano,Portero,Sobrecarga muscular,Aductor,20,2024-05-24,2024-06-13,Partido Internacional,No,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+531,Lille,FRA-Ligue 1,John Weber,Extremo Derecho,Lesión de ligamentos,Cabeza,91,2024-01-15,2024-04-15,Partido de Liga,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+532,Lille,FRA-Ligue 1,Francesco Schmidt,Extremo Derecho,Rotura fibrilar,Aductor,42,2023-12-24,2024-02-04,Partido de Liga,Sí,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+533,Lille,FRA-Ligue 1,Javier Davis,Extremo Izquierdo,Distensión muscular,Espalda,21,2023-11-27,2023-12-18,Partido Internacional,No,Terapia de ondas de choque,Dr. Rodríguez Sánchez,Recuperado
+534,Lille,FRA-Ligue 1,Antoine López,Extremo Izquierdo,Contusión,Gemelo,5,2024-01-05,2024-01-10,Entrenamiento,Sí,PRP,Dr. Torres Ramos,Recuperado
+535,Lille,FRA-Ligue 1,Julian Hassan,Defensa Central,Contusión,Muñeca,8,2024-01-18,2024-01-26,Calentamiento pre-partido,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+536,Lille,FRA-Ligue 1,Hamza Dubois,Lateral Izquierdo,Esguince,Tobillo,22,2023-11-12,2023-12-04,Entrenamiento,No,Terapia de ondas de choque,Dr. Hernández Moya,Recuperado
+537,Lille,FRA-Ligue 1,William Esposito,Portero,Sobrecarga muscular,Isquiotibiales,20,2024-02-26,2024-03-17,Calentamiento pre-partido,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+538,Monaco,FRA-Ligue 1,Alessandro Esposito,Delantero Centro,Lesión de ligamentos,Codo,83,2023-11-28,2024-02-19,Entrenamiento,No,Terapia de ondas de choque,Dr. Rodríguez Sánchez,Recuperado
+539,Monaco,FRA-Ligue 1,Youssef Rossi,Defensa Central,Rotura fibrilar,Tendón de Aquiles,106,2024-02-22,2024-06-07,Partido Internacional,No,Hidroterapia,Dr. García Pérez,Recuperado
+540,Monaco,FRA-Ligue 1,Alessandro Esposito,Mediocentro Ofensivo,Fascitis,Muñeca,13,2023-12-08,2023-12-21,Gimnasio,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+541,Monaco,FRA-Ligue 1,Francesco Schneider,Defensa Central,Rotura fibrilar,Hombro,58,2023-11-19,2024-01-16,Partido de Liga,No,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+542,Monaco,FRA-Ligue 1,Ahmed Ali,Portero,Esguince,Cuádriceps,30,2024-04-12,2024-05-12,Calentamiento pre-partido,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+543,Monaco,FRA-Ligue 1,Thomas López,Defensa Central,Pubalgia,Cuádriceps,40,2023-10-22,2023-12-01,Calentamiento pre-partido,No,Hidroterapia,Dr. González Díaz,Recuperado
+544,Monaco,FRA-Ligue 1,Karim López,Portero,Sobrecarga muscular,Muñeca,3,2023-09-08,2023-09-11,Partido Internacional,No,Reposo,Dr. García Pérez,Recuperado
+545,Monaco,FRA-Ligue 1,Alessandro Esposito,Mediocentro Ofensivo,Esguince,Hombro,37,2024-01-21,2024-02-27,Partido de Liga,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+546,Monaco,FRA-Ligue 1,Carlos Yousef,Defensa Central,Sobrecarga muscular,Aductor,6,2024-05-25,2024-05-31,Partido de Copa,Sí,Hidroterapia,Dr. Hernández Moya,Recuperado
+547,Monaco,FRA-Ligue 1,Pedro Gómez,Defensa Central,Sobrecarga muscular,Aductor,4,2024-03-11,2024-03-15,Gimnasio,No,Crioterapia,Dr. González Díaz,Recuperado
+548,Monaco,FRA-Ligue 1,Luis Gómez,Lateral Derecho,Tendinitis,Isquiotibiales,36,2023-10-19,2023-11-24,Partido de Liga,No,Reposo,Dr. Torres Ramos,Recuperado
+549,Monaco,FRA-Ligue 1,Ahmed Ali,Mediocentro Ofensivo,Lesión de ligamentos,Isquiotibiales,43,2023-11-10,2023-12-23,Calentamiento pre-partido,No,Fisioterapia,Dra. Martínez López,Recuperado
+550,Monaco,FRA-Ligue 1,Ali López,Portero,Fractura,Codo,119,2023-08-24,2023-12-21,Calentamiento pre-partido,No,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+551,Monaco,FRA-Ligue 1,Karim Dubois,Mediocentro Defensivo,Sobrecarga muscular,Muñeca,10,2023-08-11,2023-08-21,Gimnasio,No,Cirugía,Dra. Martínez López,Recuperado
+552,Monaco,FRA-Ligue 1,Max Khan,Delantero Centro,Esguince,Codo,24,2023-08-09,2023-09-02,Partido de Copa,No,Crioterapia,Dr. González Díaz,Recuperado
+553,Monaco,FRA-Ligue 1,Pedro Russo,Defensa Central,Sobrecarga muscular,Codo,10,2023-08-04,,Partido Internacional,No,Fortalecimiento muscular,Dra. Sánchez Ortiz,Activa
+554,Monaco,FRA-Ligue 1,Youssef Rossi,Mediocentro,Fractura,Cadera,103,2023-11-01,2024-02-12,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. García Pérez,Recuperado
+555,Monaco,FRA-Ligue 1,Alessandro Esposito,Mediocentro Ofensivo,Contusión,Hombro,16,2023-12-09,2023-12-25,Gimnasio,Sí,Fisioterapia,Dr. Torres Ramos,Recuperado
+556,Monaco,FRA-Ligue 1,Pedro Sánchez,Defensa Central,Pubalgia,Muslo,28,2024-04-19,2024-05-17,Partido de Liga,No,PRP,Dra. Fernández Ruiz,Recuperado
+557,Monaco,FRA-Ligue 1,Pedro Russo,Lateral Izquierdo,Rotura fibrilar,Cabeza,68,2024-05-25,2024-08-01,Partido Internacional,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+558,Monaco,FRA-Ligue 1,Alessandro Petit,Delantero Centro,Tendinitis,Hombro,14,2024-04-16,2024-04-30,Gimnasio,No,Fortalecimiento muscular,Dra. Sánchez Ortiz,Recuperado
+559,Monaco,FRA-Ligue 1,Ali López,Lateral Izquierdo,Fractura,Cadera,63,2023-09-01,2023-11-03,Partido de Copa,No,Cirugía,Dra. Fernández Ruiz,Recuperado
+560,Monaco,FRA-Ligue 1,Pedro Sánchez,Extremo Izquierdo,Tendinitis,Cabeza,17,2024-02-04,2024-02-21,Calentamiento pre-partido,No,Hidroterapia,Dr. Torres Ramos,Recuperado
+561,Monaco,FRA-Ligue 1,Ali López,Lateral Izquierdo,Fascitis,Hombro,12,2024-03-17,,Partido Internacional,No,PRP,Dr. Rodríguez Sánchez,Activa
+562,Lyon,FRA-Ligue 1,Paul Durand,Extremo Izquierdo,Esguince,Hombro,16,2023-10-27,,Entrenamiento,No,Reposo,Dr. Rodríguez Sánchez,Activa
+563,Lyon,FRA-Ligue 1,Paul Martin,Lateral Derecho,Sobrecarga muscular,Codo,8,2023-11-26,2023-12-04,Partido de Liga,No,Fisioterapia,Dr. Hernández Moya,Recuperado
+564,Lyon,FRA-Ligue 1,Miguel Schneider,Extremo Derecho,Contusión,Rodilla,21,2024-04-29,2024-05-20,Partido de Liga,No,Fisioterapia,Dr. García Pérez,Recuperado
+565,Lyon,FRA-Ligue 1,Antoine Khan,Portero,Fractura,Codo,39,2024-01-25,2024-03-04,Calentamiento pre-partido,No,Cirugía,Dra. Martínez López,Recuperado
+566,Lyon,FRA-Ligue 1,Ibrahim Gómez,Lateral Izquierdo,Lesión de ligamentos,Gemelo,96,2024-04-27,2024-08-01,Entrenamiento,No,Medicación antiinflamatoria,Dra. Fernández Ruiz,Recuperado
+567,Lyon,FRA-Ligue 1,Richard Al-Ahmed,Defensa Central,Distensión muscular,Isquiotibiales,12,2023-12-31,2024-01-12,Gimnasio,No,Terapia de ondas de choque,Dr. Hernández Moya,Recuperado
+568,Lyon,FRA-Ligue 1,Youssef Al-Saeed,Delantero Centro,Esguince,Tendón de Aquiles,34,2024-04-24,2024-05-28,Partido Internacional,Sí,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+569,Lyon,FRA-Ligue 1,Antoine Khan,Lateral Derecho,Lesión de ligamentos,Muñeca,107,2023-11-20,2024-03-06,Partido de Copa,No,Hidroterapia,Dra. Martínez López,Recuperado
+570,Lyon,FRA-Ligue 1,Antonio Bernard,Mediocentro Ofensivo,Sobrecarga muscular,Espalda,13,2024-02-06,2024-02-19,Partido Internacional,No,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+571,Lyon,FRA-Ligue 1,Ibrahim Weber,Mediocentro,Sobrecarga muscular,Aductor,6,2023-08-18,2023-08-24,Partido de Liga,No,PRP,Dr. García Pérez,Recuperado
+572,Lyon,FRA-Ligue 1,Antonio Bernard,Delantero Centro,Fractura,Cadera,39,2024-02-04,2024-03-14,Entrenamiento,No,Medicación antiinflamatoria,Dr. Hernández Moya,Recuperado
+573,Lyon,FRA-Ligue 1,James Colombo,Lateral Derecho,Fascitis,Tendón de Aquiles,13,2023-11-17,2023-11-30,Partido de Liga,No,Crioterapia,Dr. Hernández Moya,Recuperado
+574,Lyon,FRA-Ligue 1,Paul Martin,Extremo Derecho,Luxación,Hombro,9,2024-05-23,,Partido Internacional,No,Reposo,Dr. González Díaz,Activa
+575,Lyon,FRA-Ligue 1,James Colombo,Mediocentro,Luxación,Muslo,10,2024-05-26,2024-06-05,Partido Internacional,No,Hidroterapia,Dr. Torres Ramos,Recuperado
+576,Lyon,FRA-Ligue 1,Antonio Bernard,Extremo Izquierdo,Fractura,Gemelo,95,2024-01-15,2024-04-19,Gimnasio,No,Cirugía,Dra. Martínez López,Recuperado
+577,Lyon,FRA-Ligue 1,Ali Yousef,Extremo Izquierdo,Luxación,Tendón de Aquiles,19,2024-04-01,2024-04-20,Calentamiento pre-partido,No,Fisioterapia,Dr. García Pérez,Recuperado
+578,Lyon,FRA-Ligue 1,Franz Wagner,Mediocentro Ofensivo,Pubalgia,Gemelo,40,2024-01-20,2024-02-29,Entrenamiento,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+579,Lyon,FRA-Ligue 1,Felix Rodríguez,Mediocentro Defensivo,Tendinitis,Espalda,25,2023-08-02,2023-08-27,Partido Internacional,No,Crioterapia,Dr. Torres Ramos,Recuperado
+580,Lyon,FRA-Ligue 1,Andrea Bianchi,Lateral Derecho,Esguince,Tobillo,31,2024-01-29,2024-02-29,Partido de Copa,Sí,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+581,Lyon,FRA-Ligue 1,Antonio Bernard,Delantero Centro,Lesión de ligamentos,Tendón de Aquiles,44,2024-03-26,2024-05-09,Partido Internacional,Sí,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+582,Marseille,FRA-Ligue 1,Luis Ferrari,Defensa Central,Fractura,Tendón de Aquiles,105,2024-02-10,2024-05-25,Partido de Copa,Sí,Fisioterapia,Dra. Martínez López,Recuperado
+583,Marseille,FRA-Ligue 1,Richard Hassan,Lateral Derecho,Pubalgia,Tendón de Aquiles,17,2023-08-29,2023-09-15,Calentamiento pre-partido,No,Cirugía,Dr. García Pérez,Recuperado
+584,Marseille,FRA-Ligue 1,James Pérez,Lateral Izquierdo,Tendinitis,Tendón de Aquiles,22,2024-05-11,2024-06-02,Partido de Copa,No,Cirugía,Dr. Torres Ramos,Recuperado
+585,Marseille,FRA-Ligue 1,Omar Khan,Lateral Derecho,Lesión de ligamentos,Tobillo,71,2024-02-18,,Entrenamiento,No,Fortalecimiento muscular,Dr. Torres Ramos,Activa
+586,Marseille,FRA-Ligue 1,Richard Colombo,Mediocentro Ofensivo,Fascitis,Gemelo,13,2023-11-05,2023-11-18,Entrenamiento,Sí,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+587,Marseille,FRA-Ligue 1,Lukas Rodríguez,Extremo Derecho,Luxación,Cabeza,14,2024-02-12,2024-02-26,Calentamiento pre-partido,Sí,Fisioterapia,Dra. López Navarro,Recuperado
+588,Marseille,FRA-Ligue 1,Ahmed Esposito,Mediocentro Defensivo,Lesión de ligamentos,Aductor,70,2024-02-26,2024-05-06,Partido de Copa,No,Cirugía,Dr. Hernández Moya,Recuperado
+589,Marseille,FRA-Ligue 1,Ibrahim Martínez,Defensa Central,Fascitis,Aductor,21,2023-09-09,,Entrenamiento,Sí,Crioterapia,Dra. López Navarro,Activa
+590,Marseille,FRA-Ligue 1,Ibrahim Martínez,Extremo Izquierdo,Rotura fibrilar,Muslo,102,2023-08-15,,Gimnasio,No,Cirugía,Dra. Martínez López,Activa
+591,Marseille,FRA-Ligue 1,Richard Fernández,Portero,Lesión de ligamentos,Rodilla,65,2023-09-12,2023-11-16,Partido Internacional,No,Crioterapia,Dr. González Díaz,Recuperado
+592,Marseille,FRA-Ligue 1,Ibrahim Martínez,Lateral Derecho,Pubalgia,Tobillo,30,2023-08-20,2023-09-19,Entrenamiento,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+593,Marseille,FRA-Ligue 1,Matteo Gómez,Delantero Centro,Lesión de ligamentos,Cadera,112,2023-09-03,2023-12-24,Partido de Copa,Sí,Cirugía,Dra. López Navarro,Recuperado
+594,Marseille,FRA-Ligue 1,Antonio Wagner,Mediocentro Defensivo,Distensión muscular,Aductor,17,2023-12-16,2024-01-02,Partido de Copa,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+595,Marseille,FRA-Ligue 1,Ibrahim Martínez,Mediocentro,Rotura fibrilar,Cadera,111,2024-05-30,,Partido de Copa,No,Cirugía,Dr. Torres Ramos,Activa
+596,Marseille,FRA-Ligue 1,Lorenzo Rodríguez,Extremo Derecho,Tendinitis,Espalda,15,2023-11-22,2023-12-07,Partido Internacional,Sí,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+597,Marseille,FRA-Ligue 1,Lorenzo Martin,Extremo Derecho,Contusión,Espalda,5,2023-12-01,2023-12-06,Partido de Liga,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+598,Marseille,FRA-Ligue 1,Ahmed Esposito,Delantero Centro,Fractura,Muñeca,109,2024-01-12,2024-04-30,Gimnasio,No,Reposo,Dr. González Díaz,Recuperado
+599,Marseille,FRA-Ligue 1,Lorenzo Rodríguez,Extremo Derecho,Contusión,Aductor,19,2024-03-15,2024-04-03,Partido de Liga,No,Reposo,Dra. Fernández Ruiz,Recuperado
+600,Marseille,FRA-Ligue 1,Richard Hassan,Defensa Central,Esguince,Hombro,37,2023-09-18,2023-10-25,Partido de Liga,No,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+601,Marseille,FRA-Ligue 1,Mohammed Wilson,Delantero Centro,Luxación,Muslo,3,2024-03-05,2024-03-08,Calentamiento pre-partido,Sí,Rehabilitación funcional,Dr. García Pérez,Recuperado
+602,Marseille,FRA-Ligue 1,Omar Khan,Delantero Centro,Distensión muscular,Hombro,14,2024-03-16,,Entrenamiento,Sí,Hidroterapia,Dr. García Pérez,Activa
+603,Marseille,FRA-Ligue 1,Richard Fernández,Lateral Izquierdo,Esguince,Cuádriceps,32,2023-12-12,2024-01-13,Partido de Copa,Sí,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+604,Marseille,FRA-Ligue 1,Richard Hassan,Defensa Central,Esguince,Cadera,14,2023-08-14,2023-08-28,Partido de Liga,No,Crioterapia,Dra. López Navarro,Recuperado
+605,Marseille,FRA-Ligue 1,Lukas Rodríguez,Extremo Izquierdo,Distensión muscular,Isquiotibiales,13,2023-08-07,,Partido Internacional,No,Rehabilitación funcional,Dr. González Díaz,Activa
+606,Rennes,FRA-Ligue 1,Ali Ibrahim,Lateral Izquierdo,Fractura,Muslo,104,2023-11-17,2024-02-29,Gimnasio,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+607,Rennes,FRA-Ligue 1,Carlos Johnson,Defensa Central,Fractura,Espalda,32,2024-04-13,2024-05-15,Partido de Copa,No,Fisioterapia,Dr. González Díaz,Recuperado
+608,Rennes,FRA-Ligue 1,Nicolas Sánchez,Defensa Central,Esguince,Cadera,32,2024-04-30,2024-06-01,Partido de Liga,No,Cirugía,Dr. García Pérez,Recuperado
+609,Rennes,FRA-Ligue 1,Hans Davis,Lateral Derecho,Fascitis,Cuádriceps,8,2023-12-08,2023-12-16,Entrenamiento,No,Crioterapia,Dra. López Navarro,Recuperado
+610,Rennes,FRA-Ligue 1,Antoine Richard,Portero,Tendinitis,Cuádriceps,31,2023-11-18,2023-12-19,Partido Internacional,No,Rehabilitación funcional,Dra. Martínez López,Recuperado
+611,Rennes,FRA-Ligue 1,Pierre Weber,Delantero Centro,Rotura fibrilar,Cabeza,107,2024-03-11,2024-06-26,Partido de Copa,No,Crioterapia,Dr. García Pérez,Recuperado
+612,Rennes,FRA-Ligue 1,Ibrahim Müller,Delantero Centro,Luxación,Cadera,18,2024-03-13,2024-03-31,Entrenamiento,No,Rehabilitación funcional,Dra. Martínez López,Recuperado
+613,Rennes,FRA-Ligue 1,Francesco Al-Saeed,Mediocentro Ofensivo,Rotura fibrilar,Cabeza,66,2023-08-19,2023-10-24,Gimnasio,No,PRP,Dra. Martínez López,Recuperado
+614,Rennes,FRA-Ligue 1,Ibrahim Yousef,Mediocentro Ofensivo,Rotura fibrilar,Espalda,118,2023-08-05,2023-12-01,Entrenamiento,No,Crioterapia,Dr. Hernández Moya,Recuperado
+615,Rennes,FRA-Ligue 1,Hans Davis,Mediocentro Ofensivo,Contusión,Muñeca,14,2023-10-17,2023-10-31,Calentamiento pre-partido,No,Crioterapia,Dra. Fernández Ruiz,Recuperado
+616,Rennes,FRA-Ligue 1,Francesco Al-Saeed,Lateral Derecho,Distensión muscular,Cadera,14,2024-04-19,2024-05-03,Gimnasio,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+617,Rennes,FRA-Ligue 1,Ali Dubois,Extremo Derecho,Fractura,Hombro,45,2024-05-07,2024-06-21,Partido de Copa,No,Fisioterapia,Dr. Hernández Moya,Recuperado
+618,Rennes,FRA-Ligue 1,Carlos Johnson,Extremo Derecho,Sobrecarga muscular,Cuádriceps,6,2024-03-02,2024-03-08,Partido de Copa,No,Fortalecimiento muscular,Dra. Sánchez Ortiz,Recuperado
+619,Rennes,FRA-Ligue 1,Carlos Johnson,Mediocentro,Luxación,Tobillo,7,2023-08-20,2023-08-27,Gimnasio,No,Hidroterapia,Dra. Martínez López,Recuperado
+620,Rennes,FRA-Ligue 1,Ali Smith,Mediocentro,Fractura,Tendón de Aquiles,94,2024-04-19,2024-07-22,Gimnasio,Sí,PRP,Dr. Rodríguez Sánchez,Recuperado
+621,Rennes,FRA-Ligue 1,Hugo Martin,Mediocentro,Luxación,Espalda,3,2024-02-16,2024-02-19,Partido de Copa,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+622,Rennes,FRA-Ligue 1,Ali Ibrahim,Extremo Izquierdo,Rotura fibrilar,Muñeca,81,2023-09-25,2023-12-15,Partido de Copa,No,Rehabilitación funcional,Dra. Martínez López,Recuperado
+623,Rennes,FRA-Ligue 1,Antoine Richard,Extremo Derecho,Luxación,Aductor,8,2024-03-17,2024-03-25,Partido de Copa,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+624,Rennes,FRA-Ligue 1,Lorenzo Fischer,Extremo Derecho,Rotura fibrilar,Cadera,37,2023-08-26,2023-10-02,Gimnasio,No,PRP,Dr. Hernández Moya,Recuperado
+625,Rennes,FRA-Ligue 1,Hugo Martin,Extremo Izquierdo,Distensión muscular,Cadera,17,2024-04-07,2024-04-24,Entrenamiento,No,Rehabilitación funcional,Dra. Martínez López,Recuperado
+626,Rennes,FRA-Ligue 1,Hugo Martin,Lateral Derecho,Sobrecarga muscular,Rodilla,17,2024-04-03,2024-04-20,Partido Internacional,No,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+627,Rennes,FRA-Ligue 1,Ibrahim Yousef,Mediocentro Defensivo,Sobrecarga muscular,Espalda,5,2023-11-06,2023-11-11,Gimnasio,No,Medicación antiinflamatoria,Dra. López Navarro,Recuperado
+628,Rennes,FRA-Ligue 1,Nicolas Bernard,Portero,Lesión de ligamentos,Cuádriceps,95,2023-11-04,2024-02-07,Calentamiento pre-partido,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+629,Rennes,FRA-Ligue 1,Ali Smith,Defensa Central,Luxación,Hombro,17,2023-11-21,2023-12-08,Calentamiento pre-partido,No,PRP,Dr. González Díaz,Recuperado
+630,Rennes,FRA-Ligue 1,Ali Ibrahim,Delantero Centro,Fascitis,Aductor,13,2023-10-09,2023-10-22,Partido Internacional,No,Fisioterapia,Dr. García Pérez,Recuperado
+631,Nice,FRA-Ligue 1,Mohammed Richard,Extremo Izquierdo,Rotura fibrilar,Tobillo,104,2023-10-17,2024-01-29,Partido Internacional,No,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+632,Nice,FRA-Ligue 1,Felix Russo,Mediocentro Defensivo,Luxación,Hombro,4,2024-03-08,2024-03-12,Partido Internacional,Sí,PRP,Dra. Martínez López,Recuperado
+633,Nice,FRA-Ligue 1,Leon Russo,Extremo Derecho,Esguince,Aductor,25,2023-09-16,2023-10-11,Partido Internacional,No,PRP,Dr. Hernández Moya,Recuperado
+634,Nice,FRA-Ligue 1,Mohammed Richard,Lateral Derecho,Fractura,Hombro,42,2023-12-01,2024-01-12,Partido de Copa,No,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+635,Nice,FRA-Ligue 1,Felix Russo,Delantero Centro,Pubalgia,Aductor,30,2024-04-12,2024-05-12,Gimnasio,No,Cirugía,Dra. Martínez López,Recuperado
+636,Nice,FRA-Ligue 1,Matteo Romano,Extremo Izquierdo,Esguince,Cadera,31,2024-01-13,2024-02-13,Calentamiento pre-partido,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+637,Nice,FRA-Ligue 1,Andrea Robert,Mediocentro Defensivo,Fascitis,Espalda,10,2023-09-02,2023-09-12,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+638,Nice,FRA-Ligue 1,José Becker,Lateral Derecho,Rotura fibrilar,Rodilla,68,2024-01-16,2024-03-24,Entrenamiento,Sí,Fisioterapia,Dr. Hernández Moya,Recuperado
+639,Nice,FRA-Ligue 1,Felix Russo,Mediocentro Ofensivo,Pubalgia,Cuádriceps,29,2024-05-08,2024-06-06,Partido Internacional,Sí,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+640,Nice,FRA-Ligue 1,Julian Fernández,Lateral Derecho,Fractura,Cabeza,94,2023-08-23,2023-11-25,Gimnasio,Sí,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+641,Strasbourg,FRA-Ligue 1,Miguel Rossi,Lateral Derecho,Fractura,Hombro,42,2024-01-23,2024-03-05,Partido de Copa,No,Reposo,Dr. Torres Ramos,Recuperado
+642,Strasbourg,FRA-Ligue 1,Luis Schmidt,Mediocentro Defensivo,Distensión muscular,Tendón de Aquiles,20,2023-11-16,2023-12-06,Partido de Liga,No,Hidroterapia,Dr. García Pérez,Recuperado
+643,Strasbourg,FRA-Ligue 1,Felix Richard,Lateral Izquierdo,Pubalgia,Aductor,18,2024-04-22,2024-05-10,Partido de Liga,No,Reposo,Dra. Fernández Ruiz,Recuperado
+644,Strasbourg,FRA-Ligue 1,Youssef Mahmoud,Extremo Izquierdo,Esguince,Tobillo,14,2024-01-05,2024-01-19,Partido de Liga,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+645,Strasbourg,FRA-Ligue 1,Theo Fischer,Defensa Central,Distensión muscular,Muslo,14,2023-12-10,2023-12-24,Calentamiento pre-partido,Sí,PRP,Dra. Fernández Ruiz,Recuperado
+646,Strasbourg,FRA-Ligue 1,Paul Ali,Extremo Derecho,Fractura,Cadera,106,2023-09-27,2024-01-11,Partido Internacional,Sí,Reposo,Dra. Martínez López,Recuperado
+647,Strasbourg,FRA-Ligue 1,Paul Ali,Extremo Derecho,Luxación,Hombro,19,2023-12-29,2024-01-17,Gimnasio,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+648,Strasbourg,FRA-Ligue 1,Richard Martínez,Lateral Izquierdo,Fascitis,Gemelo,11,2023-10-14,2023-10-25,Calentamiento pre-partido,No,Reposo,Dra. López Navarro,Recuperado
+649,Strasbourg,FRA-Ligue 1,Leon Al-Saeed,Lateral Derecho,Luxación,Tobillo,16,2024-02-15,2024-03-02,Entrenamiento,No,Crioterapia,Dr. González Díaz,Recuperado
+650,Strasbourg,FRA-Ligue 1,Paul Ali,Lateral Izquierdo,Luxación,Muslo,11,2024-04-26,2024-05-07,Partido de Liga,Sí,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+651,Strasbourg,FRA-Ligue 1,Miguel Rossi,Lateral Derecho,Fascitis,Tobillo,14,2023-12-22,,Partido Internacional,No,Terapia de ondas de choque,Dra. López Navarro,Activa
+652,Strasbourg,FRA-Ligue 1,Richard Ibrahim,Mediocentro,Lesión de ligamentos,Muñeca,57,2023-10-22,2023-12-18,Partido de Copa,No,PRP,Dra. Sánchez Ortiz,Recuperado
+653,Strasbourg,FRA-Ligue 1,Felix Richard,Mediocentro Ofensivo,Contusión,Cuádriceps,15,2024-05-24,2024-06-08,Calentamiento pre-partido,Sí,PRP,Dr. Torres Ramos,Recuperado
+654,Strasbourg,FRA-Ligue 1,Youssef Mahmoud,Portero,Fractura,Muslo,94,2023-09-03,2023-12-06,Entrenamiento,No,Cirugía,Dr. Torres Ramos,Recuperado
+655,Lens,FRA-Ligue 1,Robert Khan,Portero,Tendinitis,Cabeza,40,2023-12-28,2024-02-06,Partido Internacional,No,Crioterapia,Dr. García Pérez,Recuperado
+656,Lens,FRA-Ligue 1,Andrea Mahmoud,Mediocentro Ofensivo,Esguince,Muñeca,28,2024-01-10,2024-02-07,Partido de Copa,No,Reposo,Dr. Torres Ramos,Recuperado
+657,Lens,FRA-Ligue 1,Max Fernández,Defensa Central,Contusión,Muñeca,16,2023-08-20,2023-09-05,Partido de Liga,No,PRP,Dra. Martínez López,Recuperado
+658,Lens,FRA-Ligue 1,Ibrahim Ricci,Defensa Central,Rotura fibrilar,Codo,109,2024-02-24,2024-06-12,Partido Internacional,No,PRP,Dr. González Díaz,Recuperado
+659,Lens,FRA-Ligue 1,Andrea Mahmoud,Portero,Distensión muscular,Rodilla,18,2023-10-31,2023-11-18,Entrenamiento,No,Hidroterapia,Dr. García Pérez,Recuperado
+660,Lens,FRA-Ligue 1,Thomas Schneider,Mediocentro,Luxación,Cuádriceps,13,2023-11-29,2023-12-12,Calentamiento pre-partido,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+661,Lens,FRA-Ligue 1,Andrea Mahmoud,Extremo Izquierdo,Tendinitis,Tobillo,40,2023-11-28,2024-01-07,Partido de Copa,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+662,Lens,FRA-Ligue 1,Ahmed Ibrahim,Lateral Izquierdo,Luxación,Cuádriceps,16,2024-05-08,2024-05-24,Partido de Liga,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Recuperado
+663,Lens,FRA-Ligue 1,Nicolas Fernández,Mediocentro Ofensivo,Esguince,Gemelo,33,2024-02-25,2024-03-29,Calentamiento pre-partido,No,Cirugía,Dra. Fernández Ruiz,Recuperado
+664,Lens,FRA-Ligue 1,Francesco Jones,Mediocentro Defensivo,Sobrecarga muscular,Muslo,21,2024-03-24,2024-04-14,Calentamiento pre-partido,No,Terapia de ondas de choque,Dr. Hernández Moya,Recuperado
+665,Lens,FRA-Ligue 1,James Martin,Lateral Izquierdo,Contusión,Muslo,17,2023-11-04,2023-11-21,Partido de Copa,Sí,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+666,Lens,FRA-Ligue 1,William Müller,Lateral Derecho,Distensión muscular,Codo,16,2024-05-04,2024-05-20,Entrenamiento,Sí,Reposo,Dr. Hernández Moya,Recuperado
+667,Lens,FRA-Ligue 1,Leon Russo,Delantero Centro,Lesión de ligamentos,Muñeca,45,2023-08-15,2023-09-29,Calentamiento pre-partido,Sí,Cirugía,Dr. González Díaz,Recuperado
+668,Lens,FRA-Ligue 1,Miguel Bernard,Defensa Central,Rotura fibrilar,Gemelo,50,2024-05-27,2024-07-16,Partido de Copa,No,Reposo,Dr. García Pérez,Recuperado
+669,Lens,FRA-Ligue 1,Ahmed Ibrahim,Extremo Izquierdo,Pubalgia,Aductor,14,2023-09-12,2023-09-26,Calentamiento pre-partido,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+670,Lens,FRA-Ligue 1,Ibrahim Ricci,Extremo Izquierdo,Contusión,Rodilla,9,2023-08-10,,Calentamiento pre-partido,Sí,Terapia de ondas de choque,Dr. González Díaz,Activa
+671,Lens,FRA-Ligue 1,Nicolas Fernández,Mediocentro,Lesión de ligamentos,Tobillo,50,2024-04-15,2024-06-04,Partido de Liga,No,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+672,Lens,FRA-Ligue 1,Andrea Mahmoud,Lateral Derecho,Fractura,Espalda,41,2024-01-12,2024-02-22,Entrenamiento,No,Cirugía,Dr. García Pérez,Recuperado
+673,Lens,FRA-Ligue 1,Ahmed Ibrahim,Mediocentro,Contusión,Hombro,15,2023-10-27,2023-11-11,Gimnasio,No,Hidroterapia,Dra. López Navarro,Recuperado
+674,Montpellier,FRA-Ligue 1,Luis Russo,Lateral Izquierdo,Fascitis,Codo,9,2024-03-31,2024-04-09,Partido de Copa,Sí,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+675,Montpellier,FRA-Ligue 1,Francesco Al-Saeed,Portero,Fractura,Muñeca,57,2024-04-06,2024-06-02,Partido de Liga,No,PRP,Dra. Sánchez Ortiz,Recuperado
+676,Montpellier,FRA-Ligue 1,Marco Romano,Mediocentro Defensivo,Sobrecarga muscular,Cuádriceps,8,2023-11-19,2023-11-27,Partido Internacional,No,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+677,Montpellier,FRA-Ligue 1,Franz Richard,Extremo Derecho,Fractura,Isquiotibiales,100,2024-03-23,2024-07-01,Partido Internacional,No,Reposo,Dr. Hernández Moya,Recuperado
+678,Montpellier,FRA-Ligue 1,Lucas López,Delantero Centro,Sobrecarga muscular,Hombro,4,2024-02-07,2024-02-11,Calentamiento pre-partido,No,Fisioterapia,Dr. Hernández Moya,Recuperado
+679,Montpellier,FRA-Ligue 1,Lucas López,Lateral Izquierdo,Distensión muscular,Cabeza,14,2023-08-24,2023-09-07,Partido de Copa,Sí,Hidroterapia,Dr. García Pérez,Recuperado
+680,Montpellier,FRA-Ligue 1,Luis Russo,Portero,Fascitis,Espalda,4,2023-11-11,2023-11-15,Partido de Liga,Sí,Reposo,Dra. Martínez López,Recuperado
+681,Montpellier,FRA-Ligue 1,Mohammed López,Extremo Izquierdo,Tendinitis,Codo,40,2024-04-10,2024-05-20,Partido de Liga,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+682,Montpellier,FRA-Ligue 1,Luis Russo,Delantero Centro,Rotura fibrilar,Rodilla,65,2024-01-13,2024-03-18,Gimnasio,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+683,Montpellier,FRA-Ligue 1,Andrea Williams,Extremo Derecho,Rotura fibrilar,Cabeza,53,2024-04-02,2024-05-25,Partido Internacional,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+684,Montpellier,FRA-Ligue 1,Max Davis,Mediocentro Defensivo,Rotura fibrilar,Codo,33,2024-03-11,2024-04-13,Calentamiento pre-partido,No,Reposo,Dra. Martínez López,Recuperado
+685,Montpellier,FRA-Ligue 1,Andrea Williams,Mediocentro,Fractura,Gemelo,94,2023-10-05,2024-01-07,Partido Internacional,No,Medicación antiinflamatoria,Dr. Rodríguez Sánchez,Recuperado
+686,Montpellier,FRA-Ligue 1,Lorenzo Al-Saeed,Portero,Contusión,Tendón de Aquiles,8,2023-08-23,2023-08-31,Gimnasio,No,Hidroterapia,Dr. González Díaz,Recuperado
+687,Montpellier,FRA-Ligue 1,Lucas López,Delantero Centro,Rotura fibrilar,Cuádriceps,46,2023-12-06,2024-01-21,Calentamiento pre-partido,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+688,Montpellier,FRA-Ligue 1,Andrea Williams,Mediocentro Defensivo,Sobrecarga muscular,Codo,3,2023-10-07,2023-10-10,Partido Internacional,No,PRP,Dr. Hernández Moya,Recuperado
+689,Montpellier,FRA-Ligue 1,Franz Richard,Extremo Izquierdo,Sobrecarga muscular,Muñeca,14,2023-12-25,2024-01-08,Partido de Liga,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+690,Montpellier,FRA-Ligue 1,Max Davis,Delantero Centro,Fractura,Tobillo,66,2023-09-17,2023-11-22,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+691,Montpellier,FRA-Ligue 1,Andrea Russo,Extremo Derecho,Rotura fibrilar,Cabeza,84,2024-03-30,,Partido de Liga,Sí,Cirugía,Dr. González Díaz,Activa
+692,Montpellier,FRA-Ligue 1,Pierre Ferrari,Lateral Derecho,Rotura fibrilar,Cadera,114,2024-04-04,2024-07-27,Calentamiento pre-partido,No,Fortalecimiento muscular,Dr. Torres Ramos,Recuperado
+693,Montpellier,FRA-Ligue 1,Mohammed López,Lateral Izquierdo,Luxación,Isquiotibiales,17,2023-10-24,2023-11-10,Calentamiento pre-partido,Sí,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+694,Montpellier,FRA-Ligue 1,Max Davis,Delantero Centro,Esguince,Aductor,23,2024-05-18,,Partido de Liga,Sí,Hidroterapia,Dr. Torres Ramos,Activa
+695,Montpellier,FRA-Ligue 1,Andrea Williams,Extremo Izquierdo,Lesión de ligamentos,Isquiotibiales,92,2024-04-17,2024-07-18,Partido Internacional,No,Crioterapia,Dr. Hernández Moya,Recuperado
+696,Montpellier,FRA-Ligue 1,Juan Gómez,Lateral Derecho,Lesión de ligamentos,Tendón de Aquiles,75,2024-05-20,2024-08-03,Partido Internacional,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+697,Inter,ITA-Serie A,Juan Sánchez,Defensa Central,Esguince,Muslo,18,2023-12-23,,Calentamiento pre-partido,No,Cirugía,Dr. García Pérez,Activa
+698,Inter,ITA-Serie A,Youssef Wilson,Defensa Central,Tendinitis,Cabeza,17,2024-05-01,2024-05-18,Partido de Liga,Sí,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+699,Inter,ITA-Serie A,Juan Sánchez,Extremo Derecho,Luxación,Cabeza,21,2024-02-10,2024-03-02,Calentamiento pre-partido,No,Terapia de ondas de choque,Dr. Torres Ramos,Recuperado
+700,Inter,ITA-Serie A,Hugo Ricci,Portero,Distensión muscular,Rodilla,9,2023-10-01,2023-10-10,Gimnasio,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+701,Inter,ITA-Serie A,Miguel García,Lateral Izquierdo,Distensión muscular,Cuádriceps,21,2024-01-01,2024-01-22,Entrenamiento,Sí,Reposo,Dr. Torres Ramos,Recuperado
+702,Inter,ITA-Serie A,James Yousef,Mediocentro Ofensivo,Fascitis,Muñeca,19,2024-04-29,2024-05-18,Entrenamiento,No,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+703,Inter,ITA-Serie A,Javier Pérez,Lateral Izquierdo,Distensión muscular,Codo,6,2024-04-08,2024-04-14,Partido de Liga,No,Crioterapia,Dr. Hernández Moya,Recuperado
+704,Inter,ITA-Serie A,James Yousef,Mediocentro,Fascitis,Tobillo,13,2023-12-10,2023-12-23,Partido de Liga,No,Fortalecimiento muscular,Dra. Martínez López,Recuperado
+705,Inter,ITA-Serie A,Max Russo,Extremo Derecho,Tendinitis,Espalda,27,2024-02-29,2024-03-27,Entrenamiento,No,Medicación antiinflamatoria,Dr. Torres Ramos,Recuperado
+706,Inter,ITA-Serie A,Jean García,Mediocentro,Esguince,Rodilla,21,2023-08-03,2023-08-24,Gimnasio,No,Fortalecimiento muscular,Dr. Hernández Moya,Recuperado
+707,Inter,ITA-Serie A,Juan Sánchez,Extremo Derecho,Luxación,Cuádriceps,4,2024-04-12,2024-04-16,Partido de Copa,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+708,Inter,ITA-Serie A,Javier García,Extremo Izquierdo,Rotura fibrilar,Rodilla,39,2023-12-26,2024-02-03,Gimnasio,Sí,PRP,Dr. García Pérez,Recuperado
+709,Inter,ITA-Serie A,Max Russo,Portero,Fractura,Gemelo,90,2024-01-19,2024-04-18,Entrenamiento,Sí,Rehabilitación funcional,Dr. González Díaz,Recuperado
+710,Inter,ITA-Serie A,Max Russo,Lateral Izquierdo,Contusión,Gemelo,12,2024-01-13,2024-01-25,Gimnasio,No,Crioterapia,Dr. Torres Ramos,Recuperado
+711,Inter,ITA-Serie A,Paul Hassan,Lateral Derecho,Distensión muscular,Cadera,14,2024-02-22,2024-03-07,Gimnasio,No,Reposo,Dr. González Díaz,Recuperado
+712,Inter,ITA-Serie A,James López,Extremo Izquierdo,Distensión muscular,Muñeca,16,2024-02-21,2024-03-08,Entrenamiento,Sí,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+713,Inter,ITA-Serie A,Javier Pérez,Mediocentro,Distensión muscular,Codo,21,2023-12-27,2024-01-17,Gimnasio,Sí,Fisioterapia,Dra. Sánchez Ortiz,Recuperado
+714,Inter,ITA-Serie A,Miguel García,Delantero Centro,Lesión de ligamentos,Cadera,83,2024-02-19,2024-05-12,Gimnasio,No,Terapia de ondas de choque,Dra. Fernández Ruiz,Recuperado
+715,Inter,ITA-Serie A,Giuseppe Davis,Portero,Lesión de ligamentos,Gemelo,72,2024-03-19,2024-05-30,Gimnasio,No,Reposo,Dr. Rodríguez Sánchez,Recuperado
+716,Inter,ITA-Serie A,Hugo Ricci,Extremo Derecho,Luxación,Espalda,15,2024-05-28,2024-06-12,Partido de Liga,Sí,Rehabilitación funcional,Dr. García Pérez,Recuperado
+717,Inter,ITA-Serie A,Alessandro Müller,Portero,Distensión muscular,Gemelo,6,2024-04-12,2024-04-18,Partido Internacional,Sí,Cirugía,Dr. García Pérez,Recuperado
+718,Inter,ITA-Serie A,Giuseppe Davis,Extremo Derecho,Tendinitis,Gemelo,33,2023-09-27,2023-10-30,Calentamiento pre-partido,Sí,Reposo,Dr. Torres Ramos,Recuperado
+719,Inter,ITA-Serie A,Theo Hassan,Mediocentro Ofensivo,Lesión de ligamentos,Hombro,116,2023-12-05,2024-03-30,Partido Internacional,Sí,Crioterapia,Dr. Torres Ramos,Recuperado
+720,Inter,ITA-Serie A,François López,Extremo Derecho,Contusión,Rodilla,21,2023-09-12,2023-10-03,Entrenamiento,Sí,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+721,AC Milan,ITA-Serie A,Luca Miller,Extremo Izquierdo,Lesión de ligamentos,Espalda,53,2023-08-04,2023-09-26,Partido de Liga,No,PRP,Dr. Torres Ramos,Recuperado
+722,AC Milan,ITA-Serie A,Ahmed Schmidt,Mediocentro,Fractura,Tendón de Aquiles,104,2024-03-09,2024-06-21,Partido Internacional,Sí,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+723,AC Milan,ITA-Serie A,Luca Miller,Portero,Fascitis,Cadera,19,2024-03-15,2024-04-03,Entrenamiento,No,Reposo,Dra. Fernández Ruiz,Recuperado
+724,AC Milan,ITA-Serie A,Pedro Richard,Mediocentro Ofensivo,Lesión de ligamentos,Muñeca,86,2024-05-18,2024-08-12,Partido de Copa,Sí,Crioterapia,Dra. Fernández Ruiz,Recuperado
+725,AC Milan,ITA-Serie A,Ahmed Schmidt,Portero,Pubalgia,Rodilla,36,2023-10-13,2023-11-18,Entrenamiento,Sí,Crioterapia,Dra. Martínez López,Recuperado
+726,AC Milan,ITA-Serie A,Julian Johnson,Defensa Central,Distensión muscular,Gemelo,15,2024-03-02,2024-03-17,Partido de Liga,Sí,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+727,AC Milan,ITA-Serie A,Miguel Robert,Extremo Izquierdo,Distensión muscular,Tobillo,14,2024-05-25,2024-06-08,Entrenamiento,No,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+728,AC Milan,ITA-Serie A,Lorenzo Weber,Delantero Centro,Esguince,Espalda,29,2024-04-03,2024-05-02,Partido de Copa,No,PRP,Dr. Hernández Moya,Recuperado
+729,AC Milan,ITA-Serie A,Miguel Robert,Portero,Lesión de ligamentos,Espalda,100,2023-11-29,2024-03-08,Calentamiento pre-partido,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+730,AC Milan,ITA-Serie A,Robert Durand,Mediocentro Defensivo,Lesión de ligamentos,Cuádriceps,59,2024-03-13,2024-05-11,Partido de Copa,No,Reposo,Dr. García Pérez,Recuperado
+731,AC Milan,ITA-Serie A,Felix Bernard,Mediocentro,Fractura,Muñeca,34,2023-10-29,2023-12-02,Partido Internacional,Sí,PRP,Dra. Martínez López,Recuperado
+732,Juventus,ITA-Serie A,Andrea Mahmoud,Extremo Izquierdo,Rotura fibrilar,Muslo,119,2023-10-10,2024-02-06,Entrenamiento,Sí,Fortalecimiento muscular,Dra. Fernández Ruiz,Recuperado
+733,Juventus,ITA-Serie A,Andrea Martin,Portero,Sobrecarga muscular,Codo,5,2024-04-27,2024-05-02,Entrenamiento,No,Reposo,Dr. García Pérez,Recuperado
+734,Juventus,ITA-Serie A,Karim Miller,Portero,Luxación,Tendón de Aquiles,20,2024-04-09,2024-04-29,Partido de Copa,No,Hidroterapia,Dra. Sánchez Ortiz,Recuperado
+735,Juventus,ITA-Serie A,Hans García,Mediocentro Ofensivo,Luxación,Cabeza,17,2024-04-25,2024-05-12,Partido Internacional,No,Hidroterapia,Dr. González Díaz,Recuperado
+736,Juventus,ITA-Serie A,Alessandro Weber,Mediocentro,Fascitis,Gemelo,16,2024-03-08,2024-03-24,Gimnasio,No,Reposo,Dr. González Díaz,Recuperado
+737,Juventus,ITA-Serie A,Andrea Martin,Mediocentro,Lesión de ligamentos,Hombro,39,2023-10-22,,Entrenamiento,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Activa
+738,Juventus,ITA-Serie A,Alessandro Weber,Defensa Central,Lesión de ligamentos,Tendón de Aquiles,96,2024-01-12,2024-04-17,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. Hernández Moya,Recuperado
+739,Juventus,ITA-Serie A,Miguel Petit,Extremo Derecho,Contusión,Aductor,21,2024-05-22,2024-06-12,Gimnasio,No,Rehabilitación funcional,Dra. López Navarro,Recuperado
+740,Juventus,ITA-Serie A,Youssef Khan,Mediocentro Ofensivo,Pubalgia,Gemelo,23,2024-05-24,2024-06-16,Entrenamiento,No,Hidroterapia,Dr. García Pérez,Recuperado
+741,Juventus,ITA-Serie A,Matteo Rossi,Extremo Derecho,Contusión,Codo,17,2024-01-27,2024-02-13,Entrenamiento,No,Fortalecimiento muscular,Dra. Martínez López,Recuperado
+742,Juventus,ITA-Serie A,Max Bianchi,Extremo Derecho,Fascitis,Espalda,17,2024-01-24,2024-02-10,Partido de Copa,Sí,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+743,Atalanta,ITA-Serie A,Ahmed Colombo,Extremo Derecho,Fractura,Cabeza,57,2024-03-03,2024-04-29,Calentamiento pre-partido,No,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+744,Atalanta,ITA-Serie A,Andrea Williams,Extremo Derecho,Lesión de ligamentos,Codo,35,2024-04-05,2024-05-10,Entrenamiento,No,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+745,Atalanta,ITA-Serie A,Carlos Davis,Mediocentro Ofensivo,Rotura fibrilar,Espalda,52,2024-03-12,2024-05-03,Calentamiento pre-partido,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+746,Atalanta,ITA-Serie A,Hamza Yousef,Delantero Centro,Luxación,Cabeza,18,2023-12-08,2023-12-26,Entrenamiento,No,Rehabilitación funcional,Dr. Torres Ramos,Recuperado
+747,Atalanta,ITA-Serie A,Richard Fischer,Mediocentro,Lesión de ligamentos,Cabeza,52,2023-10-17,2023-12-08,Gimnasio,Sí,Fortalecimiento muscular,Dr. García Pérez,Recuperado
+748,Atalanta,ITA-Serie A,Antonio Schneider,Lateral Derecho,Fractura,Isquiotibiales,99,2024-02-24,,Entrenamiento,No,Hidroterapia,Dr. Torres Ramos,Activa
+749,Atalanta,ITA-Serie A,Ahmed Colombo,Mediocentro,Pubalgia,Hombro,31,2023-09-10,2023-10-11,Partido de Liga,Sí,PRP,Dra. Sánchez Ortiz,Recuperado
+750,Atalanta,ITA-Serie A,Ibrahim Al-Ahmed,Mediocentro,Rotura fibrilar,Isquiotibiales,119,2024-03-17,2024-07-14,Gimnasio,Sí,Fortalecimiento muscular,Dra. Martínez López,Recuperado
+751,Atalanta,ITA-Serie A,Ahmed Martínez,Defensa Central,Fractura,Hombro,40,2024-05-09,2024-06-18,Gimnasio,No,Terapia de ondas de choque,Dr. González Díaz,Recuperado
+752,Atalanta,ITA-Serie A,Hamza Yousef,Mediocentro Defensivo,Fractura,Cabeza,80,2024-03-29,2024-06-17,Partido Internacional,No,Reposo,Dra. Sánchez Ortiz,Recuperado
+753,Atalanta,ITA-Serie A,Antonio Schneider,Extremo Derecho,Luxación,Hombro,9,2024-02-13,2024-02-22,Entrenamiento,No,Hidroterapia,Dr. García Pérez,Recuperado
+754,Atalanta,ITA-Serie A,Ibrahim Al-Ahmed,Delantero Centro,Pubalgia,Muslo,26,2024-05-12,,Gimnasio,No,Rehabilitación funcional,Dr. Hernández Moya,Activa
+755,Atalanta,ITA-Serie A,Richard Dubois,Mediocentro,Sobrecarga muscular,Isquiotibiales,9,2024-02-23,2024-03-03,Gimnasio,No,Terapia de ondas de choque,Dr. García Pérez,Recuperado
+756,Atalanta,ITA-Serie A,Ibrahim Al-Ahmed,Portero,Tendinitis,Hombro,29,2024-03-22,,Partido Internacional,No,Fortalecimiento muscular,Dra. Fernández Ruiz,Activa
+757,Atalanta,ITA-Serie A,Paul Thomas,Delantero Centro,Luxación,Muñeca,14,2024-05-28,2024-06-11,Partido Internacional,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+758,Atalanta,ITA-Serie A,Francesco Al-Saeed,Mediocentro Defensivo,Tendinitis,Hombro,25,2023-11-27,2023-12-22,Calentamiento pre-partido,Sí,Reposo,Dr. González Díaz,Recuperado
+759,Atalanta,ITA-Serie A,Ahmed Colombo,Mediocentro Ofensivo,Esguince,Codo,23,2023-10-09,2023-11-01,Partido de Copa,Sí,Crioterapia,Dra. Martínez López,Recuperado
+760,Atalanta,ITA-Serie A,Ibrahim Al-Ahmed,Lateral Izquierdo,Fascitis,Gemelo,20,2024-02-12,2024-03-03,Gimnasio,No,Fisioterapia,Dra. Martínez López,Recuperado
+761,Atalanta,ITA-Serie A,Antonio Schneider,Mediocentro,Contusión,Cabeza,9,2023-10-03,2023-10-12,Partido de Copa,No,Crioterapia,Dr. Hernández Moya,Recuperado
+762,Atalanta,ITA-Serie A,Paul Mahmoud,Mediocentro,Luxación,Hombro,21,2023-08-13,2023-09-03,Partido Internacional,No,PRP,Dr. Rodríguez Sánchez,Recuperado
+763,Atalanta,ITA-Serie A,Robert Hassan,Mediocentro Defensivo,Fractura,Rodilla,84,2023-08-06,2023-10-29,Calentamiento pre-partido,No,Fisioterapia,Dr. García Pérez,Recuperado
+764,Atalanta,ITA-Serie A,Carlos Davis,Lateral Izquierdo,Distensión muscular,Hombro,21,2024-05-07,2024-05-28,Gimnasio,Sí,Rehabilitación funcional,Dr. Rodríguez Sánchez,Recuperado
+765,Napoli,ITA-Serie A,Julian Miller,Mediocentro Ofensivo,Sobrecarga muscular,Tobillo,19,2023-10-15,2023-11-03,Calentamiento pre-partido,No,Hidroterapia,Dra. Martínez López,Recuperado
+766,Napoli,ITA-Serie A,James Brown,Mediocentro Defensivo,Rotura fibrilar,Gemelo,46,2023-12-16,2024-01-31,Calentamiento pre-partido,No,Crioterapia,Dra. Fernández Ruiz,Recuperado
+767,Napoli,ITA-Serie A,Luis Wilson,Portero,Rotura fibrilar,Hombro,73,2023-10-12,2023-12-24,Partido de Copa,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+768,Napoli,ITA-Serie A,Thomas Durand,Extremo Izquierdo,Lesión de ligamentos,Cabeza,86,2024-04-12,2024-07-07,Partido de Copa,No,Hidroterapia,Dr. García Pérez,Recuperado
+769,Napoli,ITA-Serie A,Mohammed Russo,Mediocentro,Fascitis,Gemelo,20,2024-03-04,,Partido de Copa,No,Rehabilitación funcional,Dr. Torres Ramos,Activa
+770,Napoli,ITA-Serie A,Omar López,Portero,Distensión muscular,Rodilla,4,2023-09-29,2023-10-03,Partido Internacional,No,Medicación antiinflamatoria,Dr. García Pérez,Recuperado
+771,Napoli,ITA-Serie A,Jean Wagner,Mediocentro,Pubalgia,Hombro,27,2024-03-25,2024-04-21,Partido de Liga,No,Crioterapia,Dr. Hernández Moya,Recuperado
+772,Napoli,ITA-Serie A,James Müller,Lateral Izquierdo,Tendinitis,Muslo,28,2023-08-01,2023-08-29,Entrenamiento,Sí,Medicación antiinflamatoria,Dra. López Navarro,Recuperado
+773,Napoli,ITA-Serie A,Carlos Davis,Delantero Centro,Sobrecarga muscular,Tendón de Aquiles,13,2024-01-03,2024-01-16,Calentamiento pre-partido,Sí,Crioterapia,Dr. García Pérez,Recuperado
+774,Napoli,ITA-Serie A,Luis Wilson,Lateral Izquierdo,Luxación,Rodilla,18,2023-11-05,2023-11-23,Partido de Copa,No,Fisioterapia,Dr. Torres Ramos,Recuperado
+775,Roma,ITA-Serie A,Leon Pérez,Delantero Centro,Tendinitis,Tobillo,30,2024-03-23,2024-04-22,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. González Díaz,Recuperado
+776,Roma,ITA-Serie A,William Ricci,Extremo Izquierdo,Pubalgia,Hombro,26,2023-10-17,,Gimnasio,No,Fortalecimiento muscular,Dr. González Díaz,Activa
+777,Roma,ITA-Serie A,John Williams,Mediocentro,Rotura fibrilar,Cabeza,41,2024-02-15,2024-03-27,Partido de Liga,Sí,Terapia de ondas de choque,Dra. López Navarro,Recuperado
+778,Roma,ITA-Serie A,Hugo Gómez,Lateral Izquierdo,Sobrecarga muscular,Hombro,8,2024-04-02,2024-04-10,Partido de Copa,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+779,Roma,ITA-Serie A,Miguel Sánchez,Mediocentro,Sobrecarga muscular,Cadera,20,2023-11-08,2023-11-28,Partido de Copa,No,PRP,Dra. Martínez López,Recuperado
+780,Roma,ITA-Serie A,Miguel Sánchez,Mediocentro,Contusión,Tobillo,16,2024-01-13,2024-01-29,Partido de Copa,No,Fisioterapia,Dra. Martínez López,Recuperado
+781,Roma,ITA-Serie A,Hugo Gómez,Mediocentro,Luxación,Codo,8,2024-01-30,2024-02-07,Partido Internacional,Sí,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+782,Roma,ITA-Serie A,Youssef Petit,Lateral Derecho,Esguince,Cabeza,21,2024-02-07,2024-02-28,Partido de Copa,No,Rehabilitación funcional,Dr. González Díaz,Recuperado
+783,Roma,ITA-Serie A,François Ricci,Mediocentro Ofensivo,Distensión muscular,Gemelo,11,2024-01-28,2024-02-08,Calentamiento pre-partido,No,Hidroterapia,Dr. Rodríguez Sánchez,Recuperado
+784,Roma,ITA-Serie A,Hans Bernard,Lateral Derecho,Esguince,Espalda,17,2023-08-10,2023-08-27,Partido Internacional,No,Hidroterapia,Dra. López Navarro,Recuperado
+785,Roma,ITA-Serie A,Hugo Gómez,Extremo Derecho,Esguince,Tendón de Aquiles,16,2023-09-09,2023-09-25,Calentamiento pre-partido,No,PRP,Dr. García Pérez,Recuperado
+786,Roma,ITA-Serie A,Francesco Colombo,Lateral Derecho,Luxación,Cadera,17,2024-05-15,2024-06-01,Gimnasio,No,Fisioterapia,Dra. Fernández Ruiz,Recuperado
+787,Roma,ITA-Serie A,William Al-Ahmed,Portero,Rotura fibrilar,Aductor,118,2024-01-27,2024-05-24,Gimnasio,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+788,Roma,ITA-Serie A,Paul Mahmoud,Extremo Izquierdo,Fascitis,Codo,9,2023-12-27,2024-01-05,Partido Internacional,Sí,PRP,Dr. García Pérez,Recuperado
+789,Roma,ITA-Serie A,Lukas Smith,Mediocentro,Esguince,Gemelo,24,2024-04-15,2024-05-09,Partido de Copa,No,Rehabilitación funcional,Dra. Fernández Ruiz,Recuperado
+790,Roma,ITA-Serie A,William Ricci,Mediocentro,Pubalgia,Cabeza,37,2023-12-07,2024-01-13,Calentamiento pre-partido,Sí,Crioterapia,Dr. González Díaz,Recuperado
+791,Roma,ITA-Serie A,John Williams,Lateral Izquierdo,Contusión,Tendón de Aquiles,21,2023-11-21,,Partido de Copa,No,Crioterapia,Dra. Sánchez Ortiz,Activa
+792,Roma,ITA-Serie A,Giuseppe Richard,Mediocentro Ofensivo,Fascitis,Hombro,17,2024-05-07,2024-05-24,Gimnasio,No,PRP,Dra. Fernández Ruiz,Recuperado
+793,Roma,ITA-Serie A,Giuseppe Richard,Delantero Centro,Lesión de ligamentos,Rodilla,118,2024-01-18,2024-05-15,Partido de Copa,No,Rehabilitación funcional,Dr. García Pérez,Recuperado
+794,Roma,ITA-Serie A,Hans Bernard,Defensa Central,Contusión,Codo,20,2023-08-19,2023-09-08,Partido de Liga,No,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+795,Roma,ITA-Serie A,John Williams,Delantero Centro,Contusión,Hombro,6,2024-04-17,2024-04-23,Entrenamiento,No,Crioterapia,Dr. García Pérez,Recuperado
+796,Roma,ITA-Serie A,François Ricci,Defensa Central,Pubalgia,Cuádriceps,35,2024-05-05,2024-06-09,Partido de Liga,No,Crioterapia,Dr. Rodríguez Sánchez,Recuperado
+797,Roma,ITA-Serie A,Matteo Ricci,Mediocentro Ofensivo,Fractura,Tendón de Aquiles,75,2024-03-01,2024-05-15,Calentamiento pre-partido,Sí,Cirugía,Dr. García Pérez,Recuperado
+798,Lazio,ITA-Serie A,Juan Wagner,Defensa Central,Fascitis,Tobillo,5,2023-11-11,2023-11-16,Partido Internacional,No,Fisioterapia,Dr. García Pérez,Recuperado
+799,Lazio,ITA-Serie A,Alessandro Russo,Defensa Central,Esguince,Muñeca,25,2023-11-14,2023-12-09,Gimnasio,No,Hidroterapia,Dr. Hernández Moya,Recuperado
+800,Lazio,ITA-Serie A,Hamza Khan,Mediocentro Defensivo,Contusión,Espalda,21,2023-09-10,2023-10-01,Partido de Copa,No,Cirugía,Dr. González Díaz,Recuperado
+801,Lazio,ITA-Serie A,Nicolas Hassan,Mediocentro,Distensión muscular,Cuádriceps,8,2024-05-11,2024-05-19,Partido de Copa,Sí,Fortalecimiento muscular,Dr. Rodríguez Sánchez,Recuperado
+802,Lazio,ITA-Serie A,Ali Gómez,Extremo Derecho,Pubalgia,Muslo,17,2024-04-12,2024-04-29,Calentamiento pre-partido,No,Terapia de ondas de choque,Dra. López Navarro,Recuperado
+803,Lazio,ITA-Serie A,Franz Schneider,Mediocentro Defensivo,Rotura fibrilar,Codo,46,2024-05-04,2024-06-19,Gimnasio,No,Hidroterapia,Dra. Martínez López,Recuperado
+804,Lazio,ITA-Serie A,Matteo Romano,Mediocentro,Sobrecarga muscular,Cabeza,5,2023-10-31,2023-11-05,Partido de Copa,No,Crioterapia,Dra. Sánchez Ortiz,Recuperado
+805,Lazio,ITA-Serie A,Franz Sánchez,Portero,Fractura,Muñeca,114,2024-05-15,2024-09-06,Calentamiento pre-partido,No,PRP,Dr. Torres Ramos,Recuperado
+806,Lazio,ITA-Serie A,Nicolas Hassan,Defensa Central,Tendinitis,Espalda,29,2024-02-03,2024-03-03,Partido Internacional,No,Cirugía,Dr. García Pérez,Recuperado
+807,Lazio,ITA-Serie A,Leon Richard,Defensa Central,Distensión muscular,Muslo,20,2024-05-09,2024-05-29,Partido Internacional,Sí,Fisioterapia,Dr. Hernández Moya,Recuperado
+808,Lazio,ITA-Serie A,Alessandro Bernard,Portero,Fascitis,Tendón de Aquiles,17,2024-03-02,2024-03-19,Entrenamiento,No,Medicación antiinflamatoria,Dr. García Pérez,Recuperado
+809,Lazio,ITA-Serie A,Hamza Khan,Extremo Derecho,Lesión de ligamentos,Muslo,116,2024-05-16,,Calentamiento pre-partido,Sí,Rehabilitación funcional,Dr. Hernández Moya,Activa
+810,Fiorentina,ITA-Serie A,Jean Jones,Lateral Izquierdo,Esguince,Isquiotibiales,22,2024-02-21,2024-03-14,Entrenamiento,Sí,Cirugía,Dr. Torres Ramos,Recuperado
+811,Fiorentina,ITA-Serie A,Mohammed Johnson,Mediocentro Ofensivo,Fascitis,Rodilla,14,2024-05-29,2024-06-12,Entrenamiento,No,Crioterapia,Dr. Hernández Moya,Recuperado
+812,Fiorentina,ITA-Serie A,Miguel Davis,Mediocentro,Fractura,Cadera,92,2023-10-23,,Partido de Copa,No,PRP,Dr. Hernández Moya,Activa
+813,Fiorentina,ITA-Serie A,Francesco Al-Ahmed,Portero,Contusión,Tendón de Aquiles,4,2024-05-23,2024-05-27,Calentamiento pre-partido,No,Hidroterapia,Dra. López Navarro,Recuperado
+814,Fiorentina,ITA-Serie A,Juan Wilson,Defensa Central,Luxación,Cadera,6,2023-09-01,2023-09-07,Partido de Copa,No,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+815,Fiorentina,ITA-Serie A,James Yousef,Extremo Derecho,Tendinitis,Aductor,22,2023-09-16,2023-10-08,Calentamiento pre-partido,Sí,Medicación antiinflamatoria,Dra. Martínez López,Recuperado
+816,Fiorentina,ITA-Serie A,Carlos Rossi,Mediocentro,Rotura fibrilar,Tendón de Aquiles,55,2023-11-07,2024-01-01,Partido de Liga,No,Reposo,Dr. Torres Ramos,Recuperado
+817,Fiorentina,ITA-Serie A,Ali Mahmoud,Lateral Derecho,Fractura,Tendón de Aquiles,51,2023-09-27,2023-11-17,Entrenamiento,Sí,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+818,Fiorentina,ITA-Serie A,Antonio Bernard,Extremo Derecho,Distensión muscular,Rodilla,11,2024-01-13,2024-01-24,Gimnasio,No,Fisioterapia,Dra. López Navarro,Recuperado
+819,Fiorentina,ITA-Serie A,Juan Wilson,Mediocentro,Esguince,Hombro,36,2023-09-06,2023-10-12,Gimnasio,No,Crioterapia,Dra. Sánchez Ortiz,Recuperado
+820,Fiorentina,ITA-Serie A,Alessandro Meyer,Lateral Derecho,Esguince,Aductor,32,2024-02-05,,Calentamiento pre-partido,Sí,Cirugía,Dr. Torres Ramos,Activa
+821,Fiorentina,ITA-Serie A,Javier Ricci,Mediocentro,Contusión,Cabeza,20,2024-03-15,2024-04-04,Partido de Liga,No,Rehabilitación funcional,Dr. Hernández Moya,Recuperado
+822,Fiorentina,ITA-Serie A,Ahmed Khan,Defensa Central,Distensión muscular,Isquiotibiales,16,2023-08-21,2023-09-06,Partido de Copa,No,Reposo,Dra. Martínez López,Recuperado
+823,Fiorentina,ITA-Serie A,Luis Pérez,Mediocentro Defensivo,Lesión de ligamentos,Codo,75,2023-09-06,2023-11-20,Gimnasio,No,Cirugía,Dra. Sánchez Ortiz,Recuperado
+824,Fiorentina,ITA-Serie A,Javier Ricci,Lateral Izquierdo,Fascitis,Tobillo,19,2023-09-02,2023-09-21,Entrenamiento,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Recuperado
+825,Bologna,ITA-Serie A,Ibrahim Wilson,Mediocentro Ofensivo,Contusión,Hombro,12,2024-03-19,2024-03-31,Gimnasio,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+826,Bologna,ITA-Serie A,Pierre Martínez,Lateral Izquierdo,Fascitis,Gemelo,17,2024-03-08,2024-03-25,Entrenamiento,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+827,Bologna,ITA-Serie A,Pierre López,Lateral Izquierdo,Sobrecarga muscular,Gemelo,17,2023-11-05,2023-11-22,Entrenamiento,No,Cirugía,Dr. Torres Ramos,Recuperado
+828,Bologna,ITA-Serie A,Hamza Colombo,Extremo Izquierdo,Sobrecarga muscular,Isquiotibiales,7,2024-01-11,2024-01-18,Calentamiento pre-partido,No,Fisioterapia,Dr. Rodríguez Sánchez,Recuperado
+829,Bologna,ITA-Serie A,Andrea Martin,Mediocentro,Lesión de ligamentos,Muslo,97,2024-01-05,2024-04-11,Partido Internacional,No,Crioterapia,Dra. López Navarro,Recuperado
+830,Bologna,ITA-Serie A,Matteo Al-Saeed,Extremo Derecho,Pubalgia,Cuádriceps,18,2023-09-14,2023-10-02,Partido de Liga,No,Reposo,Dr. Torres Ramos,Recuperado
+831,Bologna,ITA-Serie A,Pierre López,Lateral Derecho,Rotura fibrilar,Tobillo,114,2024-05-08,2024-08-30,Gimnasio,No,Cirugía,Dr. Rodríguez Sánchez,Recuperado
+832,Bologna,ITA-Serie A,Max Ali,Defensa Central,Contusión,Aductor,18,2024-01-21,,Partido Internacional,Sí,Terapia de ondas de choque,Dr. González Díaz,Activa
+833,Bologna,ITA-Serie A,Michael Smith,Lateral Izquierdo,Pubalgia,Codo,39,2024-02-26,2024-04-05,Gimnasio,Sí,Crioterapia,Dra. Sánchez Ortiz,Recuperado
+834,Bologna,ITA-Serie A,James Romano,Extremo Izquierdo,Esguince,Muslo,16,2024-02-02,2024-02-18,Calentamiento pre-partido,No,Crioterapia,Dr. García Pérez,Recuperado
+835,Bologna,ITA-Serie A,Giuseppe Hassan,Delantero Centro,Pubalgia,Cabeza,27,2024-03-18,2024-04-14,Gimnasio,No,PRP,Dr. García Pérez,Recuperado
+836,Bologna,ITA-Serie A,Ahmed Jones,Mediocentro,Tendinitis,Rodilla,19,2024-05-03,2024-05-22,Calentamiento pre-partido,No,Medicación antiinflamatoria,Dr. Torres Ramos,Recuperado
+837,Bologna,ITA-Serie A,Hamza Colombo,Defensa Central,Fascitis,Gemelo,10,2024-04-16,2024-04-26,Partido Internacional,No,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+838,Bologna,ITA-Serie A,Javier Davis,Extremo Derecho,Pubalgia,Muslo,24,2024-03-27,2024-04-20,Partido de Liga,Sí,Fortalecimiento muscular,Dra. López Navarro,Recuperado
+839,Bologna,ITA-Serie A,Matteo Al-Saeed,Lateral Derecho,Lesión de ligamentos,Codo,75,2023-08-08,2023-10-22,Partido de Liga,No,Reposo,Dr. González Díaz,Recuperado
+840,Sassuolo,ITA-Serie A,Andrea Rodríguez,Portero,Luxación,Muñeca,21,2024-03-22,2024-04-12,Partido de Liga,No,Medicación antiinflamatoria,Dr. García Pérez,Recuperado
+841,Sassuolo,ITA-Serie A,James Mahmoud,Mediocentro Ofensivo,Tendinitis,Cadera,38,2024-03-06,,Entrenamiento,No,Terapia de ondas de choque,Dr. González Díaz,Activa
+842,Sassuolo,ITA-Serie A,Richard Rodríguez,Mediocentro,Lesión de ligamentos,Cabeza,97,2023-08-18,,Calentamiento pre-partido,Sí,Reposo,Dr. Torres Ramos,Activa
+843,Sassuolo,ITA-Serie A,Pedro Jones,Lateral Izquierdo,Pubalgia,Cabeza,40,2023-08-20,2023-09-29,Partido de Liga,No,Medicación antiinflamatoria,Dr. García Pérez,Recuperado
+844,Sassuolo,ITA-Serie A,James Martin,Defensa Central,Tendinitis,Rodilla,21,2024-04-03,,Entrenamiento,No,Terapia de ondas de choque,Dr. García Pérez,Activa
+845,Sassuolo,ITA-Serie A,James Mahmoud,Mediocentro Defensivo,Contusión,Tobillo,18,2024-01-19,2024-02-06,Partido de Liga,Sí,PRP,Dra. López Navarro,Recuperado
+846,Sassuolo,ITA-Serie A,Richard Rodríguez,Defensa Central,Pubalgia,Hombro,27,2023-10-23,2023-11-19,Entrenamiento,Sí,Fortalecimiento muscular,Dr. González Díaz,Recuperado
+847,Sassuolo,ITA-Serie A,Andrea Schmidt,Mediocentro Defensivo,Rotura fibrilar,Muñeca,91,2024-02-09,2024-05-10,Partido de Liga,No,Crioterapia,Dr. Torres Ramos,Recuperado
+848,Sassuolo,ITA-Serie A,Robert Al-Saeed,Extremo Derecho,Contusión,Codo,5,2024-05-17,2024-05-22,Partido Internacional,No,PRP,Dra. Martínez López,Recuperado
+849,Sassuolo,ITA-Serie A,Franz Khan,Delantero Centro,Tendinitis,Rodilla,31,2023-11-14,2023-12-15,Calentamiento pre-partido,No,PRP,Dra. Martínez López,Recuperado
+850,Sassuolo,ITA-Serie A,Omar Fernández,Mediocentro Ofensivo,Contusión,Gemelo,16,2023-12-22,2024-01-07,Partido Internacional,No,Hidroterapia,Dra. Fernández Ruiz,Recuperado
+851,Sassuolo,ITA-Serie A,Felix Weber,Defensa Central,Sobrecarga muscular,Cadera,12,2024-05-13,2024-05-25,Gimnasio,No,Terapia de ondas de choque,Dra. Sánchez Ortiz,Recuperado
+852,Sassuolo,ITA-Serie A,James Martin,Mediocentro,Fascitis,Isquiotibiales,16,2024-04-02,2024-04-18,Calentamiento pre-partido,No,Terapia de ondas de choque,Dra. Martínez López,Recuperado
+853,Sassuolo,ITA-Serie A,Alessandro Russo,Mediocentro Defensivo,Fascitis,Cabeza,3,2023-11-18,2023-11-21,Entrenamiento,No,Medicación antiinflamatoria,Dra. Sánchez Ortiz,Recuperado
+854,Sassuolo,ITA-Serie A,Andrea Rodríguez,Delantero Centro,Lesión de ligamentos,Muñeca,107,2023-12-19,2024-04-04,Partido de Liga,Sí,Terapia de ondas de choque,Dr. Rodríguez Sánchez,Recuperado
