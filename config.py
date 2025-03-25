@@ -10,7 +10,7 @@ SECRET_KEY = 'mi_secreto_super_seguro'  # Cambiar en producción a una clave seg
 # Configuración de autenticación
 ADMIN_USER = "admin"
 ADMIN_PASSWORD = "admin"
-SESSION_TIMEOUT = 600  # Tiempo de sesión en segundos (1 hora)
+SESSION_TIMEOUT = 600  
 
 # Configuración de rutas protegidas
 PROTECTED_ROUTES = [
