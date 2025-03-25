@@ -7,7 +7,6 @@ __pycache__/
 *.pyo
 
 # Ignorar archivos de configuración locales
-config.py
 
 # Ignorar archivos grandes (si no son necesarios)
 *.pptx
